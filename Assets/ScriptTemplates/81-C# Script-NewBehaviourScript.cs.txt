@@ -1,0 +1,20 @@
+// Date: #DATETIME#
+// Author: #DEVELOPER#
+// Write a short description.
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class #SCRIPTNAME# : MonoBehaviour
+{
+    void Start()
+    {
+        #NOTRIM#
+    }
+
+    void Update()
+    {
+        #NOTRIM#
+    }
+}
