@@ -10,18 +10,22 @@ using System.IO;
 
 public class BlockoutEditor : EditorWindow
 {
-    public Material invisibleWallMaterial;
-
+    [SerializeField]
+    public GameObject oldPrefab;
     [MenuItem("Tools/Blockout Editor")]
-    public static void SetUpUtility()
+    public static void Init()
     {
-        BlockoutEditor window = GetWindow<BlockoutEditor>();
-        window.position = new Rect(Screen.width / 2, Screen.height / 2, 400, 150);
-        window.titleContent = new GUIContent("Blockout Editor");
+        BlockoutEditor window = (BlockoutEditor)EditorWindow.GetWindow(typeof(BlockoutEditor));
+        window.Show();
     }
 
     void OnGUI()
     {
+        GUILayout.Label("Replace Prefabs", EditorStyles.boldLabel);
+        oldPrefab = (GameObject)EditorGUILayout.ObjectField("Old Prefab", oldPrefab, typeof(GameObject), false);
+        
+        
+        EditorGUILayout.Space(10);
 
         if (GUILayout.Button("Hide/Show All Invisible Walls"))
         {
@@ -103,6 +107,33 @@ public class BlockoutEditor : EditorWindow
                 MeshRenderer rnd = block.GetComponent<MeshRenderer>();
                 bool state = rnd.enabled;
                 rnd.enabled = !state;
+            }
+        }
+
+        if (GUILayout.Button("Reset Prefab"))
+        {
+            BlockoutFixer[] blocks;
+            blocks = GameObject.FindObjectsOfType<BlockoutFixer>();
+
+            GameObject p = blocks[0].gameObject.transform.parent.gameObject;
+            Debug.Log(p.transform.name + " parent");
+
+            int i = 0;
+            foreach (BlockoutFixer block in blocks)
+            {
+                GameObject o = block.gameObject;
+
+                Debug.Log(o.transform.name + " " + o.transform.position);
+
+                GameObject replacement = PrefabUtility.InstantiatePrefab(oldPrefab) as GameObject;
+                replacement.transform.position = o.transform.position;
+                replacement.transform.rotation = o.transform.rotation;
+                replacement.name = "Block_3x3x3 " + i;
+                replacement.transform.parent = p.transform;
+                replacement.tag = o.tag;
+                i++;
+
+                o.SetActive(false);
             }
         }
     }
