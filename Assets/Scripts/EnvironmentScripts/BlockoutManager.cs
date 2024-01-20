@@ -75,9 +75,9 @@ public class BlockoutManager : MonoBehaviour
 
                 foreach (GameObject block in invisibleRiverbedBlocks)
                 {
-                    MeshRenderer rnd = block.GetComponent<MeshRenderer>();
-                    bool state = rnd.enabled;
-                    rnd.enabled = !state;
+                    BoxCollider col = block.GetComponent<BoxCollider>();
+                    bool state = col.enabled;
+                    col.enabled = !state;
                 }
 
                 Debug.Log("game: Built riverbeds.");
@@ -150,9 +150,9 @@ public class BlockoutManager : MonoBehaviour
 
                 foreach (GameObject block in invisibleRiverbedBlocks)
                 {
-                    MeshRenderer rnd = block.GetComponent<MeshRenderer>();
-                    bool state = rnd.enabled;
-                    rnd.enabled = !state;
+                    BoxCollider col = block.GetComponent<BoxCollider>();
+                    bool state = col.enabled;
+                    col.enabled = !state;
                 }
 
                 Debug.Log("game: Destroyed riverbeds.");
@@ -204,22 +204,95 @@ public class BlockoutManager : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+        // if (Input.GetKeyDown(KeyCode.Alpha1))
+        // {
+        //     buildStage();
+        // }
+        // else if (Input.GetKeyDown(KeyCode.Alpha2))
+        // {
+        //     destroyStage();
+        // }
+        // else if (Input.GetKeyDown(KeyCode.Alpha3))
+        // {
+        //     buildCaves();
+        // }
+        // else if (Input.GetKeyDown(KeyCode.Alpha4))
+        // {
+        //     destroyCaves();
+        // }
+    }
+
+    public void buildMountains()
+    {
+        if (stage != 0) return;
+        
+        foreach (GameObject block in mountainBlocks)
         {
-            buildStage();
+            MeshRenderer rnd = block.GetComponent<MeshRenderer>();
+            bool state = rnd.enabled;
+            rnd.enabled = !state;
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha2))
+
+        foreach (GameObject block in mountainRiverbedBlocks)
         {
-            destroyStage();
+            MeshRenderer rnd = block.GetComponent<MeshRenderer>();
+            bool state = rnd.enabled;
+            rnd.enabled = !state;
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha3))
+
+        foreach (GameObject block in riverbedBlocks)
         {
-            buildCaves();
+            MeshRenderer rnd = block.GetComponent<MeshRenderer>();
+            bool state = rnd.enabled;
+            rnd.enabled = !state;
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha4))
+
+        foreach (GameObject block in caveBlocks)
         {
-            destroyCaves();
+            MeshRenderer rnd = block.GetComponent<MeshRenderer>();
+            rnd.enabled = true;
         }
+
+        stage++;
+
+        Debug.Log("game: Built mountains.");
+    }
+
+    public void buildRiverbeds()
+    {
+        if (stage != 1) return;
+
+        foreach (GameObject block in riverbedBlocks)
+        {
+            MeshRenderer rnd = block.GetComponent<MeshRenderer>();
+            bool state = rnd.enabled;
+            rnd.enabled = !state;
+        }
+
+        foreach (GameObject block in invisibleRiverbedBlocks)
+        {
+            BoxCollider col = block.GetComponent<BoxCollider>();
+            bool state = col.enabled;
+            col.enabled = !state;
+        }
+
+        stage++;
+
+        Debug.Log("game: Built riverbeds.");
+    }
+
+    public void buildWater()
+    {
+        foreach (GameObject block in waterBlocks)
+        {
+            MeshRenderer rnd = block.GetComponent<MeshRenderer>();
+            bool state = rnd.enabled;
+            rnd.enabled = !state;
+        }
+
+        stage++;
+
+        Debug.Log("game: Built water.");
     }
 
 }

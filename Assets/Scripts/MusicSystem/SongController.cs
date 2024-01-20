@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class SongController : MonoBehaviour
 {
@@ -58,8 +59,9 @@ public class SongController : MonoBehaviour
     [Serializable]
     public class Song
     {
+        public string internalName;
         public string songString;
-        public GameObject creation;
+        public UnityEvent onComplete;
         public List<GameObject> prerequisites;
 
         public List<Chord> Chords =>
@@ -101,6 +103,9 @@ public class SongController : MonoBehaviour
     private Note p2CurrentNote;
 
     private Coroutine songCoroutine = null;
+
+    private string ToString(List<Chord> chords) => 
+        string.Join(' ', chords.Select(chord => $"{chord.p1Note.noteId}{chord.p2Note.noteId}"));
 
     private void Awake()
     {
@@ -254,8 +259,7 @@ public class SongController : MonoBehaviour
                 yield break;
             }
         }
-        Debug.LogWarning("Song completed -- song not recognized: " +
-            string.Join(' ', chords.Select(chord => $"{chord.p1Note.noteId}{chord.p2Note.noteId}")));
+        Debug.LogWarning($"Song completed -- song not recognized: {ToString(chords)}");
         SongCompleted(null);
     }
 
@@ -280,10 +284,7 @@ public class SongController : MonoBehaviour
             Debug.LogWarning("Song completed -- prereqs not met");
             //TODO
         }
-        if (song.creation != null)
-        {
-            Debug.Log($"Song completed -- enabling {song.creation.name}!");
-            song.creation.SetActive(true);
-        }
+        Debug.Log($"Song completed: {song.internalName} ({ToString(song.Chords)})");
+        song.onComplete?.Invoke();
     }
 }

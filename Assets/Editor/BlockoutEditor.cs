@@ -48,6 +48,9 @@ public class BlockoutEditor : EditorWindow
                 MeshRenderer rnd = block.GetComponent<MeshRenderer>();
                 bool state = rnd.enabled;
                 rnd.enabled = !state;
+                BoxCollider col = block.GetComponent<BoxCollider>();
+                state = col.enabled;
+                col.enabled = !state;
             }
         }
 
@@ -110,7 +113,7 @@ public class BlockoutEditor : EditorWindow
             }
         }
 
-        if (GUILayout.Button("Reset Prefab"))
+        if (GUILayout.Button("Reset Prefab DO NOT CLICK"))
         {
             BlockoutFixer[] blocks;
             blocks = GameObject.FindObjectsOfType<BlockoutFixer>();
