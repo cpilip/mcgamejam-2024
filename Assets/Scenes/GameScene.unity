@@ -410,8 +410,77 @@ MonoBehaviour:
     key: 61
     audio: {fileID: 8300000, guid: 4ed723b701bfae142a7312b9e88a3815, type: 3}
   songs:
-  - songString: 11 23
-    creation: {fileID: 495288025}
+  - internalName: Mountains
+    songString: 44 35
+    onComplete:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 322424324}
+          m_TargetAssemblyTypeName: BlockoutManager, Assembly-CSharp
+          m_MethodName: buildMountains
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    prerequisites: []
+  - internalName: Riverbeds
+    songString: 44 24
+    onComplete:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 322424324}
+          m_TargetAssemblyTypeName: BlockoutManager, Assembly-CSharp
+          m_MethodName: buildRiverbeds
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    prerequisites: []
+  - internalName: Water
+    songString: 22
+    onComplete:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 322424324}
+          m_TargetAssemblyTypeName: BlockoutManager, Assembly-CSharp
+          m_MethodName: buildWater
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    prerequisites: []
+  - internalName: Caves
+    songString: 44 12
+    onComplete:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 322424324}
+          m_TargetAssemblyTypeName: BlockoutManager, Assembly-CSharp
+          m_MethodName: buildCaves
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     prerequisites: []
   holdTime: 2
   fudgeTime: 1
@@ -465,6 +534,25 @@ Transform:
   - {fileID: 777404551}
   m_Father: {fileID: 1579704317}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &322424322 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4844578712307818616, guid: bc8e7615dafe12044b00418f45bcaa67,
+    type: 3}
+  m_PrefabInstance: {fileID: 602449445}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &322424324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 322424322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 059d7d988c81f97489111a2d94b5a657, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stage: 0
 --- !u!1 &495288025
 GameObject:
   m_ObjectHideFlags: 0
@@ -633,7 +721,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -4609,7 +4697,11 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 6182971002804875136, guid: bc8e7615dafe12044b00418f45bcaa67, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4844578712307818616, guid: bc8e7615dafe12044b00418f45bcaa67,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 322424324}
   m_SourcePrefab: {fileID: 100100000, guid: bc8e7615dafe12044b00418f45bcaa67, type: 3}
 --- !u!1 &777404547
 GameObject:
