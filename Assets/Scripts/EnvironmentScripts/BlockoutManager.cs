@@ -75,9 +75,9 @@ public class BlockoutManager : MonoBehaviour
 
                 foreach (GameObject block in invisibleRiverbedBlocks)
                 {
-                    MeshRenderer rnd = block.GetComponent<MeshRenderer>();
-                    bool state = rnd.enabled;
-                    rnd.enabled = !state;
+                    BoxCollider col = block.GetComponent<BoxCollider>();
+                    bool state = col.enabled;
+                    col.enabled = !state;
                 }
 
                 Debug.Log("game: Built riverbeds.");
@@ -150,9 +150,9 @@ public class BlockoutManager : MonoBehaviour
 
                 foreach (GameObject block in invisibleRiverbedBlocks)
                 {
-                    MeshRenderer rnd = block.GetComponent<MeshRenderer>();
-                    bool state = rnd.enabled;
-                    rnd.enabled = !state;
+                    BoxCollider col = block.GetComponent<BoxCollider>();
+                    bool state = col.enabled;
+                    col.enabled = !state;
                 }
 
                 Debug.Log("game: Destroyed riverbeds.");
