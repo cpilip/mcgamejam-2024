@@ -22,13 +22,85 @@ public class BlockoutEditor : EditorWindow
 
     void OnGUI()
     {
+
         if (GUILayout.Button("Hide/Show All Invisible Walls"))
         {
-            GameObject[] walls;
-            walls = GameObject.FindGameObjectsWithTag("Invisible");
-            foreach (GameObject wall in walls)
+            GameObject[] wallBlocks;
+            wallBlocks = GameObject.FindGameObjectsWithTag("Invisible");
+            foreach (GameObject block in wallBlocks)
             {
-                MeshRenderer rnd = wall.GetComponent<MeshRenderer>();
+                MeshRenderer rnd = block.GetComponent<MeshRenderer>();
+                bool state = rnd.enabled;
+                rnd.enabled = !state;
+            }
+        }
+
+        if (GUILayout.Button("Hide/Show All Invisible Riverbed Walls"))
+        {
+            GameObject[] wallBlocks;
+            wallBlocks = GameObject.FindGameObjectsWithTag("InvisibleRiverbed");
+            foreach (GameObject block in wallBlocks)
+            {
+                MeshRenderer rnd = block.GetComponent<MeshRenderer>();
+                bool state = rnd.enabled;
+                rnd.enabled = !state;
+            }
+        }
+
+
+        if (GUILayout.Button("Hide/Show All Water"))
+        {
+            GameObject[] waterBlocks;
+            waterBlocks = GameObject.FindGameObjectsWithTag("Water");
+            foreach (GameObject block in waterBlocks)
+            {
+                MeshRenderer rnd = block.GetComponent<MeshRenderer>();
+                bool state = rnd.enabled;
+                rnd.enabled = !state;
+                //block.transform.gameObject.tag = "Riverbed";
+            }
+        }
+
+        if (GUILayout.Button("Hide/Show All Mountain"))
+        {
+            GameObject[] mountainBlocks;
+            mountainBlocks = GameObject.FindGameObjectsWithTag("Mountain");
+            foreach (GameObject block in mountainBlocks)
+            {
+                MeshRenderer rnd = block.GetComponent<MeshRenderer>();
+                bool state = rnd.enabled;
+                rnd.enabled = !state;
+            }
+
+            GameObject[] mountainRiverbedBlocks;
+            mountainRiverbedBlocks = GameObject.FindGameObjectsWithTag("MountainRiverbed");
+            foreach (GameObject block in mountainRiverbedBlocks)
+            {
+                MeshRenderer rnd = block.GetComponent<MeshRenderer>();
+                bool state = rnd.enabled;
+                rnd.enabled = !state;
+            }
+        }
+
+        if (GUILayout.Button("Hide/Show All Riverbed"))
+        {
+            GameObject[] riverbedBlocks;
+            riverbedBlocks = GameObject.FindGameObjectsWithTag("Riverbed");
+            foreach (GameObject block in riverbedBlocks)
+            {
+                MeshRenderer rnd = block.GetComponent<MeshRenderer>();
+                bool state = rnd.enabled;
+                rnd.enabled = !state;
+            }
+        }
+
+        if (GUILayout.Button("Hide/Show All Caves"))
+        {
+            GameObject[] caveBlocks;
+            caveBlocks = GameObject.FindGameObjectsWithTag("Caves");
+            foreach (GameObject block in caveBlocks)
+            {
+                MeshRenderer rnd = block.GetComponent<MeshRenderer>();
                 bool state = rnd.enabled;
                 rnd.enabled = !state;
             }

@@ -5,6 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - Invisible
+  - Mountain
+  - Riverbed
+  - Water
+  - Caves
+  - InvisibleRiverbed
+  - Vector3(1,1,1)
+  - MountainRiverbed
   layers:
   - Default
   - TransparentFX
