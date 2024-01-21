@@ -12,6 +12,8 @@ TagManager:
   - InvisibleRiverbed
   - Vector3(1,1,1)
   - MountainRiverbed
+  - Terra
+  - Ramp
   layers:
   - Default
   - TransparentFX
