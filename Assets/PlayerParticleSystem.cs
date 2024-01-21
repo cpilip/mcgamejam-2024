@@ -39,8 +39,8 @@ public class PlayerParticleSystem : MonoBehaviour
                 break;
         }
 
-        notes_particle_sys.Emit(10);
-        particleSys.Emit(10);
+        notes_particle_sys.Play(); //Emit(10);
+        particleSys.Play(); //Emit(10);
 
     }
 }
