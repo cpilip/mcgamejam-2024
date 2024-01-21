@@ -1,0 +1,44 @@
+Event	ID	Name			Wwise Object Path	Notes
+	505590928	Play_P2_Note5			\Default Work Unit\PlayNote\Play_P2_Note5	
+	505590929	Play_P2_Note4			\Default Work Unit\PlayNote\Play_P2_Note4	
+	505590932	Play_P2_Note1			\Default Work Unit\PlayNote\Play_P2_Note1	
+	505590934	Play_P2_Note3			\Default Work Unit\PlayNote\Play_P2_Note3	
+	505590935	Play_P2_Note2			\Default Work Unit\PlayNote\Play_P2_Note2	
+	2301021770	Play_P1_Note4			\Default Work Unit\PlayNote\Play_P1_Note4	
+	2301021771	Play_P1_Note5			\Default Work Unit\PlayNote\Play_P1_Note5	
+	2301021772	Play_P1_Note2			\Default Work Unit\PlayNote\Play_P1_Note2	
+	2301021773	Play_P1_Note3			\Default Work Unit\PlayNote\Play_P1_Note3	
+	2301021775	Play_P1_Note1			\Default Work Unit\PlayNote\Play_P1_Note1	
+	2460158208	Chorded_P1_Note5			\Default Work Unit\Chorded\Chorded_P1_Note5	
+	2460158209	Chorded_P1_Note4			\Default Work Unit\Chorded\Chorded_P1_Note4	
+	2460158212	Chorded_P1_Note1			\Default Work Unit\Chorded\Chorded_P1_Note1	
+	2460158214	Chorded_P1_Note3			\Default Work Unit\Chorded\Chorded_P1_Note3	
+	2460158215	Chorded_P1_Note2			\Default Work Unit\Chorded\Chorded_P1_Note2	
+	3974207418	Chorded_P2_Note4			\Default Work Unit\Chorded\Chorded_P2_Note4	
+	3974207419	Chorded_P2_Note5			\Default Work Unit\Chorded\Chorded_P2_Note5	
+	3974207420	Chorded_P2_Note2			\Default Work Unit\Chorded\Chorded_P2_Note2	
+	3974207421	Chorded_P2_Note3			\Default Work Unit\Chorded\Chorded_P2_Note3	
+	3974207423	Chorded_P2_Note1			\Default Work Unit\Chorded\Chorded_P2_Note1	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	39240185	S Harp 3	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Mac\SFX\S Harp 3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\S Harp 3		473396
+	90398231	Note Alpha2 Bounced_1	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Mac\SFX\Note Alpha2 Bounced_1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Note Alpha2 Bounced_1		495076
+	168375848	S Harp 4	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Mac\SFX\S Harp 4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\S Harp 4		473396
+	255504895	S Harp 2	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Mac\SFX\S Harp 2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\S Harp 2		473396
+	293088195	Note J Bounced	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Mac\SFX\Note J Bounced_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Note J Bounced		921716
+	423991463	S Harp 5	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Mac\SFX\S Harp 5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\S Harp 5		473396
+	429240394	Note semicolon Bounced	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Mac\SFX\Note semicolon Bounced_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Note semicolon Bounced		921768
+	500835279	M Harp 1	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Mac\SFX\M Harp 1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\M Harp 1		309520
+	540167071	Note Alpha1 Bounced	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Mac\SFX\Note Alpha1 Bounced_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Note Alpha1 Bounced		918132
+	558175762	M Harp 3	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Mac\SFX\M Harp 3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\M Harp 3		433276
+	633420515	M Harp 2	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Mac\SFX\M Harp 2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\M Harp 2		495076
+	644939823	S Harp 1	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Mac\SFX\S Harp 1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\S Harp 1		433276
+	752998924	Note L Bounced	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Mac\SFX\Note L Bounced_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Note L Bounced		921768
+	756077836	Note Alpha5 Bounced	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Mac\SFX\Note Alpha5 Bounced_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Note Alpha5 Bounced		448724
+	760254271	Note Alpha3 Bounced_1	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Mac\SFX\Note Alpha3 Bounced_1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Note Alpha3 Bounced_1		534776
+	806229957	Note Alpha4 Bounced	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Mac\SFX\Note Alpha4 Bounced_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Note Alpha4 Bounced		448724
+	828264133	Note K Bounced	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Mac\SFX\Note K Bounced_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Note K Bounced		1052788
+	831772210	M Harp 4	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Mac\SFX\M Harp 4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\M Harp 4		433276
+	949827141	Note apostrophe Bounced	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Mac\SFX\Note apostrophe Bounced_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Note apostrophe Bounced		1183860
+	1067960651	M Harp 5	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Mac\SFX\M Harp 5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\M Harp 5		433276
+

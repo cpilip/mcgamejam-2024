@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{D326F752-7CA2-0A14-FDB1-63ECE89D0199}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{00C63ECB-09C8-3165-2540-25067A8C4319}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="39240185" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>S Harp 3.wav</ShortName>
+					<CachePath>SFX/S Harp 3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="90398231" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Note Alpha2 Bounced_1.wav</ShortName>
+					<CachePath>SFX/Note Alpha2 Bounced_1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="168375848" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>S Harp 4.wav</ShortName>
+					<CachePath>SFX/S Harp 4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="255504895" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>S Harp 2.wav</ShortName>
+					<CachePath>SFX/S Harp 2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="293088195" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Note J Bounced.wav</ShortName>
+					<CachePath>SFX/Note J Bounced_818F3B66.wem</CachePath>
+				</File>
+				<File Id="423991463" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>S Harp 5.wav</ShortName>
+					<CachePath>SFX/S Harp 5_818F3B66.wem</CachePath>
+				</File>
+				<File Id="429240394" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Note semicolon Bounced.wav</ShortName>
+					<CachePath>SFX/Note semicolon Bounced_818F3B66.wem</CachePath>
+				</File>
+				<File Id="500835279" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>M Harp 1.wav</ShortName>
+					<CachePath>SFX/M Harp 1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="540167071" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Note Alpha1 Bounced.wav</ShortName>
+					<CachePath>SFX/Note Alpha1 Bounced_818F3B66.wem</CachePath>
+				</File>
+				<File Id="558175762" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>M Harp 3.wav</ShortName>
+					<CachePath>SFX/M Harp 3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="633420515" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>M Harp 2.wav</ShortName>
+					<CachePath>SFX/M Harp 2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="644939823" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>S Harp 1.wav</ShortName>
+					<CachePath>SFX/S Harp 1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="752998924" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Note L Bounced.wav</ShortName>
+					<CachePath>SFX/Note L Bounced_818F3B66.wem</CachePath>
+				</File>
+				<File Id="756077836" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Note Alpha5 Bounced.wav</ShortName>
+					<CachePath>SFX/Note Alpha5 Bounced_818F3B66.wem</CachePath>
+				</File>
+				<File Id="760254271" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Note Alpha3 Bounced_1.wav</ShortName>
+					<CachePath>SFX/Note Alpha3 Bounced_1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="806229957" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Note Alpha4 Bounced.wav</ShortName>
+					<CachePath>SFX/Note Alpha4 Bounced_818F3B66.wem</CachePath>
+				</File>
+				<File Id="828264133" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Note K Bounced.wav</ShortName>
+					<CachePath>SFX/Note K Bounced_818F3B66.wem</CachePath>
+				</File>
+				<File Id="831772210" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>M Harp 4.wav</ShortName>
+					<CachePath>SFX/M Harp 4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="949827141" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Note apostrophe Bounced.wav</ShortName>
+					<CachePath>SFX/Note apostrophe Bounced_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1067960651" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>M Harp 5.wav</ShortName>
+					<CachePath>SFX/M Harp 5_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2460158212" Name="Chorded_P1_Note1" DurationType="OneShot" DurationMin="1.6099167" DurationMax="1.6099167">
+					<MediaRefs>
+						<MediaRef Id="500835279"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2460158215" Name="Chorded_P1_Note2" DurationType="OneShot" DurationMin="2.5755208" DurationMax="2.5755208">
+					<MediaRefs>
+						<MediaRef Id="633420515"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2460158214" Name="Chorded_P1_Note3" DurationType="OneShot" DurationMin="2.253646" DurationMax="2.253646">
+					<MediaRefs>
+						<MediaRef Id="558175762"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2460158209" Name="Chorded_P1_Note4" DurationType="OneShot" DurationMin="2.253646" DurationMax="2.253646">
+					<MediaRefs>
+						<MediaRef Id="831772210"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2460158208" Name="Chorded_P1_Note5" DurationType="OneShot" DurationMin="2.253646" DurationMax="2.253646">
+					<MediaRefs>
+						<MediaRef Id="1067960651"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3974207423" Name="Chorded_P2_Note1" DurationType="OneShot" DurationMin="2.253646" DurationMax="2.253646">
+					<MediaRefs>
+						<MediaRef Id="644939823"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3974207420" Name="Chorded_P2_Note2" DurationType="OneShot" DurationMin="2.4626043" DurationMax="2.4626043">
+					<MediaRefs>
+						<MediaRef Id="255504895"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3974207421" Name="Chorded_P2_Note3" DurationType="OneShot" DurationMin="2.4626043" DurationMax="2.4626043">
+					<MediaRefs>
+						<MediaRef Id="39240185"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3974207418" Name="Chorded_P2_Note4" DurationType="OneShot" DurationMin="2.4626043" DurationMax="2.4626043">
+					<MediaRefs>
+						<MediaRef Id="168375848"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3974207419" Name="Chorded_P2_Note5" DurationType="OneShot" DurationMin="2.4626043" DurationMax="2.4626043">
+					<MediaRefs>
+						<MediaRef Id="423991463"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2301021775" Name="Play_P1_Note1" DurationType="OneShot" DurationMin="4.7786875" DurationMax="4.7786875">
+					<MediaRefs>
+						<MediaRef Id="540167071"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2301021772" Name="Play_P1_Note2" DurationType="OneShot" DurationMin="2.5755208" DurationMax="2.5755208">
+					<MediaRefs>
+						<MediaRef Id="90398231"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2301021773" Name="Play_P1_Note3" DurationType="OneShot" DurationMin="2.7820415" DurationMax="2.7820415">
+					<MediaRefs>
+						<MediaRef Id="760254271"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2301021770" Name="Play_P1_Note4" DurationType="OneShot" DurationMin="2.334104" DurationMax="2.334104">
+					<MediaRefs>
+						<MediaRef Id="806229957"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2301021771" Name="Play_P1_Note5" DurationType="OneShot" DurationMin="2.334104" DurationMax="2.334104">
+					<MediaRefs>
+						<MediaRef Id="756077836"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="505590932" Name="Play_P2_Note1" DurationType="OneShot" DurationMin="4.797354" DurationMax="4.797354">
+					<MediaRefs>
+						<MediaRef Id="293088195"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="505590935" Name="Play_P2_Note2" DurationType="OneShot" DurationMin="5.480021" DurationMax="5.480021">
+					<MediaRefs>
+						<MediaRef Id="828264133"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="505590934" Name="Play_P2_Note3" DurationType="OneShot" DurationMin="4.797625" DurationMax="4.797625">
+					<MediaRefs>
+						<MediaRef Id="752998924"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="505590929" Name="Play_P2_Note4" DurationType="OneShot" DurationMin="4.797625" DurationMax="4.797625">
+					<MediaRefs>
+						<MediaRef Id="429240394"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="505590928" Name="Play_P2_Note5" DurationType="OneShot" DurationMin="6.1626873" DurationMax="6.1626873">
+					<MediaRefs>
+						<MediaRef Id="949827141"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{2B4B159A-6615-DC58-5D9B-3CD4F828C024}</FileHash>
+</SoundBanksInfo>

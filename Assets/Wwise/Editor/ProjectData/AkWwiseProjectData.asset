@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 0b0d541cad75c548a0c8e90023e7308c
     GuidInternal: 
-    m_lastTime: -8584957942017500598
+    m_lastTime: -8584957832691044336
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 8121fb4fa9fe38418022e9777efd2f41
     GuidInternal: 
-    m_lastTime: -8584957942017600591
+    m_lastTime: -8584957832691134322
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 7eb1b42975f21e46babd103458981a50
     GuidInternal: 
-    m_lastTime: -8584957942017540596
+    m_lastTime: -8584957832691074324
     List: []
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
@@ -80,8 +80,442 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 3377829570b550499fd343cbfbcc3c95
     GuidInternal: 
-    m_lastTime: -8584957942017620591
-    List: []
+    m_lastTime: -8584957781388847953
+    List:
+    - name: Chorded
+      guid: 0339cc6a624b804b8de0546d700b0916
+      id: 4010238386
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3377829570b550499fd343cbfbcc3c95
+      - ElementName: Chorded
+        ObjectType: 4
+        guid: 0339cc6a624b804b8de0546d700b0916
+      Path: Events\Default Work Unit\Chorded
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Chorded_P1_Note1
+      guid: 58b08ddd0a0a8844b1d5d31ca8144643
+      id: 2460158212
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3377829570b550499fd343cbfbcc3c95
+      - ElementName: Chorded
+        ObjectType: 4
+        guid: 0339cc6a624b804b8de0546d700b0916
+      - ElementName: Chorded_P1_Note1
+        ObjectType: 3
+        guid: 58b08ddd0a0a8844b1d5d31ca8144643
+      Path: Events\Default Work Unit\Chorded\Chorded_P1_Note1
+      maxAttenuation: 0
+      maxDuration: 1.6099167
+      minDuration: 1.6099167
+    - name: Chorded_P1_Note2
+      guid: 79bb8008d775b74bb3e0c1402edd466a
+      id: 2460158215
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3377829570b550499fd343cbfbcc3c95
+      - ElementName: Chorded
+        ObjectType: 4
+        guid: 0339cc6a624b804b8de0546d700b0916
+      - ElementName: Chorded_P1_Note2
+        ObjectType: 3
+        guid: 79bb8008d775b74bb3e0c1402edd466a
+      Path: Events\Default Work Unit\Chorded\Chorded_P1_Note2
+      maxAttenuation: 0
+      maxDuration: 2.5755208
+      minDuration: 2.5755208
+    - name: Chorded_P1_Note3
+      guid: 9435e2836cecd04cbee3f27d167f5d09
+      id: 2460158214
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3377829570b550499fd343cbfbcc3c95
+      - ElementName: Chorded
+        ObjectType: 4
+        guid: 0339cc6a624b804b8de0546d700b0916
+      - ElementName: Chorded_P1_Note3
+        ObjectType: 3
+        guid: 9435e2836cecd04cbee3f27d167f5d09
+      Path: Events\Default Work Unit\Chorded\Chorded_P1_Note3
+      maxAttenuation: 0
+      maxDuration: 2.253646
+      minDuration: 2.253646
+    - name: Chorded_P1_Note4
+      guid: 2afb57aac11d1e4a8a9a86fcaba7e538
+      id: 2460158209
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3377829570b550499fd343cbfbcc3c95
+      - ElementName: Chorded
+        ObjectType: 4
+        guid: 0339cc6a624b804b8de0546d700b0916
+      - ElementName: Chorded_P1_Note4
+        ObjectType: 3
+        guid: 2afb57aac11d1e4a8a9a86fcaba7e538
+      Path: Events\Default Work Unit\Chorded\Chorded_P1_Note4
+      maxAttenuation: 0
+      maxDuration: 2.253646
+      minDuration: 2.253646
+    - name: Chorded_P1_Note5
+      guid: d6504222ce24fe41b37d6f746844d38b
+      id: 2460158208
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3377829570b550499fd343cbfbcc3c95
+      - ElementName: Chorded
+        ObjectType: 4
+        guid: 0339cc6a624b804b8de0546d700b0916
+      - ElementName: Chorded_P1_Note5
+        ObjectType: 3
+        guid: d6504222ce24fe41b37d6f746844d38b
+      Path: Events\Default Work Unit\Chorded\Chorded_P1_Note5
+      maxAttenuation: 0
+      maxDuration: 2.253646
+      minDuration: 2.253646
+    - name: Chorded_P2_Note1
+      guid: dea9c9ab845be441acfddcf1330b9288
+      id: 3974207423
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3377829570b550499fd343cbfbcc3c95
+      - ElementName: Chorded
+        ObjectType: 4
+        guid: 0339cc6a624b804b8de0546d700b0916
+      - ElementName: Chorded_P2_Note1
+        ObjectType: 3
+        guid: dea9c9ab845be441acfddcf1330b9288
+      Path: Events\Default Work Unit\Chorded\Chorded_P2_Note1
+      maxAttenuation: 0
+      maxDuration: 2.253646
+      minDuration: 2.253646
+    - name: Chorded_P2_Note2
+      guid: dae691a9aa0f284893f6df79e6e6337b
+      id: 3974207420
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3377829570b550499fd343cbfbcc3c95
+      - ElementName: Chorded
+        ObjectType: 4
+        guid: 0339cc6a624b804b8de0546d700b0916
+      - ElementName: Chorded_P2_Note2
+        ObjectType: 3
+        guid: dae691a9aa0f284893f6df79e6e6337b
+      Path: Events\Default Work Unit\Chorded\Chorded_P2_Note2
+      maxAttenuation: 0
+      maxDuration: 2.4626043
+      minDuration: 2.4626043
+    - name: Chorded_P2_Note3
+      guid: 370bc808d9d3164b80036e63e7247799
+      id: 3974207421
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3377829570b550499fd343cbfbcc3c95
+      - ElementName: Chorded
+        ObjectType: 4
+        guid: 0339cc6a624b804b8de0546d700b0916
+      - ElementName: Chorded_P2_Note3
+        ObjectType: 3
+        guid: 370bc808d9d3164b80036e63e7247799
+      Path: Events\Default Work Unit\Chorded\Chorded_P2_Note3
+      maxAttenuation: 0
+      maxDuration: 2.4626043
+      minDuration: 2.4626043
+    - name: Chorded_P2_Note4
+      guid: 4502901d08b4c54ca1b5b65a5f2d7768
+      id: 3974207418
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3377829570b550499fd343cbfbcc3c95
+      - ElementName: Chorded
+        ObjectType: 4
+        guid: 0339cc6a624b804b8de0546d700b0916
+      - ElementName: Chorded_P2_Note4
+        ObjectType: 3
+        guid: 4502901d08b4c54ca1b5b65a5f2d7768
+      Path: Events\Default Work Unit\Chorded\Chorded_P2_Note4
+      maxAttenuation: 0
+      maxDuration: 2.4626043
+      minDuration: 2.4626043
+    - name: Chorded_P2_Note5
+      guid: 6c975a912e3aab4d8f748483c0e14301
+      id: 3974207419
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3377829570b550499fd343cbfbcc3c95
+      - ElementName: Chorded
+        ObjectType: 4
+        guid: 0339cc6a624b804b8de0546d700b0916
+      - ElementName: Chorded_P2_Note5
+        ObjectType: 3
+        guid: 6c975a912e3aab4d8f748483c0e14301
+      Path: Events\Default Work Unit\Chorded\Chorded_P2_Note5
+      maxAttenuation: 0
+      maxDuration: 2.4626043
+      minDuration: 2.4626043
+    - name: Play_P1_Note1
+      guid: be1583861c8f7b48b274bf9db3cc57f6
+      id: 2301021775
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3377829570b550499fd343cbfbcc3c95
+      - ElementName: PlayNote
+        ObjectType: 4
+        guid: fb5ebd7929029443b71c6b8d967be3e4
+      - ElementName: Play_P1_Note1
+        ObjectType: 3
+        guid: be1583861c8f7b48b274bf9db3cc57f6
+      Path: Events\Default Work Unit\PlayNote\Play_P1_Note1
+      maxAttenuation: 0
+      maxDuration: 4.7786875
+      minDuration: 4.7786875
+    - name: Play_P1_Note2
+      guid: 9b2b0d423f44fd40a02daa7f4e997beb
+      id: 2301021772
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3377829570b550499fd343cbfbcc3c95
+      - ElementName: PlayNote
+        ObjectType: 4
+        guid: fb5ebd7929029443b71c6b8d967be3e4
+      - ElementName: Play_P1_Note2
+        ObjectType: 3
+        guid: 9b2b0d423f44fd40a02daa7f4e997beb
+      Path: Events\Default Work Unit\PlayNote\Play_P1_Note2
+      maxAttenuation: 0
+      maxDuration: 2.5755208
+      minDuration: 2.5755208
+    - name: Play_P1_Note3
+      guid: addf58146f97e145b072690d6a66f723
+      id: 2301021773
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3377829570b550499fd343cbfbcc3c95
+      - ElementName: PlayNote
+        ObjectType: 4
+        guid: fb5ebd7929029443b71c6b8d967be3e4
+      - ElementName: Play_P1_Note3
+        ObjectType: 3
+        guid: addf58146f97e145b072690d6a66f723
+      Path: Events\Default Work Unit\PlayNote\Play_P1_Note3
+      maxAttenuation: 0
+      maxDuration: 2.7820415
+      minDuration: 2.7820415
+    - name: Play_P1_Note4
+      guid: 2ba14b45b630fb46953d9f02ef1c1b70
+      id: 2301021770
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3377829570b550499fd343cbfbcc3c95
+      - ElementName: PlayNote
+        ObjectType: 4
+        guid: fb5ebd7929029443b71c6b8d967be3e4
+      - ElementName: Play_P1_Note4
+        ObjectType: 3
+        guid: 2ba14b45b630fb46953d9f02ef1c1b70
+      Path: Events\Default Work Unit\PlayNote\Play_P1_Note4
+      maxAttenuation: 0
+      maxDuration: 2.334104
+      minDuration: 2.334104
+    - name: Play_P1_Note5
+      guid: bd3b05399c5e6b43b699b7502ebe8399
+      id: 2301021771
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3377829570b550499fd343cbfbcc3c95
+      - ElementName: PlayNote
+        ObjectType: 4
+        guid: fb5ebd7929029443b71c6b8d967be3e4
+      - ElementName: Play_P1_Note5
+        ObjectType: 3
+        guid: bd3b05399c5e6b43b699b7502ebe8399
+      Path: Events\Default Work Unit\PlayNote\Play_P1_Note5
+      maxAttenuation: 0
+      maxDuration: 2.334104
+      minDuration: 2.334104
+    - name: Play_P2_Note1
+      guid: 71cb510b71feda4ea7d7b2ca42338174
+      id: 505590932
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3377829570b550499fd343cbfbcc3c95
+      - ElementName: PlayNote
+        ObjectType: 4
+        guid: fb5ebd7929029443b71c6b8d967be3e4
+      - ElementName: Play_P2_Note1
+        ObjectType: 3
+        guid: 71cb510b71feda4ea7d7b2ca42338174
+      Path: Events\Default Work Unit\PlayNote\Play_P2_Note1
+      maxAttenuation: 0
+      maxDuration: 4.797354
+      minDuration: 4.797354
+    - name: Play_P2_Note2
+      guid: c7cfff274f5def41a7d3219c03da3fc2
+      id: 505590935
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3377829570b550499fd343cbfbcc3c95
+      - ElementName: PlayNote
+        ObjectType: 4
+        guid: fb5ebd7929029443b71c6b8d967be3e4
+      - ElementName: Play_P2_Note2
+        ObjectType: 3
+        guid: c7cfff274f5def41a7d3219c03da3fc2
+      Path: Events\Default Work Unit\PlayNote\Play_P2_Note2
+      maxAttenuation: 0
+      maxDuration: 5.480021
+      minDuration: 5.480021
+    - name: Play_P2_Note3
+      guid: fc60f3cab8e2af42abdc88b8393014e9
+      id: 505590934
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3377829570b550499fd343cbfbcc3c95
+      - ElementName: PlayNote
+        ObjectType: 4
+        guid: fb5ebd7929029443b71c6b8d967be3e4
+      - ElementName: Play_P2_Note3
+        ObjectType: 3
+        guid: fc60f3cab8e2af42abdc88b8393014e9
+      Path: Events\Default Work Unit\PlayNote\Play_P2_Note3
+      maxAttenuation: 0
+      maxDuration: 4.797625
+      minDuration: 4.797625
+    - name: Play_P2_Note4
+      guid: fb91fb82eefbe842b9bd9179348974c4
+      id: 505590929
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3377829570b550499fd343cbfbcc3c95
+      - ElementName: PlayNote
+        ObjectType: 4
+        guid: fb5ebd7929029443b71c6b8d967be3e4
+      - ElementName: Play_P2_Note4
+        ObjectType: 3
+        guid: fb91fb82eefbe842b9bd9179348974c4
+      Path: Events\Default Work Unit\PlayNote\Play_P2_Note4
+      maxAttenuation: 0
+      maxDuration: 4.797625
+      minDuration: 4.797625
+    - name: Play_P2_Note5
+      guid: 3d1fd628574a50438c1052d139f0f931
+      id: 505590928
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3377829570b550499fd343cbfbcc3c95
+      - ElementName: PlayNote
+        ObjectType: 4
+        guid: fb5ebd7929029443b71c6b8d967be3e4
+      - ElementName: Play_P2_Note5
+        ObjectType: 3
+        guid: 3d1fd628574a50438c1052d139f0f931
+      Path: Events\Default Work Unit\PlayNote\Play_P2_Note5
+      maxAttenuation: 0
+      maxDuration: 6.1626873
+      minDuration: 6.1626873
+    - name: PlayNote
+      guid: fb5ebd7929029443b71c6b8d967be3e4
+      id: 2634164871
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3377829570b550499fd343cbfbcc3c95
+      - ElementName: PlayNote
+        ObjectType: 4
+        guid: fb5ebd7929029443b71c6b8d967be3e4
+      Path: Events\Default Work Unit\PlayNote
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -94,7 +528,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 3ec18c66f627b149838bb22e91bbe541
     GuidInternal: 
-    m_lastTime: -8584957942017610590
+    m_lastTime: -8584957832691334336
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -108,7 +542,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 968914c3839c184e831f4c685ad85c10
     GuidInternal: 
-    m_lastTime: -8584957942017530589
+    m_lastTime: -8584957832691064333
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -122,7 +556,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 4461092509514144a3734017ccef6b9b
     GuidInternal: 
-    m_lastTime: -8584957942017520591
+    m_lastTime: -8584957832691054317
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -136,11 +570,11 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 64fe1bd73135bc42a939e332ed7a3f76
     GuidInternal: 
-    m_lastTime: -8584957942017510593
+    m_lastTime: -8584957832691054317
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 050000000600000007000000080000000b0000000c000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
-  currentDataSource: 1
+  currentDataSource: 0
   CurrentPluginConfig: 
