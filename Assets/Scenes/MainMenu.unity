@@ -1949,10 +1949,10 @@ RectTransform:
   - {fileID: 323127641}
   m_Father: {fileID: 755910716}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 4.375061, y: -5.853298}
-  m_SizeDelta: {x: -588.84985, y: -150.70659}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 386.28, y: 408.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1677514524
 MonoBehaviour:
@@ -2477,7 +2477,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2479028}
         m_TargetAssemblyTypeName: ScreenManager, Assembly-CSharp
-        m_MethodName: StartGameScene
+        m_MethodName: ExitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
