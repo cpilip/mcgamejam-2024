@@ -68,4 +68,10 @@ public class PlayerController : MonoBehaviour
 
         prevMovement = movement;
     }
+
+    public void teleportPlayer(Transform target)
+    {
+        rb.velocity = Vector3.zero;
+        rb.position = target.position + new Vector3(-1.5f, 8.0f, 1.5f);
+    }
 }

@@ -5507,7 +5507,8 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-    prerequisites: []
+    prerequisites:
+    - {fileID: 799939933}
   - internalName: 08_Water
     songString: 22
     sceneObject: {fileID: 0}
@@ -5591,7 +5592,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
     prerequisites:
-    - {fileID: 1035111130}
+    - {fileID: 353328679}
   - internalName: 14_Ocean
     songString: 22 44
     sceneObject: {fileID: 0}
@@ -5703,6 +5704,10 @@ MonoBehaviour:
   grass: {fileID: 2800000, guid: e441b004dd1f17c42b690959763a32c3, type: 3}
   final: {fileID: 2800000, guid: 73b1d4057fd936246be86ee97c107129, type: 3}
   conlang: {fileID: 2800000, guid: a0b91bd615d90634e849af0895a36674, type: 3}
+  bPlayer: {fileID: 1829472621}
+  rPlayer: {fileID: 1217900517}
+  bluePlayerSpawn: {fileID: 691501764}
+  redPlayerSpawn: {fileID: 774609084}
   stage: 0
 --- !u!1 &298361038
 GameObject:
@@ -5748,6 +5753,12 @@ GameObject:
 --- !u!4 &322424323 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5173267009784228261, guid: bc8e7615dafe12044b00418f45bcaa67,
+    type: 3}
+  m_PrefabInstance: {fileID: 602449445}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &353328679 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5170173607646757853, guid: bc8e7615dafe12044b00418f45bcaa67,
     type: 3}
   m_PrefabInstance: {fileID: 602449445}
   m_PrefabAsset: {fileID: 0}
@@ -26816,6 +26827,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 616248924}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &691501764 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5757353492888453887, guid: bc8e7615dafe12044b00418f45bcaa67,
+    type: 3}
+  m_PrefabInstance: {fileID: 602449445}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &706545373
 GameObject:
   m_ObjectHideFlags: 0
@@ -36604,6 +36621,12 @@ Animation:
     type: 3}
   m_PrefabInstance: {fileID: 5248210832453588179}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &774609084 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4807196202380001350, guid: bc8e7615dafe12044b00418f45bcaa67,
+    type: 3}
+  m_PrefabInstance: {fileID: 602449445}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &777404547
 GameObject:
   m_ObjectHideFlags: 0
@@ -36709,6 +36732,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 298361039}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!1 &799939933 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4631915793723102474, guid: bc8e7615dafe12044b00418f45bcaa67,
+    type: 3}
+  m_PrefabInstance: {fileID: 602449445}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &832071954
 GameObject:
   m_ObjectHideFlags: 0
@@ -46603,12 +46632,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1035111130 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5988781893616421138, guid: bc8e7615dafe12044b00418f45bcaa67,
-    type: 3}
-  m_PrefabInstance: {fileID: 602449445}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1107435887
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -67670,7 +67693,7 @@ PrefabInstance:
     - target: {fileID: 5514835131189443535, guid: ba62c58837a79f444b411610a9ccf448,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

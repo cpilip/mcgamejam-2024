@@ -21,6 +21,8 @@ public class BlockoutManager : MonoBehaviour
     [SerializeField]
     private Texture2D conlang;
 
+   
+
     private float bLerp;
     private bool locked = false;
 
@@ -35,6 +37,14 @@ public class BlockoutManager : MonoBehaviour
     private GameObject[] rampBlocks;
     private GameObject[] invisibleBlocks;
 
+    [SerializeField]
+    private GameObject bPlayer;
+    [SerializeField]
+    private GameObject rPlayer;
+    [SerializeField]
+    private GameObject bluePlayerSpawn;
+    [SerializeField]
+    private GameObject redPlayerSpawn;
 
     [SerializeField]
     private int stage = 0;
@@ -63,7 +73,7 @@ public class BlockoutManager : MonoBehaviour
             BoxCollider col = block.GetComponent<BoxCollider>();
 
             rnd.enabled = true;
-            col.enabled = false;
+            col.enabled = true;
         }
 
         foreach (GameObject block in mountainRiverbedBlocks)
@@ -92,6 +102,8 @@ public class BlockoutManager : MonoBehaviour
             rnd.enabled = false;
             col.enabled = true;
         }
+
+
     }
 
     public void buildTerra()
@@ -115,6 +127,10 @@ public class BlockoutManager : MonoBehaviour
 
     public void buildValleys()
     {
+
+        bPlayer.GetComponent<PlayerController>().teleportPlayer(bluePlayerSpawn.transform);
+        rPlayer.GetComponent<PlayerController>().teleportPlayer(redPlayerSpawn.transform);
+
         foreach (GameObject block in riverbedBlocks)
         {
             MeshRenderer rnd = block.GetComponent<MeshRenderer>();
@@ -136,6 +152,10 @@ public class BlockoutManager : MonoBehaviour
 
     public void buildMountains()
     {
+        bPlayer.GetComponent<PlayerController>().teleportPlayer(bluePlayerSpawn.transform);
+        rPlayer.GetComponent<PlayerController>().teleportPlayer(redPlayerSpawn.transform);
+
+
         foreach (GameObject block in mountainBlocks)
         {
 
