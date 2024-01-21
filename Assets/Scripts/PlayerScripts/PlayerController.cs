@@ -15,9 +15,10 @@ public class PlayerController : MonoBehaviour
     public float horizontalMoveSpeed = 8f;
     public float verticalMoveSpeed = 12f;
     
+    public Animator animator;
     private Rigidbody rb;
     
-    private Vector2 movement;
+    private Vector2 prevMovement;
 
     private Camera cam;
     private Vector3 camAlignedRight;
@@ -37,12 +38,33 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Vector2 movement;
         movement.x = Input.GetAxisRaw(horizontalInput);
         movement.y = Input.GetAxisRaw(verticalInput);
         
         movement.Normalize();
 
+        if (movement == Vector2.zero)
+        {
+            animator.Play("idleAnimation");
+        }
+        else
+        {
+            animator.Play("walkingAnimation");
+        }
+
+        if (prevMovement.x <= 0 && movement.x > 0)
+        {
+            animator.Play("turnForward");
+        }
+        if (prevMovement.x >= 0 && movement.x < 0)
+        {
+            animator.Play("turnReversed");
+        }
+
         rb.velocity = movement.x * horizontalMoveSpeed * camAlignedRight
                       + movement.y * verticalMoveSpeed * camAlignedUp;
+
+        prevMovement = movement;
     }
 }
