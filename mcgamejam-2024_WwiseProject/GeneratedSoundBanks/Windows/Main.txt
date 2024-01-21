@@ -2,9 +2,12 @@ Event	ID	Name			Wwise Object Path	Notes
 	80558213	P1_Note2_Harp			\Default Work Unit\Notes\Harps\P1_Note2_Harp	
 	231111259	Track03_Sky			\Default Work Unit\Soundtrack\Track03_Sky	
 	404757848	P1_Note2_Vocals			\Default Work Unit\Notes\Vocals\P1_Note2_Vocals	
+	453033077	Track20_Fish			\Default Work Unit\Soundtrack\Track20_Fish	
 	536765770	P1_Note4_Vocals			\Default Work Unit\Notes\Vocals\P1_Note4_Vocals	
 	567321401	P1_Note5_Vocals			\Default Work Unit\Notes\Vocals\P1_Note5_Vocals	
 	640283604	P1_Note5_Harp			\Default Work Unit\Notes\Harps\P1_Note5_Harp	
+	671639696	Track07_Mountains			\Default Work Unit\Soundtrack\Track07_Mountains	
+	1007886993	Track15_Birds			\Default Work Unit\Soundtrack\Track15_Birds	
 	1685854657	P2_Note5_Harp			\Default Work Unit\Notes\Harps\P2_Note5_Harp	
 	1805739855	P1_Note3_Vocals			\Default Work Unit\Notes\Vocals\P1_Note3_Vocals	
 	1816227430	P1_Note3_Harp			\Default Work Unit\Notes\Harps\P1_Note3_Harp	
@@ -12,47 +15,66 @@ Event	ID	Name			Wwise Object Path	Notes
 	2020448509	P2_Note1_Harp			\Default Work Unit\Notes\Harps\P2_Note1_Harp	
 	2075974304	P2_Note1_Vocals			\Default Work Unit\Notes\Vocals\P2_Note1_Vocals	
 	2316034272	P1_Note1_Harp			\Default Work Unit\Notes\Harps\P1_Note1_Harp	
+	2539323273	Track13_Caves			\Default Work Unit\Soundtrack\Track13_Caves	
 	2545330227	P2_Note4_Vocals			\Default Work Unit\Notes\Vocals\P2_Note4_Vocals	
 	2686402364	P2_Note5_Vocals			\Default Work Unit\Notes\Vocals\P2_Note5_Vocals	
+	2745052960	Track05_Clouds			\Default Work Unit\Soundtrack\Track05_Clouds	
 	2767284578	P2_Note4_Harp			\Default Work Unit\Notes\Harps\P2_Note4_Harp	
+	3194130141	Track06_Valleys			\Default Work Unit\Soundtrack\Track06_Valleys	
 	3285806291	P1_Note4_Harp			\Default Work Unit\Notes\Harps\P1_Note4_Harp	
 	3404541205	P2_Note2_Vocals			\Default Work Unit\Notes\Vocals\P2_Note2_Vocals	
+	3551609253	Track16_Bees			\Default Work Unit\Soundtrack\Track16_Bees	
+	3658587150	Track08_Water			\Default Work Unit\Soundtrack\Track08_Water	
 	3759016632	P2_Note2_Harp			\Default Work Unit\Notes\Harps\P2_Note2_Harp	
+	3903099582	Track14_Ocean			\Default Work Unit\Soundtrack\Track14_Ocean	
 	3922734455	P2_Note3_Harp			\Default Work Unit\Notes\Harps\P2_Note3_Harp	
+	3983732245	Track04_Celestial			\Default Work Unit\Soundtrack\Track04_Celestial	
 	4051428877	P1_Note1_Vocals			\Default Work Unit\Notes\Vocals\P1_Note1_Vocals	
+	4159171735	Track02_Terra			\Default Work Unit\Soundtrack\Track02_Terra	
 	4272399436	Soundtrack_Init			\Default Work Unit\Soundtrack\Soundtrack_Init	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	17709604	Da Capo Full Length	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\Tracks\Da Capo Full Length_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Soundtrack\Tracks\Da Capo Full Length		38928544
-	18117958	M Vocals 1	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\M Vocals 1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\M Vocals 1		918132
-	39240185	S Harp 3	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\S Harp 3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\S Harp 3		790640
-	70779560	M Vocals 3	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\M Vocals 3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\M Vocals 3		534776
-	90398231	Note Alpha2 Bounced_1	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\Note Alpha2 Bounced_1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Note Alpha2 Bounced_1		495076
-	168375848	S Harp 4	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\S Harp 4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\S Harp 4		921712
-	189300776	M Vocals 5	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\M Vocals 5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\M Vocals 5		448724
-	255504895	S Harp 2	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\S Harp 2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\S Harp 2		790640
-	293088195	Note J Bounced	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\Note J Bounced_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Note J Bounced		921716
-	351608482	Sky Full Length	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\Tracks\Sky Full Length_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Soundtrack\Tracks\Sky Full Length		36569248
-	423991463	S Harp 5	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\S Harp 5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\S Harp 5		790640
-	429240394	Note semicolon Bounced	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\Note semicolon Bounced_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Note semicolon Bounced		921768
-	500835279	M Harp 1	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\M Harp 1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\M Harp 1		1446000
-	540167071	Note Alpha1 Bounced	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\Note Alpha1 Bounced_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Note Alpha1 Bounced		918132
-	547567699	S Vocals 5	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\S Vocals 5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\S Vocals 5		1183860
-	558175762	M Harp 3	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\M Harp 3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\M Harp 3		1314928
-	603255568	S Vocals 1	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\S Vocals 1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\S Vocals 1		921716
-	633420515	M Harp 2	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\M Harp 2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\M Harp 2		1314928
-	644939823	S Harp 1	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\S Harp 1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\S Harp 1		921712
-	651919191	M Vocals 4	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\M Vocals 4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\M Vocals 4		448724
-	666818033	S Vocals 3	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\S Vocals 3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\S Vocals 3		921716
-	691889834	M Vocals 2	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\M Vocals 2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\M Vocals 2		433276
-	752998924	Note L Bounced	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\Note L Bounced_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Note L Bounced		921768
-	756077836	Note Alpha5 Bounced	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\Note Alpha5 Bounced_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Note Alpha5 Bounced		448724
-	760254271	Note Alpha3 Bounced_1	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\Note Alpha3 Bounced_1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Note Alpha3 Bounced_1		534776
-	776960295	S Vocals 4	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\S Vocals 4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\S Vocals 4		921716
-	791061611	S Vocals 2	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\S Vocals 2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\S Vocals 2		1052788
-	806229957	Note Alpha4 Bounced	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\Note Alpha4 Bounced_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Note Alpha4 Bounced		448724
-	828264133	Note K Bounced	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\Note K Bounced_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Note K Bounced		1052788
-	831772210	M Harp 4	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\M Harp 4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\M Harp 4		1183856
-	949827141	Note apostrophe Bounced	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\Note apostrophe Bounced_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Note apostrophe Bounced		1183860
-	1067960651	M Harp 5	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\M Harp 5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\M Harp 5		1183856
+	18117958	M Vocals 1	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\M Vocals 1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Vocals\Vocals Mixer\M Vocals\M Vocals 1		918132
+	39240185	S Harp 3	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\S Harp 3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Harp\Harp Mixer\S Harp\S Harp 3		790640
+	70779560	M Vocals 3	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\M Vocals 3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Vocals\Vocals Mixer\M Vocals\M Vocals 3		534776
+	90398231	Note Alpha2 Bounced_1	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\Note Alpha2 Bounced_1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Combined\Note Alpha2 Bounced_1		495076
+	168375848	S Harp 4	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\S Harp 4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Harp\Harp Mixer\S Harp\S Harp 4		921712
+	189300776	M Vocals 5	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\M Vocals 5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Vocals\Vocals Mixer\M Vocals\M Vocals 5		448724
+	213617341	13_Caves	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\Tracks\13_Caves_1_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Soundtrack\Tracks\13_Caves		33163104
+	255504895	S Harp 2	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\S Harp 2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Harp\Harp Mixer\S Harp\S Harp 2		790640
+	279913601	03_Sky	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\Tracks\03_Sky_1_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Soundtrack\Tracks\03_Sky		36439904
+	293088195	Note J Bounced	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\Note J Bounced_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Combined\Note J Bounced		921716
+	338955763	15_Birds	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\Tracks\15_Birds_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Soundtrack\Tracks\15_Birds		34525036
+	395144731	04_Celestial	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\Tracks\04_Celestial_1_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Soundtrack\Tracks\04_Celestial		35653472
+	419110923	01_DaCapo	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\Tracks\Soundtrack_Init_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Soundtrack\Tracks\01_DaCapo		35965036
+	423991463	S Harp 5	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\S Harp 5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Harp\Harp Mixer\S Harp\S Harp 5		790640
+	428348860	07_Mountains	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\Tracks\07_Mountains_1_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Soundtrack\Tracks\07_Mountains		39061344
+	429240394	Note semicolon Bounced	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\Note semicolon Bounced_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Combined\Note semicolon Bounced		921768
+	439475330	16_Bees	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\Tracks\16_Bees_1_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Soundtrack\Tracks\16_Bees		34342752
+	500835279	M Harp 1	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\M Harp 1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Harp\Harp Mixer\M Harp\M Harp 1		1446000
+	522446709	20_Fish	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\Tracks\20_Fish_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Soundtrack\Tracks\20_Fish		34770888
+	540167071	Note Alpha1 Bounced	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\Note Alpha1 Bounced_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Combined\Note Alpha1 Bounced		918132
+	547567699	S Vocals 5	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\S Vocals 5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Vocals\Vocals Mixer\S Vocals\S Vocals 5		1183860
+	558175762	M Harp 3	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\M Harp 3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Harp\Harp Mixer\M Harp\M Harp 3		1314928
+	603255568	S Vocals 1	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\S Vocals 1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Vocals\Vocals Mixer\S Vocals\S Vocals 1		921716
+	632614817	06_Valleys	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\Tracks\06_Valleys_1_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Soundtrack\Tracks\06_Valleys		33556320
+	633420515	M Harp 2	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\M Harp 2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Harp\Harp Mixer\M Harp\M Harp 2		1314928
+	644939823	S Harp 1	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\S Harp 1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Harp\Harp Mixer\S Harp\S Harp 1		921712
+	651919191	M Vocals 4	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\M Vocals 4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Vocals\Vocals Mixer\M Vocals\M Vocals 4		448724
+	666818033	S Vocals 3	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\S Vocals 3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Vocals\Vocals Mixer\S Vocals\S Vocals 3		921716
+	678021253	02_Terra	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\Tracks\02_Terra_1_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Soundtrack\Tracks\02_Terra		35522400
+	685488279	05_Clouds	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\Tracks\05_Clouds_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Soundtrack\Tracks\05_Clouds		35965036
+	691889834	M Vocals 2	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\M Vocals 2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Vocals\Vocals Mixer\M Vocals\M Vocals 2		433276
+	752998924	Note L Bounced	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\Note L Bounced_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Combined\Note L Bounced		921768
+	756077836	Note Alpha5 Bounced	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\Note Alpha5 Bounced_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Combined\Note Alpha5 Bounced		448724
+	760254271	Note Alpha3 Bounced_1	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\Note Alpha3 Bounced_1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Combined\Note Alpha3 Bounced_1		534776
+	776960295	S Vocals 4	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\S Vocals 4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Vocals\Vocals Mixer\S Vocals\S Vocals 4		921716
+	791061611	S Vocals 2	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\S Vocals 2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Vocals\Vocals Mixer\S Vocals\S Vocals 2		1052788
+	806229957	Note Alpha4 Bounced	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\Note Alpha4 Bounced_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Combined\Note Alpha4 Bounced		448724
+	828264133	Note K Bounced	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\Note K Bounced_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Combined\Note K Bounced		1052788
+	831772210	M Harp 4	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\M Harp 4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Harp\Harp Mixer\M Harp\M Harp 4		1183856
+	836679703	08_Water	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\Tracks\08_Water_1_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Soundtrack\Tracks\08_Water		36046688
+	874584124	14_Ocean	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\Tracks\14_Ocean_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Soundtrack\Tracks\14_Ocean		28059964
+	949827141	Note apostrophe Bounced	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\Note apostrophe Bounced_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Combined\Note apostrophe Bounced		1183860
+	1067960651	M Harp 5	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\M Harp 5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Harp\Harp Mixer\M Harp\M Harp 5		1183856
 

@@ -252,7 +252,117 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Sky Full Length" ID="{A80D9D03-F61F-434E-819F-2E0FF38D734E}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+											<ObjectRef Name="02_Terra" ID="{D4AFAD02-6190-40A3-BC1E-6A78B43094F4}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{784CD7D9-2C59-4351-B53B-BD7207C6A565}" ShortID="195674680">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="03_Sky" ID="{5B116EC2-E146-49F5-AFDD-D75F1146BD43}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E1CC1CAA-F89D-4FC6-A1B6-F8DE92560C40}" ShortID="656436749">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="04_Celestial" ID="{88DDCA1C-8FC7-4954-8E0F-0F98808784EE}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D12AFD79-2543-4718-A043-1EAC6EF49CB1}" ShortID="282135803">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="05_Clouds" ID="{64C27D5C-1833-4EAF-BBBA-E13B81EC6743}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{5F4CC53F-187E-470F-B8F8-4487B62DCC63}" ShortID="1005755432">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="06_Valleys" ID="{3B953576-9E6A-4F07-8854-C09C57761DDE}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{05E1710E-5C61-4DA8-B80A-E048073E1163}" ShortID="535164074">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="07_Mountains" ID="{65DB8A43-01BA-4446-8A6C-D7F3A2B248D0}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F94443A6-6373-4F51-8050-E81C165DC6E9}" ShortID="265101534">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="08_Water" ID="{E17CB700-3F27-4FAB-B679-E563158A9814}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{AB159D14-CC25-407B-B109-C72F0D30B88D}" ShortID="131636527">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="13_Caves" ID="{A4D915DB-BB37-4A1F-B58E-FB8234C1F649}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B728BB3F-0885-4FC7-8D93-E1024B7EA825}" ShortID="1012930296">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="14_Ocean" ID="{6AB7BB5A-5F08-4B80-B4A4-830640E81B3E}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{8A8F0BF5-09EB-4548-9ABE-A915D7B9BB78}" ShortID="674509246">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="15_Birds" ID="{05DBD538-E412-4E63-9CE7-B0C51C8F694C}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B2C2F710-92AF-4E53-A4EE-8F5D66A19EA7}" ShortID="145761890">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="16_Bees" ID="{BCD280A5-6DF9-42BF-8346-79D0CE3D9881}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{04E0CE8B-B045-4E93-BE7D-97F3A41DC2F4}" ShortID="1065316849">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="20_Fish" ID="{D2CF3BC1-F3E7-475B-8DBF-B1E954E80BE2}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -266,7 +376,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Sky Full Length" ID="{A80D9D03-F61F-434E-819F-2E0FF38D734E}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+											<ObjectRef Name="03_Sky" ID="{5B116EC2-E146-49F5-AFDD-D75F1146BD43}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -277,7 +387,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Sky Full Length" ID="{A80D9D03-F61F-434E-819F-2E0FF38D734E}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+											<ObjectRef Name="03_Sky" ID="{5B116EC2-E146-49F5-AFDD-D75F1146BD43}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -288,12 +398,413 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Sky Full Length" ID="{A80D9D03-F61F-434E-819F-2E0FF38D734E}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+											<ObjectRef Name="03_Sky" ID="{5B116EC2-E146-49F5-AFDD-D75F1146BD43}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Track02_Terra" ID="{D7ABE524-C815-4498-AC38-6C6BE8F26109}">
+							<ChildrenList>
+								<Action Name="" ID="{82C2FC8B-2526-4C56-A8ED-19569FA026A5}" ShortID="280179490">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="02_Terra" ID="{D4AFAD02-6190-40A3-BC1E-6A78B43094F4}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E6575DAC-F1D2-49DA-9AB9-31E37EE9E5AB}" ShortID="197706741">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="12"/>
+										<Property Name="Volume" Type="Real64" Value="-96"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="02_Terra" ID="{D4AFAD02-6190-40A3-BC1E-6A78B43094F4}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3AE0D8D6-BF38-4E20-A232-7348F85B12E8}" ShortID="981388865">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="12"/>
+										<Property Name="FadeTime" Type="Real64" Value="6"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="02_Terra" ID="{D4AFAD02-6190-40A3-BC1E-6A78B43094F4}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Track04_Celestial" ID="{F2573971-EB03-4C10-92AE-19B77A8333AF}">
+							<ChildrenList>
+								<Action Name="" ID="{51F9FFD6-EB72-49D1-99AE-11C44A7979F2}" ShortID="565589407">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="04_Celestial" ID="{88DDCA1C-8FC7-4954-8E0F-0F98808784EE}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{29FF34EB-5772-46DC-8532-64AA83E01E29}" ShortID="851284640">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="12"/>
+										<Property Name="Volume" Type="Real64" Value="-96"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="04_Celestial" ID="{88DDCA1C-8FC7-4954-8E0F-0F98808784EE}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7B36BADE-C614-48A2-AD9A-66D7A0A8463D}" ShortID="12504353">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="12"/>
+										<Property Name="FadeTime" Type="Real64" Value="6"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="04_Celestial" ID="{88DDCA1C-8FC7-4954-8E0F-0F98808784EE}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Track05_Clouds" ID="{5C3FBB72-20EE-4D90-B4AF-68709A732F6A}">
+							<ChildrenList>
+								<Action Name="" ID="{E54D95B8-B4CD-4FDC-8157-6FB3198A0F07}" ShortID="1021691022">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="05_Clouds" ID="{64C27D5C-1833-4EAF-BBBA-E13B81EC6743}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7BC941B4-1A43-49CC-8C8F-DB1BA0467058}" ShortID="1057829962">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="12"/>
+										<Property Name="Volume" Type="Real64" Value="-96"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="05_Clouds" ID="{64C27D5C-1833-4EAF-BBBA-E13B81EC6743}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{CF94E001-9332-4873-B945-E055FF4F4FD3}" ShortID="811658998">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="12"/>
+										<Property Name="FadeTime" Type="Real64" Value="6"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="05_Clouds" ID="{64C27D5C-1833-4EAF-BBBA-E13B81EC6743}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Track06_Valleys" ID="{DB7A09F7-B45E-4531-9E8D-4B6E66EF949D}">
+							<ChildrenList>
+								<Action Name="" ID="{1BF0EAA7-D1E5-4431-9827-DED1C95BFFCF}" ShortID="760664734">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="06_Valleys" ID="{3B953576-9E6A-4F07-8854-C09C57761DDE}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C0E83D3A-AB4D-441E-A5D5-8155B3EEEBC7}" ShortID="1001781321">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="12"/>
+										<Property Name="Volume" Type="Real64" Value="-96"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="06_Valleys" ID="{3B953576-9E6A-4F07-8854-C09C57761DDE}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{038071B5-6334-4475-8F73-25B407B8FB4C}" ShortID="934227386">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="12"/>
+										<Property Name="FadeTime" Type="Real64" Value="6"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="06_Valleys" ID="{3B953576-9E6A-4F07-8854-C09C57761DDE}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Track07_Mountains" ID="{FC967DEA-332E-4C75-A663-D4244F8A8DDD}">
+							<ChildrenList>
+								<Action Name="" ID="{085B450B-D82F-452F-8E03-6AEB87771522}" ShortID="255825619">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="07_Mountains" ID="{65DB8A43-01BA-4446-8A6C-D7F3A2B248D0}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{6263FEE2-7B2A-46FE-8946-45A30DA24170}" ShortID="158263955">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="12"/>
+										<Property Name="Volume" Type="Real64" Value="-96"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="07_Mountains" ID="{65DB8A43-01BA-4446-8A6C-D7F3A2B248D0}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A8EEFDBB-0A5A-4AE2-A0D9-0FD1DE8DCBF9}" ShortID="927285307">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="12"/>
+										<Property Name="FadeTime" Type="Real64" Value="6"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="07_Mountains" ID="{65DB8A43-01BA-4446-8A6C-D7F3A2B248D0}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Track08_Water" ID="{65E7E2FB-EF1D-483F-8A54-7693A147F0D7}">
+							<ChildrenList>
+								<Action Name="" ID="{A72F13B1-E295-4DED-BCB8-F099CF839741}" ShortID="99974451">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="08_Water" ID="{E17CB700-3F27-4FAB-B679-E563158A9814}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D2D5B2B4-7666-4A8D-BC2C-114AE90701B4}" ShortID="573094808">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="12"/>
+										<Property Name="Volume" Type="Real64" Value="-96"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="08_Water" ID="{E17CB700-3F27-4FAB-B679-E563158A9814}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{AFCA8C15-ACF4-45BF-B075-7C006A70B2D0}" ShortID="348256797">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="12"/>
+										<Property Name="FadeTime" Type="Real64" Value="6"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="08_Water" ID="{E17CB700-3F27-4FAB-B679-E563158A9814}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Track09_Grass" ID="{9DADE9C1-2DAB-4FD9-8133-3AB247B1C90A}"/>
+						<Event Name="Track11_Trees" ID="{1393979B-C39B-4FF9-81A7-29D817D746D9}"/>
+						<Event Name="Track12_Sheep" ID="{D437D9BA-4D4A-4181-A6C6-983EF0F2093D}"/>
+						<Event Name="Track13_Caves" ID="{3B75A1D4-4F91-4B24-8040-5618AF79D3CC}">
+							<ChildrenList>
+								<Action Name="" ID="{5E92AE43-8DC8-45AA-AE93-F4EC4ABA1F56}" ShortID="1054786576">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="12"/>
+										<Property Name="FadeTime" Type="Real64" Value="6"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="13_Caves" ID="{A4D915DB-BB37-4A1F-B58E-FB8234C1F649}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{5A7FA2AE-2144-4872-A722-B5587D7AFE0F}" ShortID="868377650">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="12"/>
+										<Property Name="Volume" Type="Real64" Value="-96"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="13_Caves" ID="{A4D915DB-BB37-4A1F-B58E-FB8234C1F649}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{4B87D7D7-26C9-40FC-9EC1-80BEB877CB13}" ShortID="146230638">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="13_Caves" ID="{A4D915DB-BB37-4A1F-B58E-FB8234C1F649}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Track14_Ocean" ID="{83B0D91E-56C3-4312-902F-94B406521929}">
+							<ChildrenList>
+								<Action Name="" ID="{AFB47C8C-D2FC-4946-833C-3CC2FAC00F6D}" ShortID="1026363303">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="12"/>
+										<Property Name="FadeTime" Type="Real64" Value="6"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="14_Ocean" ID="{6AB7BB5A-5F08-4B80-B4A4-830640E81B3E}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{4A9034DC-4DE9-44A8-9534-6E1C00E0818A}" ShortID="811462085">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="12"/>
+										<Property Name="Volume" Type="Real64" Value="-96"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="14_Ocean" ID="{6AB7BB5A-5F08-4B80-B4A4-830640E81B3E}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{217786BB-4394-4F7E-BED5-E16EB02A56FC}" ShortID="328740059">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="14_Ocean" ID="{6AB7BB5A-5F08-4B80-B4A4-830640E81B3E}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Track15_Birds" ID="{EF38C655-D820-4359-8AB0-148EC7FC7034}">
+							<ChildrenList>
+								<Action Name="" ID="{34DFD684-E6F6-42B5-8AD3-0CD0BC66B186}" ShortID="56338198">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="12"/>
+										<Property Name="FadeTime" Type="Real64" Value="6"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="15_Birds" ID="{05DBD538-E412-4E63-9CE7-B0C51C8F694C}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{068C6F09-D288-488C-8EF0-2B943B941636}" ShortID="123680333">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="12"/>
+										<Property Name="Volume" Type="Real64" Value="-96"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="15_Birds" ID="{05DBD538-E412-4E63-9CE7-B0C51C8F694C}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{72E0D84D-BB5E-4519-9971-403914CCA811}" ShortID="599998956">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="15_Birds" ID="{05DBD538-E412-4E63-9CE7-B0C51C8F694C}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Track16_Bees" ID="{6F5138CB-AB25-472E-BC4B-A9E611A9F1AD}">
+							<ChildrenList>
+								<Action Name="" ID="{48D6487C-197D-4066-9D6E-78CEEDA9FD0B}" ShortID="1040450358">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="12"/>
+										<Property Name="FadeTime" Type="Real64" Value="6"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="16_Bees" ID="{BCD280A5-6DF9-42BF-8346-79D0CE3D9881}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D6FC9B39-7FFD-4E9E-A002-EFD2533BAD33}" ShortID="351744430">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="12"/>
+										<Property Name="Volume" Type="Real64" Value="-96"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="16_Bees" ID="{BCD280A5-6DF9-42BF-8346-79D0CE3D9881}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{FBA0AB09-27CA-4EE3-97DF-595511856FBC}" ShortID="224639185">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="16_Bees" ID="{BCD280A5-6DF9-42BF-8346-79D0CE3D9881}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Track18_Mothman" ID="{ADB5F653-734B-46A1-A0FE-8B9076D72B03}"/>
+						<Event Name="Track20_Fish" ID="{ED32F681-2017-4466-AED5-50C4D2551B15}">
+							<ChildrenList>
+								<Action Name="" ID="{882C1115-6E83-4B3E-A6A1-D24E6DF47348}" ShortID="871179274">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="12"/>
+										<Property Name="FadeTime" Type="Real64" Value="6"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="20_Fish" ID="{D2CF3BC1-F3E7-475B-8DBF-B1E954E80BE2}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F72CB240-E585-43B0-88DF-449EB893E8ED}" ShortID="920954399">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="12"/>
+										<Property Name="Volume" Type="Real64" Value="-96"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="20_Fish" ID="{D2CF3BC1-F3E7-475B-8DBF-B1E954E80BE2}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{29750961-2C3F-4659-A744-F2889EC7A47F}" ShortID="599967858">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="20_Fish" ID="{D2CF3BC1-F3E7-475B-8DBF-B1E954E80BE2}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Track21_Fine" ID="{1E0E9CCE-5534-481E-99BC-AA1C6925B9D6}"/>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
