@@ -15,7 +15,11 @@ public class SongController : MonoBehaviour
     {
         public char noteId;
         public KeyCode key;
-        public AudioClip audio;
+
+        public string PlayAudioEvent => $"P{(P1Note ? "1" : "2")}_Note{noteId}_Harp";
+        public string ChordedAudioEvent => $"P{(P1Note ? "1" : "2")}_Note{noteId}_Vocals";
+
+        public bool P1Note => SongController.Instance.p1Notes.Contains(this);
 
         public bool Held => Input.GetKey(key);
         public bool Pressing => Input.GetKeyDown(key);
@@ -130,6 +134,7 @@ public class SongController : MonoBehaviour
             {
                 p1CurrentNote = note;
                 Debug.Log($"[p1CurrentNote={p1CurrentNote}], p2CurrentNote={p2CurrentNote}");
+                AudioController.Instance.PlayNote(note);
                 
                 if (songCoroutine == null)
                 {
@@ -151,6 +156,7 @@ public class SongController : MonoBehaviour
             {
                 p2CurrentNote = note;
                 Debug.Log($"p1CurrentNote={p1CurrentNote}, [p2CurrentNote={p2CurrentNote}]");
+                AudioController.Instance.PlayNote(note);
                 
                 if (songCoroutine == null)
                 {
@@ -187,7 +193,7 @@ public class SongController : MonoBehaviour
                         p1Note = p1CurrentNote;
                         if (p1Note != null && p2Note != null) // if both players played a note, play the audio
                         {
-                            AudioController.Instance.StartNotes(p1Note, p2Note);
+                            AudioController.Instance.ChordNotes(p1Note, p2Note);
                         }
                     }
                     else if (p1CurrentNote != p1Note) // or, if p1 already played a different note for the current chord
@@ -195,7 +201,7 @@ public class SongController : MonoBehaviour
                         if (timeElapsed < holdTime - fudgeTime) // if it's not within fudgeTime before the next chord
                         {
                             Debug.LogWarning("Song failed -- p1 note too early");
-                            AudioController.Instance.StartNotes(p1CurrentNote, null);
+                            // AudioController.Instance.ChordNotes(p1CurrentNote, null);
                             SongFailed();
                             yield break;
                         }
@@ -210,7 +216,7 @@ public class SongController : MonoBehaviour
                         p2Note = p2CurrentNote;
                         if (p1Note != null && p2Note != null) // if both players played a note, play the audio
                         {
-                            AudioController.Instance.StartNotes(p1Note, p2Note);
+                            AudioController.Instance.ChordNotes(p1Note, p2Note);
                         }
                     }
                     else if (p2CurrentNote != p2Note) // or, if p2 already played a different note for the current chord
@@ -218,7 +224,7 @@ public class SongController : MonoBehaviour
                         if (timeElapsed < holdTime - fudgeTime) // if it's not within fudgeTime before the next chord
                         {
                             Debug.LogWarning("Song failed -- p2 note too early");
-                            AudioController.Instance.StartNotes(null, p2CurrentNote);
+                            // AudioController.Instance.ChordNotes(null, p2CurrentNote);
                             SongFailed();
                             yield break;
                         }
@@ -231,14 +237,14 @@ public class SongController : MonoBehaviour
                     if (p1Note == null)
                     {
                         Debug.LogWarning("Song failed -- p1 missed note");
-                        AudioController.Instance.StartNotes(null, p2Note);
+                        // AudioController.Instance.ChordNotes(null, p2Note);
                         SongFailed();
                         yield break;
                     }
                     if (p2Note == null)
                     {
                         Debug.LogWarning("Song failed -- p2 missed note");
-                        AudioController.Instance.StartNotes(p1Note, null);
+                        // AudioController.Instance.ChordNotes(p1Note, null);
                         SongFailed();
                         yield break;
                     }

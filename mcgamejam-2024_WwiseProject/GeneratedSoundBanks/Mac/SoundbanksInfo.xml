@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{D326F752-7CA2-0A14-FDB1-63ECE89D0199}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{DEDE3E6E-AA14-A941-6230-DEA54BF0AC7E}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="18117958" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>M Vocals 1.wav</ShortName>
+					<CachePath>SFX/M Vocals 1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="39240185" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>S Harp 3.wav</ShortName>
+					<CachePath>SFX/S Harp 3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="70779560" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>M Vocals 3.wav</ShortName>
+					<CachePath>SFX/M Vocals 3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="168375848" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>S Harp 4.wav</ShortName>
+					<CachePath>SFX/S Harp 4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="189300776" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>M Vocals 5.wav</ShortName>
+					<CachePath>SFX/M Vocals 5_818F3B66.wem</CachePath>
+				</File>
+				<File Id="255504895" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>S Harp 2.wav</ShortName>
+					<CachePath>SFX/S Harp 2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="423991463" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>S Harp 5.wav</ShortName>
+					<CachePath>SFX/S Harp 5_818F3B66.wem</CachePath>
+				</File>
+				<File Id="500835279" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>M Harp 1.wav</ShortName>
+					<CachePath>SFX/M Harp 1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="547567699" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>S Vocals 5.wav</ShortName>
+					<CachePath>SFX/S Vocals 5_818F3B66.wem</CachePath>
+				</File>
+				<File Id="558175762" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>M Harp 3.wav</ShortName>
+					<CachePath>SFX/M Harp 3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="603255568" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>S Vocals 1.wav</ShortName>
+					<CachePath>SFX/S Vocals 1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="633420515" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>M Harp 2.wav</ShortName>
+					<CachePath>SFX/M Harp 2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="644939823" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>S Harp 1.wav</ShortName>
+					<CachePath>SFX/S Harp 1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="651919191" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>M Vocals 4.wav</ShortName>
+					<CachePath>SFX/M Vocals 4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="666818033" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>S Vocals 3.wav</ShortName>
+					<CachePath>SFX/S Vocals 3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="691889834" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>M Vocals 2.wav</ShortName>
+					<CachePath>SFX/M Vocals 2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="776960295" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>S Vocals 4.wav</ShortName>
+					<CachePath>SFX/S Vocals 4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="791061611" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>S Vocals 2.wav</ShortName>
+					<CachePath>SFX/S Vocals 2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="831772210" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>M Harp 4.wav</ShortName>
+					<CachePath>SFX/M Harp 4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1067960651" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>M Harp 5.wav</ShortName>
+					<CachePath>SFX/M Harp 5_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2316034272" Name="P1_Note1_Harp" DurationType="OneShot" DurationMin="7.528" DurationMax="7.528">
+					<MediaRefs>
+						<MediaRef Id="500835279"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4051428877" Name="P1_Note1_Vocals" DurationType="OneShot" DurationMin="4.7786875" DurationMax="4.7786875">
+					<MediaRefs>
+						<MediaRef Id="18117958"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="80558213" Name="P1_Note2_Harp" DurationType="OneShot" DurationMin="6.845333" DurationMax="6.845333">
+					<MediaRefs>
+						<MediaRef Id="633420515"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="404757848" Name="P1_Note2_Vocals" DurationType="OneShot" DurationMin="2.253646" DurationMax="2.253646">
+					<MediaRefs>
+						<MediaRef Id="691889834"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1816227430" Name="P1_Note3_Harp" DurationType="OneShot" DurationMin="6.845333" DurationMax="6.845333">
+					<MediaRefs>
+						<MediaRef Id="558175762"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1805739855" Name="P1_Note3_Vocals" DurationType="OneShot" DurationMin="2.7820415" DurationMax="2.7820415">
+					<MediaRefs>
+						<MediaRef Id="70779560"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3285806291" Name="P1_Note4_Harp" DurationType="OneShot" DurationMin="6.162667" DurationMax="6.162667">
+					<MediaRefs>
+						<MediaRef Id="831772210"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="536765770" Name="P1_Note4_Vocals" DurationType="OneShot" DurationMin="2.334104" DurationMax="2.334104">
+					<MediaRefs>
+						<MediaRef Id="651919191"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="640283604" Name="P1_Note5_Harp" DurationType="OneShot" DurationMin="6.162667" DurationMax="6.162667">
+					<MediaRefs>
+						<MediaRef Id="1067960651"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="567321401" Name="P1_Note5_Vocals" DurationType="OneShot" DurationMin="2.334104" DurationMax="2.334104">
+					<MediaRefs>
+						<MediaRef Id="189300776"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2020448509" Name="P2_Note1_Harp" DurationType="OneShot" DurationMin="4.7973332" DurationMax="4.7973332">
+					<MediaRefs>
+						<MediaRef Id="644939823"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2075974304" Name="P2_Note1_Vocals" DurationType="OneShot" DurationMin="4.797354" DurationMax="4.797354">
+					<MediaRefs>
+						<MediaRef Id="603255568"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3759016632" Name="P2_Note2_Harp" DurationType="OneShot" DurationMin="4.1146665" DurationMax="4.1146665">
+					<MediaRefs>
+						<MediaRef Id="255504895"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3404541205" Name="P2_Note2_Vocals" DurationType="OneShot" DurationMin="5.480021" DurationMax="5.480021">
+					<MediaRefs>
+						<MediaRef Id="791061611"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3922734455" Name="P2_Note3_Harp" DurationType="OneShot" DurationMin="4.1146665" DurationMax="4.1146665">
+					<MediaRefs>
+						<MediaRef Id="39240185"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1888179110" Name="P2_Note3_Vocals" DurationType="OneShot" DurationMin="4.797354" DurationMax="4.797354">
+					<MediaRefs>
+						<MediaRef Id="666818033"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2767284578" Name="P2_Note4_Harp" DurationType="OneShot" DurationMin="4.7973332" DurationMax="4.7973332">
+					<MediaRefs>
+						<MediaRef Id="168375848"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2545330227" Name="P2_Note4_Vocals" DurationType="OneShot" DurationMin="4.797354" DurationMax="4.797354">
+					<MediaRefs>
+						<MediaRef Id="776960295"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1685854657" Name="P2_Note5_Harp" DurationType="OneShot" DurationMin="4.1146665" DurationMax="4.1146665">
+					<MediaRefs>
+						<MediaRef Id="423991463"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2686402364" Name="P2_Note5_Vocals" DurationType="OneShot" DurationMin="6.1626873" DurationMax="6.1626873">
+					<MediaRefs>
+						<MediaRef Id="547567699"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{771792C1-B3BD-508D-98C7-135203E54923}</FileHash>
+</SoundBanksInfo>
