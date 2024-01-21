@@ -5346,7 +5346,31 @@ MonoBehaviour:
     sceneObject: {fileID: 322424322}
     onComplete:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 1829472623}
+          m_TargetAssemblyTypeName: UnityEngine.Rigidbody, UnityEngine
+          m_MethodName: set_useGravity
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 1217900519}
+          m_TargetAssemblyTypeName: UnityEngine.Rigidbody, UnityEngine
+          m_MethodName: set_useGravity
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
     prerequisites: []
   - internalName: 03_Sky
     songString: 55
@@ -34370,6 +34394,12 @@ AudioSource:
     type: 3}
   m_PrefabInstance: {fileID: 5156518755506571349}
   m_PrefabAsset: {fileID: 0}
+--- !u!54 &1217900519 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 4096736364582615464, guid: c1cc9e09bd3698742a58759d55b7f727,
+    type: 3}
+  m_PrefabInstance: {fileID: 5156518755506571349}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1230492754 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2136342596072633228, guid: ba62c58837a79f444b411610a9ccf448,
@@ -44443,6 +44473,12 @@ GameObject:
 --- !u!82 &1829472622 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 7551577764012001046, guid: 09d053cef2b52b04a86ae9ddd97dcf13,
+    type: 3}
+  m_PrefabInstance: {fileID: 1963939503267127321}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1829472623 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 6012468261730302388, guid: 09d053cef2b52b04a86ae9ddd97dcf13,
     type: 3}
   m_PrefabInstance: {fileID: 1963939503267127321}
   m_PrefabAsset: {fileID: 0}
