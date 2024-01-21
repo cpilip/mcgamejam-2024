@@ -12,132 +12,67 @@ public class BlockoutEditor : EditorWindow
 {
     [SerializeField]
     public GameObject oldPrefab;
+    
+    private BlockoutManager bManager;
+
     [MenuItem("Tools/Blockout Editor")]
     public static void Init()
     {
         BlockoutEditor window = (BlockoutEditor)EditorWindow.GetWindow(typeof(BlockoutEditor));
         window.Show();
+
     }
 
     void OnGUI()
     {
+        bManager = FindObjectOfType<BlockoutManager>();
         GUILayout.Label("Replace Prefabs", EditorStyles.boldLabel);
         oldPrefab = (GameObject)EditorGUILayout.ObjectField("Old Prefab", oldPrefab, typeof(GameObject), false);
         
         
         EditorGUILayout.Space(10);
 
-        if (GUILayout.Button("Hide/Show All Invisible Walls"))
+        if (GUILayout.Button("buildTerra"))
         {
-            GameObject[] wallBlocks;
-            wallBlocks = GameObject.FindGameObjectsWithTag("Invisible");
-            foreach (GameObject block in wallBlocks)
-            {
-                MeshRenderer rnd = block.GetComponent<MeshRenderer>();
-                bool state = rnd.enabled;
-                rnd.enabled = !state;
-            }
+            bManager.buildTerra();
         }
 
-        if (GUILayout.Button("Hide/Show All Invisible Riverbed Walls"))
+        if (GUILayout.Button("buildMountains"))
         {
-            GameObject[] wallBlocks;
-            wallBlocks = GameObject.FindGameObjectsWithTag("InvisibleRiverbed");
-            foreach (GameObject block in wallBlocks)
-            {
-                MeshRenderer rnd = block.GetComponent<MeshRenderer>();
-                bool state = rnd.enabled;
-                rnd.enabled = !state;
-                BoxCollider col = block.GetComponent<BoxCollider>();
-                state = col.enabled;
-                col.enabled = !state;
-            }
+            bManager.buildMountains();
         }
 
 
-        if (GUILayout.Button("Hide/Show All Water"))
+        if (GUILayout.Button("buildValleys"))
         {
-            GameObject[] waterBlocks;
-            waterBlocks = GameObject.FindGameObjectsWithTag("Water");
-            foreach (GameObject block in waterBlocks)
-            {
-                MeshRenderer rnd = block.GetComponent<MeshRenderer>();
-                bool state = rnd.enabled;
-                rnd.enabled = !state;
-                //block.transform.gameObject.tag = "Riverbed";
-            }
+            bManager.buildValleys();
         }
 
-        if (GUILayout.Button("Hide/Show All Mountain"))
+        if (GUILayout.Button("buildCaves"))
         {
-            GameObject[] mountainBlocks;
-            mountainBlocks = GameObject.FindGameObjectsWithTag("Mountain");
-            foreach (GameObject block in mountainBlocks)
-            {
-                MeshRenderer rnd = block.GetComponent<MeshRenderer>();
-                bool state = rnd.enabled;
-                rnd.enabled = !state;
-            }
-
-            GameObject[] mountainRiverbedBlocks;
-            mountainRiverbedBlocks = GameObject.FindGameObjectsWithTag("MountainRiverbed");
-            foreach (GameObject block in mountainRiverbedBlocks)
-            {
-                MeshRenderer rnd = block.GetComponent<MeshRenderer>();
-                bool state = rnd.enabled;
-                rnd.enabled = !state;
-            }
+            bManager.buildCaves();
         }
 
-        if (GUILayout.Button("Hide/Show All Riverbed"))
+        if (GUILayout.Button("buildWater"))
         {
-            GameObject[] riverbedBlocks;
-            riverbedBlocks = GameObject.FindGameObjectsWithTag("Riverbed");
-            foreach (GameObject block in riverbedBlocks)
-            {
-                MeshRenderer rnd = block.GetComponent<MeshRenderer>();
-                bool state = rnd.enabled;
-                rnd.enabled = !state;
-            }
+            bManager.buildWater();
         }
 
-        if (GUILayout.Button("Hide/Show All Caves"))
-        {
-            GameObject[] caveBlocks;
-            caveBlocks = GameObject.FindGameObjectsWithTag("Caves");
-            foreach (GameObject block in caveBlocks)
-            {
-                MeshRenderer rnd = block.GetComponent<MeshRenderer>();
-                bool state = rnd.enabled;
-                rnd.enabled = !state;
-            }
-        }
 
         if (GUILayout.Button("Reset Prefab DO NOT CLICK"))
         {
-            BlockoutFixer[] blocks;
-            blocks = GameObject.FindObjectsOfType<BlockoutFixer>();
+            GameObject block = GameObject.FindObjectOfType<BlockoutFixer>().gameObject;
 
-            GameObject p = blocks[0].gameObject.transform.parent.gameObject;
-            Debug.Log(p.transform.name + " parent");
-
-            int i = 0;
-            foreach (BlockoutFixer block in blocks)
+            for (int i = 0; i < block.transform.childCount; i++)
             {
-                GameObject o = block.gameObject;
-
-                Debug.Log(o.transform.name + " " + o.transform.position);
-
-                GameObject replacement = PrefabUtility.InstantiatePrefab(oldPrefab) as GameObject;
-                replacement.transform.position = o.transform.position;
-                replacement.transform.rotation = o.transform.rotation;
-                replacement.name = "Block_3x3x3 " + i;
-                replacement.transform.parent = p.transform;
-                replacement.tag = o.tag;
-                i++;
-
-                o.SetActive(false);
+                GameObject o = block.transform.GetChild(i).gameObject;
+                if (o.tag == "Untagged")
+                {
+                    Debug.Log(o.transform.name + " " + o.transform.position);
+                    o.tag = "Terra";
+                }
             }
+
         }
     }
 }

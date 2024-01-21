@@ -8,291 +8,210 @@ using UnityEngine;
 
 public class BlockoutManager : MonoBehaviour
 {
+    [SerializeField] private Material groundShaderMaterial;
+
+    [SerializeField]
+    private Texture2D blank_world;
+    [SerializeField]
+    private Texture2D ground;
+    [SerializeField]
+    private Texture2D grass;
+    [SerializeField]
+    private Texture2D final;
+    [SerializeField]
+    private Texture2D conlang;
+
+
     private GameObject[] invisibleRiverbedBlocks;
     private GameObject[] waterBlocks;
     private GameObject[] mountainBlocks;
     private GameObject[] mountainRiverbedBlocks;
     private GameObject[] riverbedBlocks;
     private GameObject[] caveBlocks;
+    private GameObject[] terraBlocks;
+    private GameObject[] rampBlocks;
+    private GameObject[] invisibleBlocks;
+
 
     [SerializeField]
     private int stage = 0;
 
     private void Awake()
     {
+        terraBlocks = GameObject.FindGameObjectsWithTag("Terra");
         invisibleRiverbedBlocks = GameObject.FindGameObjectsWithTag("InvisibleRiverbed");
         waterBlocks = GameObject.FindGameObjectsWithTag("Water");
         mountainBlocks = GameObject.FindGameObjectsWithTag("Mountain");
         mountainRiverbedBlocks = GameObject.FindGameObjectsWithTag("MountainRiverbed");
         riverbedBlocks = GameObject.FindGameObjectsWithTag("Riverbed");
         caveBlocks = GameObject.FindGameObjectsWithTag("Caves");
-    }
+        rampBlocks = GameObject.FindGameObjectsWithTag("Ramp");
+        invisibleBlocks = GameObject.FindGameObjectsWithTag("Invisible");
 
-    public void buildStage()
-    {
-        if (stage >= 0 && stage <= 2)
-        {
-            if (stage == 0)
-            {
-                foreach (GameObject block in mountainBlocks)
-                {
-                    MeshRenderer rnd = block.GetComponent<MeshRenderer>();
-                    bool state = rnd.enabled;
-                    rnd.enabled = !state;
-                }
-
-                foreach (GameObject block in mountainRiverbedBlocks)
-                {
-                    MeshRenderer rnd = block.GetComponent<MeshRenderer>();
-                    bool state = rnd.enabled;
-                    rnd.enabled = !state;
-                }
-
-                foreach (GameObject block in riverbedBlocks)
-                {
-                    MeshRenderer rnd = block.GetComponent<MeshRenderer>();
-                    bool state = rnd.enabled;
-                    rnd.enabled = !state;
-                }
-
-                foreach (GameObject block in caveBlocks)
-                {
-                    MeshRenderer rnd = block.GetComponent<MeshRenderer>();
-                    rnd.enabled = true;
-                }
-
-                Debug.Log("game: Built mountains.");
-            }
-
-            if (stage == 1)
-            {
-                foreach (GameObject block in riverbedBlocks)
-                {
-                    MeshRenderer rnd = block.GetComponent<MeshRenderer>();
-                    bool state = rnd.enabled;
-                    rnd.enabled = !state;
-                }
-
-                foreach (GameObject block in invisibleRiverbedBlocks)
-                {
-                    BoxCollider col = block.GetComponent<BoxCollider>();
-                    bool state = col.enabled;
-                    col.enabled = !state;
-                }
-
-                Debug.Log("game: Built riverbeds.");
-            }
-
-            if (stage == 2)
-            {
-                foreach (GameObject block in waterBlocks)
-                {
-                    MeshRenderer rnd = block.GetComponent<MeshRenderer>();
-                    bool state = rnd.enabled;
-                    rnd.enabled = !state;
-                }
-
-                Debug.Log("game: Built water.");
-            }
-
-            stage++;
-        }
-        else
-        {
-            Debug.LogError("error: Could not build stage - out of range! [" + stage + "]");
-        }
-    }
-
-    public void destroyStage()
-    {
-        if (stage >= 1 && stage <= 3)
-        {
-            if (stage == 1)
-            {
-                foreach (GameObject block in mountainBlocks)
-                {
-                    MeshRenderer rnd = block.GetComponent<MeshRenderer>();
-                    bool state = rnd.enabled;
-                    rnd.enabled = !state;
-                }
-
-                foreach (GameObject block in mountainRiverbedBlocks)
-                {
-                    MeshRenderer rnd = block.GetComponent<MeshRenderer>();
-                    bool state = rnd.enabled;
-                    rnd.enabled = !state;
-                }
-
-                foreach (GameObject block in riverbedBlocks)
-                {
-                    MeshRenderer rnd = block.GetComponent<MeshRenderer>();
-                    bool state = rnd.enabled;
-                    rnd.enabled = !state;
-                }
-
-                foreach (GameObject block in caveBlocks)
-                {
-                    MeshRenderer rnd = block.GetComponent<MeshRenderer>();
-                    rnd.enabled = false;
-                }
-                
-                Debug.Log("game: Destroyed mountains.");
-            }
-
-            if (stage == 2)
-            {
-                foreach (GameObject block in riverbedBlocks)
-                {
-                    MeshRenderer rnd = block.GetComponent<MeshRenderer>();
-                    bool state = rnd.enabled;
-                    rnd.enabled = !state;
-                }
-
-                foreach (GameObject block in invisibleRiverbedBlocks)
-                {
-                    BoxCollider col = block.GetComponent<BoxCollider>();
-                    bool state = col.enabled;
-                    col.enabled = !state;
-                }
-
-                Debug.Log("game: Destroyed riverbeds.");
-            }
-
-            if (stage == 3)
-            {
-                foreach (GameObject block in waterBlocks)
-                {
-                    MeshRenderer rnd = block.GetComponent<MeshRenderer>();
-                    bool state = rnd.enabled;
-                    rnd.enabled = !state;
-                }
-
-                Debug.Log("game: Destroyed water.");
-            }
-
-            stage--;
-        }
-        else
-        {
-            Debug.LogError("error: Could not destroy stage - out of range! [" + stage + "]");
-        }
-    }
-
-    public void buildCaves()
-    {
-        if (stage >= 1)
-        {
-            foreach (GameObject block in caveBlocks)
-            {
-                MeshRenderer rnd = block.GetComponent<MeshRenderer>();
-                rnd.enabled = false;
-            }
-        }
-    }
-
-    public void destroyCaves()
-    {
-        if (stage >= 1)
-        {
-            foreach (GameObject block in caveBlocks)
-            {
-                MeshRenderer rnd = block.GetComponent<MeshRenderer>();
-                rnd.enabled = true;
-            }
-        }
-    }
-
-    void Update()
-    {
-        // if (Input.GetKeyDown(KeyCode.Alpha1))
-        // {
-        //     buildStage();
-        // }
-        // else if (Input.GetKeyDown(KeyCode.Alpha2))
-        // {
-        //     destroyStage();
-        // }
-        // else if (Input.GetKeyDown(KeyCode.Alpha3))
-        // {
-        //     buildCaves();
-        // }
-        // else if (Input.GetKeyDown(KeyCode.Alpha4))
-        // {
-        //     destroyCaves();
-        // }
-    }
-
-    public void buildMountains()
-    {
-        if (stage != 0) return;
-        
-        foreach (GameObject block in mountainBlocks)
+        // Convert to ground from blankness
+        foreach (GameObject block in terraBlocks)
         {
             MeshRenderer rnd = block.GetComponent<MeshRenderer>();
-            bool state = rnd.enabled;
-            rnd.enabled = !state;
+            BoxCollider col = block.GetComponent<BoxCollider>();
+
+            rnd.enabled = true;
+            col.enabled = false;
         }
 
         foreach (GameObject block in mountainRiverbedBlocks)
         {
             MeshRenderer rnd = block.GetComponent<MeshRenderer>();
-            bool state = rnd.enabled;
-            rnd.enabled = !state;
+            BoxCollider col = block.GetComponent<BoxCollider>();
+
+            rnd.enabled = true;
+            col.enabled = true;
+        }
+
+        foreach (GameObject block in invisibleRiverbedBlocks)
+        {
+            MeshRenderer rnd = block.GetComponent<MeshRenderer>();
+            BoxCollider col = block.GetComponent<BoxCollider>();
+
+            rnd.enabled = false;
+            col.enabled = false;
+        }
+
+        foreach (GameObject block in invisibleBlocks)
+        {
+            MeshRenderer rnd = block.GetComponent<MeshRenderer>();
+            BoxCollider col = block.GetComponent<BoxCollider>();
+
+            rnd.enabled = false;
+            col.enabled = true;
+        }
+    }
+
+    public void buildTerra()
+    {
+        // Convert to ground from blankness
+        
+    }
+
+    public void buildValleys()
+    {
+        foreach (GameObject block in riverbedBlocks)
+        {
+            MeshRenderer rnd = block.GetComponent<MeshRenderer>();
+            BoxCollider col = block.GetComponent<BoxCollider>();
+
+            rnd.enabled = false;
+            col.enabled = false;
+        }
+
+        foreach (GameObject block in invisibleRiverbedBlocks)
+        {
+            MeshRenderer rnd = block.GetComponent<MeshRenderer>();
+            BoxCollider col = block.GetComponent<BoxCollider>();
+
+            rnd.enabled = false;
+            col.enabled = true;
+        }
+    }
+
+    public void buildMountains()
+    {
+        foreach (GameObject block in mountainBlocks)
+        {
+
+            MeshRenderer rnd = block.GetComponent<MeshRenderer>();
+            BoxCollider col = block.GetComponent<BoxCollider>();
+            
+            rnd.enabled = true;
+
+            if (col)
+            {
+                col.enabled = true;
+            }
+        }
+
+        foreach (GameObject block in rampBlocks)
+        {
+            for (int i = 0; i < block.transform.childCount; i++)
+            {
+                block.transform.GetChild(i).transform.gameObject.SetActive(true);
+            }
+        }
+
+        foreach (GameObject block in mountainRiverbedBlocks)
+        {
+            MeshRenderer rnd = block.GetComponent<MeshRenderer>();
+            BoxCollider col = block.GetComponent<BoxCollider>();
+
+            rnd.enabled = false;
+            col.enabled = false;
         }
 
         foreach (GameObject block in riverbedBlocks)
         {
             MeshRenderer rnd = block.GetComponent<MeshRenderer>();
-            bool state = rnd.enabled;
-            rnd.enabled = !state;
+            BoxCollider col = block.GetComponent<BoxCollider>();
+
+            rnd.enabled = true;
+            col.enabled = true;
         }
 
         foreach (GameObject block in caveBlocks)
         {
             MeshRenderer rnd = block.GetComponent<MeshRenderer>();
-            rnd.enabled = true;
-        }
-
-        stage++;
-
-        Debug.Log("game: Built mountains.");
-    }
-
-    public void buildRiverbeds()
-    {
-        if (stage != 1) return;
-
-        foreach (GameObject block in riverbedBlocks)
-        {
-            MeshRenderer rnd = block.GetComponent<MeshRenderer>();
-            bool state = rnd.enabled;
-            rnd.enabled = !state;
-        }
-
-        foreach (GameObject block in invisibleRiverbedBlocks)
-        {
             BoxCollider col = block.GetComponent<BoxCollider>();
-            bool state = col.enabled;
-            col.enabled = !state;
+
+            rnd.enabled = true;
+            col.enabled = true;
         }
 
-        stage++;
-
-        Debug.Log("game: Built riverbeds.");
     }
 
     public void buildWater()
     {
-        foreach (GameObject block in waterBlocks)
+        if (waterBlocks.Length == 1)
+        {
+            for (int i = 0; i <
+            waterBlocks[0].transform.childCount; i++)
+            {
+                waterBlocks[0].transform.GetChild(i).transform.gameObject.SetActive(true);
+            }
+        }
+    }
+    public void buildGrass()
+    {
+
+    }
+
+    public void buildCaves()
+    {
+        foreach (GameObject block in caveBlocks)
         {
             MeshRenderer rnd = block.GetComponent<MeshRenderer>();
-            bool state = rnd.enabled;
-            rnd.enabled = !state;
+            BoxCollider col = block.GetComponent<BoxCollider>();
+
+            rnd.enabled = false;
+            col.enabled = false;
         }
 
-        stage++;
-
-        Debug.Log("game: Built water.");
     }
+
+
+    //StartCoroutine(Fade());
+    IEnumerator Fade()
+    {
+        //groundShaderMaterial.SetFloat("_bLerp", someValue);
+        float side = groundShaderMaterial.GetFloat("_bLerp");
+
+        //if (bLerp)
+
+        //for (float alpha = 1f; alpha >= 0; alpha -= 0.1f)
+        //{
+        //    c.a = alpha;
+        //    renderer.material.color = c;
+            yield return null;
+        //}
+    }
+
+
 
 }
