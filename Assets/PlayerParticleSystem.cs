@@ -9,6 +9,7 @@ using UnityEngine;
 public class PlayerParticleSystem : MonoBehaviour
 {
     [SerializeField] private ParticleSystem notes_particle_sys;
+    [SerializeField] private ParticleSystem notes2_particle_sys;
 
     [Header("Elements")] 
     [SerializeField] private ParticleSystem land_particle_sys;
@@ -40,6 +41,7 @@ public class PlayerParticleSystem : MonoBehaviour
         }
 
         notes_particle_sys.Play(); //Emit(10);
+        notes2_particle_sys.Play();
         particleSys.Play(); //Emit(10);
 
     }
