@@ -5659,6 +5659,27 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
     prerequisites: []
+  - internalName: 09_Grass
+    songString: 11 14
+    sceneObject: {fileID: 0}
+    onComplete:
+      m_PersistentCalls:
+        m_Calls: []
+    prerequisites: []
+  - internalName: 11_Trees
+    songString: 14 35
+    sceneObject: {fileID: 0}
+    onComplete:
+      m_PersistentCalls:
+        m_Calls: []
+    prerequisites: []
+  - internalName: 12_Sheep
+    songString: 15 35
+    sceneObject: {fileID: 0}
+    onComplete:
+      m_PersistentCalls:
+        m_Calls: []
+    prerequisites: []
   - internalName: 13_Caves
     songString: 44 12
     sceneObject: {fileID: 0}
@@ -5677,6 +5698,48 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+    prerequisites: []
+  - internalName: 14_Ocean
+    songString: 22 44
+    sceneObject: {fileID: 0}
+    onComplete:
+      m_PersistentCalls:
+        m_Calls: []
+    prerequisites: []
+  - internalName: 15_Birds
+    songString: 55 15
+    sceneObject: {fileID: 0}
+    onComplete:
+      m_PersistentCalls:
+        m_Calls: []
+    prerequisites: []
+  - internalName: 16_Bees
+    songString: 55 35
+    sceneObject: {fileID: 0}
+    onComplete:
+      m_PersistentCalls:
+        m_Calls: []
+    prerequisites: []
+  - internalName: 18_Mothman
+    songString: 15 23
+    sceneObject: {fileID: 0}
+    onComplete:
+      m_PersistentCalls:
+        m_Calls: []
+    prerequisites: []
+  - internalName: 20_Fish
+    songString: 22 15
+    sceneObject: {fileID: 0}
+    onComplete:
+      m_PersistentCalls:
+        m_Calls: []
+    prerequisites: []
+  - internalName: 21_Fine
+    songString: 11 22 33 44 55
+    sceneObject: {fileID: 0}
+    onComplete:
+      m_PersistentCalls:
+        m_Calls: []
     prerequisites: []
   holdTime: 2
   fudgeTime: 1
