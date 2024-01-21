@@ -36,7 +36,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 350, y: 350}
+  m_SizeDelta: {x: 30, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7681071408224592876
 CanvasRenderer:
@@ -107,5 +107,5 @@ MonoBehaviour:
   waterWater: {fileID: 21300000, guid: d41b380b34c1e434c85638f7062c7972, type: 3}
   canFade: 0
   fadeInSpead: 0
-  fadeOutSpead: 0
+  fadeOutSpead: 2
   counterDown: 0

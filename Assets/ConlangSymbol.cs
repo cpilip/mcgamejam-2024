@@ -36,17 +36,124 @@ public class ConlangSymbol : MonoBehaviour
     public float counterDown;
     private bool fadeInCompleted;
 
-    public void Init() {
+    public void Init(SongController.Chord chord) {
 
-        
+        Sprite sprite = null;
 
+        switch(chord.p1Note.noteId) {
+            case '1': // Land
 
+                switch(chord.p2Note.noteId) {
+                case '1': // LandLand
+                    sprite = landLand;
+                    break;
+                case '2': // Water
+                    sprite = waterLandDark; 
+                    break;
+                case '3': // LandFire --> dud
+                    break;
+                case '4': //Stone
+                    sprite = stoneLandFlora;
+                    break;
+                case '5': // air
+                    sprite = airLandFauna;
+                    break;
+                }
+
+                break;
+            case '2': // Water
+
+                switch(chord.p2Note.noteId) {
+                case '1': // waterLand
+                    sprite = waterLandDark;
+                    break;
+                case '2': // WaterWater
+                    sprite = waterWater; 
+                    break;
+                case '3': // Fire
+                    sprite = fireWaterMagic;
+                    break;
+                case '4': //Stone
+                    sprite = stoneWaterDecay;
+                    break;
+                case '5': // waterair --> dud
+                    break;
+                }
+
+                break;
+            
+            case '3': // Fire
+
+                switch(chord.p2Note.noteId) {
+                case '1': // fireLand --> dud
+                    break;
+                case '2': // fireWater
+                    sprite = fireWaterMagic; 
+                    break;
+                case '3': // Firefire
+                    sprite = fireFire;
+                    break;
+                case '4': // fireStone
+                    sprite = fireStoneGrow;
+                    break;
+                case '5': // fireair
+                    sprite = airFireGrow;
+                    break;
+                }
+
+                break;
+
+            case '4': //Stone
+
+                switch(chord.p2Note.noteId) {
+                case '1': // stoneLand
+                    sprite = stoneLandFlora;
+                    break;
+                case '2': // stoneWater
+                    sprite = stoneWaterDecay; 
+                    break;
+                case '3': // stoneFire
+                    sprite = fireStoneGrow;
+                    break;
+                case '4': // stoneStone
+                    sprite = stoneStone;
+                    break;
+                case '5': // stoneair --> dud
+                    break;
+                }
+
+                break;
+
+            case '5': // air
+
+                switch(chord.p2Note.noteId) {
+                case '1': // airLand
+                    sprite = airLandFauna;
+                    break;
+                case '2': // airWater --> dud
+                    break;
+                case '3': // airfire
+                    sprite = airFireGrow;
+                    break;
+                case '4': // airStone -- dud
+                    break;
+                case '5': // airair
+                    sprite = air;
+                    break;
+                }
+
+                break;
+        }
+
+        if (sprite==null) return;
+
+        icon.sprite = sprite;
 
 
         canFade = false;
         fadeInSpead = 0.01f;
         fadeOutSpead = 0.01f;
-        counterDown = 4f;
+        counterDown = 10f;
         fadeInCompleted = false;
 
         icon.GetComponent<CanvasRenderer>().SetAlpha(0f);

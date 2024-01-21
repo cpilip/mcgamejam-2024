@@ -99,6 +99,10 @@ public class SongController : MonoBehaviour
     public float holdTime = 1f;
     public float fudgeTime = 0.25f;
 
+    [Header("UI stuff")]
+    [SerializeField] private ContraptionScript contraptionScript;
+    [SerializeField] private ConlangSymbolManager conlangSymbolManager;
+
     private Note p1CurrentNote;
     private Note p2CurrentNote;
 
@@ -248,7 +252,10 @@ public class SongController : MonoBehaviour
             
             Debug.Log($"Song completed chord ({p1Note}, {p2Note})");
 
-            chords.Add(new Chord(p1Note, p2Note));
+            var newChord = new Chord(p1Note, p2Note);
+
+            chords.Add(newChord);
+            conlangSymbolManager.InstantiateSymbolP1(newChord);
         }
         
         foreach (var song in songs)
@@ -267,6 +274,8 @@ public class SongController : MonoBehaviour
     {
         songCoroutine = null;
         
+        contraptionScript.turnOnRedLight();
+
         //TODO UI
     }
 
@@ -283,7 +292,10 @@ public class SongController : MonoBehaviour
         {
             Debug.LogWarning("Song completed -- prereqs not met");
             //TODO
+
+            contraptionScript.turnOnYellowLight();
         }
+        contraptionScript.turnOnGreenLight();
         Debug.Log($"Song completed: {song.internalName} ({ToString(song.Chords)})");
         song.onComplete?.Invoke();
     }
