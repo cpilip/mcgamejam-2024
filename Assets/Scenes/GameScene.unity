@@ -5578,8 +5578,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
     prerequisites: []
-  holdTime: 2
-  fudgeTime: 1
+  holdTime: 1
+  fudgeTime: 0.5
   contraptionScript: {fileID: 107968489}
   conlangSymbolManager: {fileID: 1275678436}
 --- !u!4 &277486735
