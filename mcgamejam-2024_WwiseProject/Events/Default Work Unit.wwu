@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{95827733-B570-4950-9FD3-43CBFBCC3C95}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{95827733-B570-4950-9FD3-43CBFBCC3C95}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Vocals" ID="{79BD5EFB-0229-4394-B71C-6B8D967BE3E4}" ShortID="683604270">
+					<ChildrenList>
+						<Event Name="P1_Note1_Vocals" ID="{868315BE-8F1C-487B-B274-BF9DB3CC57F6}">
+							<ChildrenList>
+								<Action Name="" ID="{099A354F-52F3-4E46-8D5F-3FE4D4CC167E}" ShortID="575995810">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="M Vocals 1" ID="{36DB79FD-0243-412F-B143-C1D18624BE3E}" WorkUnitID="{9BD4154D-4A53-45AF-A449-C8D9EA594441}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="P1_Note2_Vocals" ID="{420D2B9B-443F-40FD-A02D-AA7F4E997BEB}">
+							<ChildrenList>
+								<Action Name="" ID="{59F72540-C581-4BE7-AF1D-413B5F253056}" ShortID="748154476">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="M Vocals 2" ID="{619690F3-93F8-4585-9C8A-D8E2276DE2B4}" WorkUnitID="{9BD4154D-4A53-45AF-A449-C8D9EA594441}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="P1_Note3_Vocals" ID="{1458DFAD-976F-45E1-B072-690D6A66F723}">
+							<ChildrenList>
+								<Action Name="" ID="{3D45B42B-DD03-4945-9A8B-119AA562712A}" ShortID="934249921">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="M Vocals 3" ID="{47925B36-3C6D-4E4D-A9D8-AED8C7A810E6}" WorkUnitID="{9BD4154D-4A53-45AF-A449-C8D9EA594441}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="P1_Note4_Vocals" ID="{454BA12B-30B6-46FB-953D-9F02EF1C1B70}">
+							<ChildrenList>
+								<Action Name="" ID="{776C2BF5-6EF0-4B8C-917B-B00DAB3E2261}" ShortID="172124339">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="M Vocals 4" ID="{A84CDF45-BAD4-46F7-A12F-63DE5707B615}" WorkUnitID="{9BD4154D-4A53-45AF-A449-C8D9EA594441}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="P1_Note5_Vocals" ID="{39053BBD-5E9C-436B-B699-B7502EBE8399}">
+							<ChildrenList>
+								<Action Name="" ID="{B48169D6-3D45-408A-81E8-BC1051A81FDF}" ShortID="749630387">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="M Vocals 5" ID="{E771D7AD-161C-44D6-B96C-B8D9261745BF}" WorkUnitID="{9BD4154D-4A53-45AF-A449-C8D9EA594441}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="P2_Note1_Vocals" ID="{0B51CB71-FE71-4EDA-A7D7-B2CA42338174}">
+							<ChildrenList>
+								<Action Name="" ID="{07BD2B45-72B5-4BD3-A384-8D3F81D4216C}" ShortID="921516042">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="S Vocals 1" ID="{51B7C6B4-FF4F-43B4-A7DC-EB6A9F0E806A}" WorkUnitID="{9BD4154D-4A53-45AF-A449-C8D9EA594441}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="P2_Note2_Vocals" ID="{27FFCFC7-5D4F-41EF-A7D3-219C03DA3FC2}">
+							<ChildrenList>
+								<Action Name="" ID="{D5737F15-9493-40DA-AAA4-980D75AD590B}" ShortID="214084615">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="S Vocals 2" ID="{662CB234-CE32-4609-BB33-632BAA4C3B3F}" WorkUnitID="{9BD4154D-4A53-45AF-A449-C8D9EA594441}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="P2_Note3_Vocals" ID="{CAF360FC-E2B8-42AF-ABDC-88B8393014E9}">
+							<ChildrenList>
+								<Action Name="" ID="{03D2BF7E-BCA2-450D-918C-C391CF6190A9}" ShortID="441355568">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="S Vocals 3" ID="{1ABB5FDF-798F-4E4A-A670-40FC503EE651}" WorkUnitID="{9BD4154D-4A53-45AF-A449-C8D9EA594441}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="P2_Note4_Vocals" ID="{82FB91FB-FBEE-42E8-B9BD-9179348974C4}">
+							<ChildrenList>
+								<Action Name="" ID="{7B0775D2-1763-402D-92A3-B878E86BCD5D}" ShortID="716862380">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="S Vocals 4" ID="{10CA0B59-3BD4-455A-9FCB-8298E15858AA}" WorkUnitID="{9BD4154D-4A53-45AF-A449-C8D9EA594441}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="P2_Note5_Vocals" ID="{28D61F3D-4A57-4350-8C10-52D139F0F931}">
+							<ChildrenList>
+								<Action Name="" ID="{E6385CE9-978B-4799-ABA8-2648253A74FA}" ShortID="1036016480">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="S Vocals 5" ID="{E75B75C4-B715-4E08-95C9-93B01BD15C14}" WorkUnitID="{9BD4154D-4A53-45AF-A449-C8D9EA594441}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Harps" ID="{6ACC3903-4B62-4B80-8DE0-546D700B0916}" ShortID="391805460">
+					<ChildrenList>
+						<Event Name="P1_Note1_Harp" ID="{DD8DB058-0A0A-4488-B1D5-D31CA8144643}">
+							<ChildrenList>
+								<Action Name="" ID="{B3726797-2B24-428D-A19A-33740EBD1B62}" ShortID="531886108">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="M Harp 1" ID="{33D72E78-E577-47BA-BE9C-764F2231B093}" WorkUnitID="{9BD4154D-4A53-45AF-A449-C8D9EA594441}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="P1_Note2_Harp" ID="{0880BB79-75D7-4BB7-B3E0-C1402EDD466A}">
+							<ChildrenList>
+								<Action Name="" ID="{56280DFA-5645-49EB-B11D-A8E2E0311F81}" ShortID="315028738">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="M Harp 2" ID="{6715AC7F-FDBC-430F-99F9-84EF909CFBF2}" WorkUnitID="{9BD4154D-4A53-45AF-A449-C8D9EA594441}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="P1_Note3_Harp" ID="{83E23594-EC6C-4CD0-BEE3-F27D167F5D09}">
+							<ChildrenList>
+								<Action Name="" ID="{A8C7EF60-5619-4BC5-BC58-2CB598AFFCF9}" ShortID="404582105">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="M Harp 3" ID="{1EC903B3-BD1C-4B3C-A8C5-3E3A36D84374}" WorkUnitID="{9BD4154D-4A53-45AF-A449-C8D9EA594441}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="P1_Note4_Harp" ID="{AA57FB2A-1DC1-4A1E-8A9A-86FCABA7E538}">
+							<ChildrenList>
+								<Action Name="" ID="{E6EA3224-BC7D-4E32-AD9D-CE10F67516C0}" ShortID="762580772">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="M Harp 4" ID="{0D94912F-2BE6-4D48-87AC-FB2A18A4817A}" WorkUnitID="{9BD4154D-4A53-45AF-A449-C8D9EA594441}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="P1_Note5_Harp" ID="{224250D6-24CE-41FE-B37D-6F746844D38B}">
+							<ChildrenList>
+								<Action Name="" ID="{4AE5D3D0-4C8C-4AFA-B8B0-77459574E5FF}" ShortID="548032290">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="M Harp 5" ID="{6BC4700D-28AA-4FFC-A549-D9CBD30C867B}" WorkUnitID="{9BD4154D-4A53-45AF-A449-C8D9EA594441}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="P2_Note1_Harp" ID="{ABC9A9DE-5B84-41E4-ACFD-DCF1330B9288}">
+							<ChildrenList>
+								<Action Name="" ID="{2FED6992-5DDE-45AF-BEBD-3E3B277339BB}" ShortID="876249666">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="S Harp 1" ID="{61CC2B3E-A85D-43A4-90D2-A0C1F628D185}" WorkUnitID="{9BD4154D-4A53-45AF-A449-C8D9EA594441}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="P2_Note2_Harp" ID="{A991E6DA-0FAA-4828-93F6-DF79E6E6337B}">
+							<ChildrenList>
+								<Action Name="" ID="{9EEC8095-5BC3-4182-B2CB-CBF64251AA54}" ShortID="832478262">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="S Harp 2" ID="{F65028D1-C3D1-4F4C-AE42-173223513B36}" WorkUnitID="{9BD4154D-4A53-45AF-A449-C8D9EA594441}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="P2_Note3_Harp" ID="{08C80B37-D3D9-4B16-8003-6E63E7247799}">
+							<ChildrenList>
+								<Action Name="" ID="{FFA06A46-E4FE-46F1-AFF9-35A3800E57FC}" ShortID="758072704">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="S Harp 3" ID="{812955FE-F726-4103-8BAD-8B7F63A26BCF}" WorkUnitID="{9BD4154D-4A53-45AF-A449-C8D9EA594441}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="P2_Note4_Harp" ID="{1D900245-B408-4CC5-A1B5-B65A5F2D7768}">
+							<ChildrenList>
+								<Action Name="" ID="{64DFBBD7-B937-4BEC-921B-C77C107F8CE8}" ShortID="24428227">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="S Harp 4" ID="{99F91478-5998-43B6-A3D0-9963197ECE86}" WorkUnitID="{9BD4154D-4A53-45AF-A449-C8D9EA594441}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="P2_Note5_Harp" ID="{915A976C-3A2E-4DAB-8F74-8483C0E14301}">
+							<ChildrenList>
+								<Action Name="" ID="{0F657DEC-C2AC-498E-9298-EF43ACCA8886}" ShortID="119437018">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="S Harp 5" ID="{DCB5A592-5593-4CAA-AA64-823D34FBBBE8}" WorkUnitID="{9BD4154D-4A53-45AF-A449-C8D9EA594441}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

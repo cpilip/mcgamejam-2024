@@ -17,9 +17,6 @@ public class FollowPlayers : MonoBehaviour
 
     private void FixedUpdate() {
         Vector3 cameraCoords = (player1.transform.position + player2.transform.position)/2;
-        cameraCoords.x+=15;
-        cameraCoords.y = 7;
-        cameraCoords.z-=15;
 
         transform.position = Vector3.MoveTowards(transform.position, cameraCoords, Time.deltaTime * speed);
     }

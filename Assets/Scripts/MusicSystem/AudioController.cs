@@ -21,16 +21,29 @@ public class AudioController : MonoBehaviour
         Instance = this;
     }
 
-    public void StartNotes(SongController.Note p1Note, SongController.Note p2Note)
+    public void PlayNote(SongController.Note note)
     {
-        StopNotes();
-        if (p1Note != null) {
-            player1AudioSource.PlayOneShot(p1Note.audio);
+        PostEvent(note.PlayAudioEvent);
+    }
+    
+    public void PostEvent(string eventName)
+    {
+        AkSoundEngine.PostEvent(eventName, gameObject);
+    }
+
+    public void ChordNotes(SongController.Note p1Note, SongController.Note p2Note)
+    {
+        // StopNotes();
+
+        if (p1Note != null)
+        {
+            PostEvent(p1Note.ChordedAudioEvent);
             
             player1ParticleSystem.DoParticleEffectForNote(p1Note);
         }
-        if (p2Note != null) {
-            player2AudioSource.PlayOneShot(p2Note.audio);
+        if (p2Note != null)
+        {
+            PostEvent(p2Note.ChordedAudioEvent);
 
             player2ParticleSystem.DoParticleEffectForNote(p2Note);
         }
@@ -38,7 +51,7 @@ public class AudioController : MonoBehaviour
 
     public void StopNotes()
     {
-        player1AudioSource.Stop();
-        player2AudioSource.Stop();
+        // player1AudioSource.Stop();
+        // player2AudioSource.Stop();
     }
 }
