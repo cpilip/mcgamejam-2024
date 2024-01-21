@@ -66,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ce55e1cac32813949ac8594036ebaf47, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -105,6 +105,7 @@ MonoBehaviour:
   waterLandDark: {fileID: 21300000, guid: 5a155531622a0774bae5f11279c72c5a, type: 3}
   waterSolo: {fileID: 21300000, guid: c0bace8368bf0e64fb9121f57f81a213, type: 3}
   waterWater: {fileID: 21300000, guid: d41b380b34c1e434c85638f7062c7972, type: 3}
+  dud: {fileID: 0}
   canFade: 0
   fadeInSpead: 0
   fadeOutSpead: 2

@@ -818,7 +818,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Sophie
+  m_text: Sophie Lane
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 354b10cb74e248b45a4b595c6aef4397, type: 2}
   m_sharedMaterial: {fileID: 1997951424237031479, guid: 354b10cb74e248b45a4b595c6aef4397,
@@ -1076,7 +1076,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -0.50002444, y: -99.00001}
-  m_SizeDelta: {x: 280, y: 50}
+  m_SizeDelta: {x: 300, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &831180544
 MonoBehaviour:
@@ -1098,7 +1098,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: for lending her voice to the Sun
+  m_text: for lending their voice to the Sun
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 354b10cb74e248b45a4b595c6aef4397, type: 2}
   m_sharedMaterial: {fileID: 1997951424237031479, guid: 354b10cb74e248b45a4b595c6aef4397,

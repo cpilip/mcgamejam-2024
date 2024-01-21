@@ -49,15 +49,26 @@ public class SongController : MonoBehaviour
             this.p2Note = p2Note;
         }
 
-        // public override bool Equals(object o)
-        // {
-        //     if (o is Chord other)
-        //     {
-        //         return (this.p1Note.noteId == other.p1Note.noteId && this.p2Note.noteId == other.p2Note.noteId) ||
-        //                (this.p1Note.noteId == other.p2Note.noteId && this.p2Note.noteId == other.p1Note.noteId);
-        //     }
-        //     return false;
-        // }
+        public override string ToString() =>
+            (p1Note.noteId < p2Note.noteId)
+                ? $"{p1Note.noteId}{p2Note.noteId}"
+                : $"{p2Note.noteId}{p1Note.noteId}";
+
+        public override bool Equals(object o)
+        {
+            if (o is Chord other)
+            {
+                return this.GetHashCode() == other.GetHashCode();
+            }
+            return false;
+        }
+
+        public override int GetHashCode()
+        {
+            return (p1Note.noteId < p2Note.noteId)
+                ? HashCode.Combine(p1Note, p2Note)
+                : HashCode.Combine(p2Note, p1Note);
+        }
     }
 
     [Serializable]
@@ -81,24 +92,10 @@ public class SongController : MonoBehaviour
 
         private List<Chord> _chords;
 
-        public bool Matches(List<Chord> o)
-        {
-            if (o.Count != Chords.Count) return false;
+        public HashSet<Chord> ChordsSet => _chordsSet ??= Chords.ToHashSet();
+        private HashSet<Chord> _chordsSet;
 
-            for (int i = 0; i < Chords.Count; i++)
-            {
-                var thisNote1 = Chords[i].p1Note.noteId;
-                var thisNote2 = Chords[i].p2Note.noteId;
-                var otherNote1 = o[i].p1Note.noteId;
-                var otherNote2 = o[i].p2Note.noteId;
-                if (!((thisNote1 == otherNote1 && thisNote2 == otherNote2) ||
-                      (thisNote1 == otherNote2 && thisNote2 == otherNote1)))
-                {
-                    return false;
-                }
-            }
-            return true;
-        }
+        public bool Matches(List<Chord> o) => ChordsSet.SetEquals(o.ToHashSet());
     }
 
     public List<Song> songs;
@@ -226,7 +223,7 @@ public class SongController : MonoBehaviour
                 // completed chord
                 AudioController.Instance.ChordNotes(p1Note, p2Note);
             
-                Debug.Log($"Song -- played chord ({p1Note}, {p2Note})");
+                // Debug.Log($"Song -- played chord ({p1Note}, {p2Note})");
 
                 var newChord = new Chord(p1Note, p2Note);
 
