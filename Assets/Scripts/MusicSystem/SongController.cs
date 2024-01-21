@@ -147,7 +147,6 @@ public class SongController : MonoBehaviour
             if (note.Pressing)
             {
                 p1CurrentNote = note;
-                Debug.Log($"[p1CurrentNote={p1CurrentNote}], p2CurrentNote={p2CurrentNote}");
                 AudioController.Instance.PlayNote(note);
                 
                 if (songCoroutine == null)
@@ -155,12 +154,6 @@ public class SongController : MonoBehaviour
                     songCoroutine = StartCoroutine(SongCoroutine());
                 }
             }
-        }
-
-        if (p1CurrentNote != null && p1CurrentNote.Releasing)
-        {
-            p1CurrentNote = null;
-            Debug.Log($"[p1CurrentNote=null], p2CurrentNote={p2CurrentNote}");
         }
         
         // player2
@@ -169,7 +162,6 @@ public class SongController : MonoBehaviour
             if (note.Pressing)
             {
                 p2CurrentNote = note;
-                Debug.Log($"p1CurrentNote={p1CurrentNote}, [p2CurrentNote={p2CurrentNote}]");
                 AudioController.Instance.PlayNote(note);
                 
                 if (songCoroutine == null)
@@ -178,133 +170,139 @@ public class SongController : MonoBehaviour
                 }
             }
         }
+    }
 
-        if (p2CurrentNote != null && p2CurrentNote.Releasing)
-        {
-            p2CurrentNote = null;
-            Debug.Log($"p1CurrentNote={p1CurrentNote}, [p2CurrentNote=null]");
-        }
+    private void LateUpdate()
+    {
+        p1CurrentNote = null;
+        p2CurrentNote = null;
     }
 
     private IEnumerator SongCoroutine()
     {
-        Debug.Log("Song starting");
+        // Debug.Log("Song starting");
 
         var chords = new List<Chord>();
 
-        while (p1CurrentNote != null || p2CurrentNote != null)
+        Note p1Note = null;
+        Note p2Note = null;
+        float timeElapsed = 0;
+        float fudgeTimeElapsed = 0;
+
+        while (true)
         {
-            Note p1Note = null;
-            Note p2Note = null;
-
-            float timeElapsed = 0;
-            while (timeElapsed < holdTime)
+            if (p1CurrentNote != null) // if p1 is playing a note
             {
-                if (p1CurrentNote != null) // if p1 is playing a note
+                if (p1Note == null) // if we don't have a note for p1 in the current chord yet
                 {
-                    if (p1Note == null) // if we don't have a note for p1 in the current chord yet
-                    {
-                        p1Note = p1CurrentNote;
-                        if (p1Note != null && p2Note != null) // if both players played a note, play the audio
-                        {
-                            AudioController.Instance.ChordNotes(p1Note, p2Note);
-                        }
-                    }
-                    else if (p1CurrentNote != p1Note) // or, if p1 already played a different note for the current chord
-                    {
-                        if (timeElapsed < holdTime - fudgeTime) // if it's not within fudgeTime before the next chord
-                        {
-                            Debug.LogWarning("Song failed -- p1 note too early");
-                            // AudioController.Instance.ChordNotes(p1CurrentNote, null);
-                            SongFailed();
-                            yield break;
-                        }
-                        // otherwise, it'll be treated as queued up for the next chord
-                    }
+                    p1Note = p1CurrentNote;
                 }
-
-                if (p2CurrentNote != null) // if p2 is playing a note
+                else if (p1Note != p1CurrentNote) // or, if p1 already played a different note for the current chord
                 {
-                    if (p2Note == null) // if we don't have a note for p2 in the current chord yet
-                    {
-                        p2Note = p2CurrentNote;
-                        if (p1Note != null && p2Note != null) // if both players played a note, play the audio
-                        {
-                            AudioController.Instance.ChordNotes(p1Note, p2Note);
-                        }
-                    }
-                    else if (p2CurrentNote != p2Note) // or, if p2 already played a different note for the current chord
-                    {
-                        if (timeElapsed < holdTime - fudgeTime) // if it's not within fudgeTime before the next chord
-                        {
-                            Debug.LogWarning("Song failed -- p2 note too early");
-                            // AudioController.Instance.ChordNotes(null, p2CurrentNote);
-                            SongFailed();
-                            yield break;
-                        }
-                        // otherwise, it'll be treated as queued up for the next chord
-                    }
+                    Debug.LogWarning("Song failed -- player 1 note too early");
+                    // AudioController.Instance.ChordNotes(p1CurrentNote, null);
+                    SongFailed();
+                    break;
                 }
+            }
 
-                if (timeElapsed > fudgeTime) // if fudgeTime has passed, check that we have a note from both players
+            if (p2CurrentNote != null) // if p2 is playing a note
+            {
+                if (p2Note == null) // if we don't have a note for p2 in the current chord yet
                 {
-                    if (p1Note == null)
-                    {
-                        Debug.LogWarning("Song failed -- p1 missed note");
-                        // AudioController.Instance.ChordNotes(null, p2Note);
-                        SongFailed();
-                        yield break;
-                    }
-                    if (p2Note == null)
-                    {
-                        Debug.LogWarning("Song failed -- p2 missed note");
-                        // AudioController.Instance.ChordNotes(p1Note, null);
-                        SongFailed();
-                        yield break;
-                    }
+                    p2Note = p2CurrentNote;
                 }
+                else if (p2Note != p2CurrentNote) // or, if p2 already played a different note for the current chord
+                {
+                    Debug.LogWarning("Song failed -- player 2 note too early");
+                    // AudioController.Instance.ChordNotes(null, p2CurrentNote);
+                    SongFailed();
+                    break;
+                }
+            }
+            
+            if (p1Note != null && p2Note != null) // if both players have played a note
+            {
+                // completed chord
+                AudioController.Instance.ChordNotes(p1Note, p2Note);
+            
+                Debug.Log($"Song -- played chord ({p1Note}, {p2Note})");
 
-                timeElapsed += Time.deltaTime;
+                var newChord = new Chord(p1Note, p2Note);
+
+                chords.Add(newChord);
+                conlangSymbolManager.InstantiateSymbolP1(newChord);
+
+                p1Note = null;
+                p2Note = null;
+                timeElapsed = 0;
+                fudgeTimeElapsed = 0;
+
                 yield return null;
+                continue; // go to next chord
             }
-            
-            // completed chord
-            
-            Debug.Log($"Song completed chord ({p1Note}, {p2Note})");
 
-            var newChord = new Chord(p1Note, p2Note);
-
-            chords.Add(newChord);
-            conlangSymbolManager.InstantiateSymbolP1(newChord);
-        }
-        
-        foreach (var song in songs)
-        {
-            if (song.Matches(chords))
+            // if holdTime has passed, check if we've successfully finished the song
+            if (timeElapsed > holdTime && p1Note == null && p2Note == null)
             {
-                SongCompleted(song);
-                yield break;
+                SongCompleted(chords);
+                break;
             }
+
+            // if either timer has passed, by this point, we've failed
+            if (fudgeTimeElapsed > fudgeTime || timeElapsed > holdTime)
+            {
+                if (p1Note == null)
+                {
+                    Debug.LogWarning("Song failed -- player 1 missed note");
+                    // AudioController.Instance.ChordNotes(null, p2Note);
+                    SongFailed();
+                    break;
+                }
+
+                if (p2Note == null)
+                {
+                    Debug.LogWarning("Song failed -- player 2 missed note");
+                    // AudioController.Instance.ChordNotes(p1Note, null);
+                    SongFailed();
+                    break;
+                }
+            }
+
+            timeElapsed += Time.deltaTime;
+
+            if (p1Note != null || p2Note != null)
+                fudgeTimeElapsed += Time.deltaTime;
+
+            yield return null;
         }
-        Debug.LogWarning($"Song completed -- song not recognized: {ToString(chords)}");
-        SongCompleted(null);
+
+        songCoroutine = null;
     }
 
     private void SongFailed()
     {
-        songCoroutine = null;
-        
         contraptionScript.turnOnRedLight();
 
         //TODO UI
     }
 
-    private void SongCompleted(Song song)
+    private void SongCompleted(List<Chord> chords)
     {
-        songCoroutine = null;
+        Song song = null;
+        foreach (var s in songs)
+        {
+            if (s.Matches(chords))
+            {
+                song = s; 
+                break;
+            }
+        }
 
         if (song == null)
         {
+            Debug.LogWarning($"Song completed -- song not recognized: {ToString(chords)}");
+            contraptionScript.turnOnRedLight();
             return;
         }
 
