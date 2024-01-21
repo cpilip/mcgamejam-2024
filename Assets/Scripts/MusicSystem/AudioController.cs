@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 public class AudioController : MonoBehaviour
 {
@@ -21,6 +22,17 @@ public class AudioController : MonoBehaviour
         Instance = this;
     }
 
+    private void Start()
+    {
+        StartCoroutine(StartSoundtrack());
+    }
+
+    private IEnumerator StartSoundtrack()
+    {
+        yield return new WaitForSeconds(0.5f);
+        PostEvent("Soundtrack_Init");
+    }
+    
     public void PlayNote(SongController.Note note)
     {
         PostEvent(note.PlayAudioEvent);

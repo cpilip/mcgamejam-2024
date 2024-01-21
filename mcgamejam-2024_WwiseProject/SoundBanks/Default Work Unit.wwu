@@ -5,26 +5,8 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{DD952AF5-3649-4DBD-9E17-30136C857E61}">
 					<ObjectInclusionList>
-						<ObjectRef Name="P1_Note2_Vocals" ID="{420D2B9B-443F-40FD-A02D-AA7F4E997BEB}" WorkUnitID="{95827733-B570-4950-9FD3-43CBFBCC3C95}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="P2_Note1_Harp" ID="{ABC9A9DE-5B84-41E4-ACFD-DCF1330B9288}" WorkUnitID="{95827733-B570-4950-9FD3-43CBFBCC3C95}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="P2_Note2_Vocals" ID="{27FFCFC7-5D4F-41EF-A7D3-219C03DA3FC2}" WorkUnitID="{95827733-B570-4950-9FD3-43CBFBCC3C95}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="P1_Note5_Harp" ID="{224250D6-24CE-41FE-B37D-6F746844D38B}" WorkUnitID="{95827733-B570-4950-9FD3-43CBFBCC3C95}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="P2_Note3_Vocals" ID="{CAF360FC-E2B8-42AF-ABDC-88B8393014E9}" WorkUnitID="{95827733-B570-4950-9FD3-43CBFBCC3C95}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="P2_Note4_Vocals" ID="{82FB91FB-FBEE-42E8-B9BD-9179348974C4}" WorkUnitID="{95827733-B570-4950-9FD3-43CBFBCC3C95}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="P2_Note5_Vocals" ID="{28D61F3D-4A57-4350-8C10-52D139F0F931}" WorkUnitID="{95827733-B570-4950-9FD3-43CBFBCC3C95}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="P1_Note5_Vocals" ID="{39053BBD-5E9C-436B-B699-B7502EBE8399}" WorkUnitID="{95827733-B570-4950-9FD3-43CBFBCC3C95}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="P1_Note1_Harp" ID="{DD8DB058-0A0A-4488-B1D5-D31CA8144643}" WorkUnitID="{95827733-B570-4950-9FD3-43CBFBCC3C95}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="P1_Note3_Vocals" ID="{1458DFAD-976F-45E1-B072-690D6A66F723}" WorkUnitID="{95827733-B570-4950-9FD3-43CBFBCC3C95}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="P1_Note4_Vocals" ID="{454BA12B-30B6-46FB-953D-9F02EF1C1B70}" WorkUnitID="{95827733-B570-4950-9FD3-43CBFBCC3C95}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="P2_Note2_Harp" ID="{A991E6DA-0FAA-4828-93F6-DF79E6E6337B}" WorkUnitID="{95827733-B570-4950-9FD3-43CBFBCC3C95}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="P1_Note1_Vocals" ID="{868315BE-8F1C-487B-B274-BF9DB3CC57F6}" WorkUnitID="{95827733-B570-4950-9FD3-43CBFBCC3C95}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="P1_Note4_Harp" ID="{AA57FB2A-1DC1-4A1E-8A9A-86FCABA7E538}" WorkUnitID="{95827733-B570-4950-9FD3-43CBFBCC3C95}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="P2_Note3_Harp" ID="{08C80B37-D3D9-4B16-8003-6E63E7247799}" WorkUnitID="{95827733-B570-4950-9FD3-43CBFBCC3C95}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="P1_Note2_Harp" ID="{0880BB79-75D7-4BB7-B3E0-C1402EDD466A}" WorkUnitID="{95827733-B570-4950-9FD3-43CBFBCC3C95}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="P2_Note4_Harp" ID="{1D900245-B408-4CC5-A1B5-B65A5F2D7768}" WorkUnitID="{95827733-B570-4950-9FD3-43CBFBCC3C95}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="P1_Note3_Harp" ID="{83E23594-EC6C-4CD0-BEE3-F27D167F5D09}" WorkUnitID="{95827733-B570-4950-9FD3-43CBFBCC3C95}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="P2_Note5_Harp" ID="{915A976C-3A2E-4DAB-8F74-8483C0E14301}" WorkUnitID="{95827733-B570-4950-9FD3-43CBFBCC3C95}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="P2_Note1_Vocals" ID="{0B51CB71-FE71-4EDA-A7D7-B2CA42338174}" WorkUnitID="{95827733-B570-4950-9FD3-43CBFBCC3C95}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Default Work Unit" ID="{9BD4154D-4A53-45AF-A449-C8D9EA594441}" WorkUnitID="{9BD4154D-4A53-45AF-A449-C8D9EA594441}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Default Work Unit" ID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

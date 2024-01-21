@@ -1,4 +1,4 @@
-%YAML 1.1
+`%YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!29 &1
 OcclusionCullingSettings:
@@ -97,7 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: bf551bb4453bac74184cfc6a78afcba4,
+    type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -5536,26 +5537,74 @@ MonoBehaviour:
   - noteId: 53
     key: 39
   songs:
-  - internalName: Mountains
-    songString: 44 35
+  - internalName: 02_Terra
+    songString: 11
+    sceneObject: {fileID: 322424322}
     onComplete:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 322424324}
-          m_TargetAssemblyTypeName: BlockoutManager, Assembly-CSharp
-          m_MethodName: buildMountains
-          m_Mode: 1
+        - m_Target: {fileID: 1829472623}
+          m_TargetAssemblyTypeName: UnityEngine.Rigidbody, UnityEngine
+          m_MethodName: set_useGravity
+          m_Mode: 6
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
-            m_BoolArgument: 0
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 1217900519}
+          m_TargetAssemblyTypeName: UnityEngine.Rigidbody, UnityEngine
+          m_MethodName: set_useGravity
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
           m_CallState: 2
     prerequisites: []
-  - internalName: Riverbeds
+  - internalName: 03_Sky
+    songString: 55
+    sceneObject: {fileID: 738674857}
+    onComplete:
+      m_PersistentCalls:
+        m_Calls: []
+    prerequisites: []
+  - internalName: 04_Celestial
+    songString: 12 34
+    sceneObject: {fileID: 439625646}
+    onComplete:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 738674858}
+          m_TargetAssemblyTypeName: UnityEngine.Animation, UnityEngine
+          m_MethodName: set_playAutomatically
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+    prerequisites:
+    - {fileID: 738674857}
+  - internalName: 05_Clouds
+    songString: 22 55
+    sceneObject: {fileID: 1230492754}
+    onComplete:
+      m_PersistentCalls:
+        m_Calls: []
+    prerequisites: []
+  - internalName: 06_Valleys
     songString: 44 24
+    sceneObject: {fileID: 0}
     onComplete:
       m_PersistentCalls:
         m_Calls:
@@ -5572,8 +5621,28 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
     prerequisites: []
-  - internalName: Water
+  - internalName: 07_Mountains
+    songString: 44 35
+    sceneObject: {fileID: 0}
+    onComplete:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 322424324}
+          m_TargetAssemblyTypeName: BlockoutManager, Assembly-CSharp
+          m_MethodName: buildMountains
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    prerequisites: []
+  - internalName: 08_Water
     songString: 22
+    sceneObject: {fileID: 0}
     onComplete:
       m_PersistentCalls:
         m_Calls:
@@ -5590,8 +5659,9 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
     prerequisites: []
-  - internalName: Caves
+  - internalName: 13_Caves
     songString: 44 12
+    sceneObject: {fileID: 0}
     onComplete:
       m_PersistentCalls:
         m_Calls:
@@ -5681,6 +5751,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stage: 0
+--- !u!1 &439625646 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5977979230067705009, guid: ba62c58837a79f444b411610a9ccf448,
+    type: 3}
+  m_PrefabInstance: {fileID: 5248210832453588179}
+  m_PrefabAsset: {fileID: 0}
 --- !u!20 &469694488 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 4040142925740139174, guid: cbb72bc4cba29ab41bb92185a40a9d9d,
@@ -24709,6 +24785,18 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!1 &738674857 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5514835131189443535, guid: ba62c58837a79f444b411610a9ccf448,
+    type: 3}
+  m_PrefabInstance: {fileID: 5248210832453588179}
+  m_PrefabAsset: {fileID: 0}
+--- !u!111 &738674858 stripped
+Animation:
+  m_CorrespondingSourceObject: {fileID: 2360119418164661659, guid: ba62c58837a79f444b411610a9ccf448,
+    type: 3}
+  m_PrefabInstance: {fileID: 5248210832453588179}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &777404547
 GameObject:
   m_ObjectHideFlags: 0
@@ -34752,6 +34840,18 @@ Transform:
   - {fileID: 2051074589}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &1217900519 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 4096736364582615464, guid: c1cc9e09bd3698742a58759d55b7f727,
+    type: 3}
+  m_PrefabInstance: {fileID: 5156518755506571349}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1230492754 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2136342596072633228, guid: ba62c58837a79f444b411610a9ccf448,
+    type: 3}
+  m_PrefabInstance: {fileID: 5248210832453588179}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1275678434 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1479266450709132457, guid: cbb72bc4cba29ab41bb92185a40a9d9d,
@@ -45330,6 +45430,12 @@ AudioSource:
     type: 3}
   m_PrefabInstance: {fileID: 1963939503267127321}
   m_PrefabAsset: {fileID: 0}
+--- !u!54 &1829472623 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 6012468261730302388, guid: 09d053cef2b52b04a86ae9ddd97dcf13,
+    type: 3}
+  m_PrefabInstance: {fileID: 1963939503267127321}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1936826959
 GameObject:
   m_ObjectHideFlags: 0
@@ -55587,13 +55693,13 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 277486735}
   - {fileID: 929529246}
   - {fileID: 1579704317}
   - {fileID: 1963939503267127321}
   - {fileID: 5156518755506571349}
   - {fileID: 562480184483660785}
   - {fileID: 996223294}
-  - {fileID: 277486735}
   - {fileID: 602449445}
   - {fileID: 58452440}
   - {fileID: 5248210832453588179}

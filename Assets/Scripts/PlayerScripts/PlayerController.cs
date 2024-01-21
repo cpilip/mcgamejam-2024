@@ -63,7 +63,8 @@ public class PlayerController : MonoBehaviour
         }
 
         rb.velocity = movement.x * horizontalMoveSpeed * camAlignedRight
-                      + movement.y * verticalMoveSpeed * camAlignedUp;
+                      + movement.y * verticalMoveSpeed * camAlignedUp
+                      + (rb.useGravity ? rb.velocity.y : 0) *  Vector3.up;
 
         prevMovement = movement;
     }
