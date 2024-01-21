@@ -21,6 +21,9 @@ public class BlockoutManager : MonoBehaviour
     [SerializeField]
     private Texture2D conlang;
 
+    private float bLerp;
+    private bool locked = false;
+
 
     private GameObject[] invisibleRiverbedBlocks;
     private GameObject[] waterBlocks;
@@ -35,6 +38,11 @@ public class BlockoutManager : MonoBehaviour
 
     [SerializeField]
     private int stage = 0;
+
+    private bool l1 = false;
+    private bool l2 = false;
+    private bool l3 = false;
+    private bool l4 = false;
 
     private void Awake()
     {
@@ -89,7 +97,20 @@ public class BlockoutManager : MonoBehaviour
     public void buildTerra()
     {
         // Convert to ground from blankness
+        bLerp = groundShaderMaterial.GetFloat("_bLerp");
+        Debug.Log("bl " + bLerp);
+
+        groundShaderMaterial.SetTexture("_og", blank_world);
+        groundShaderMaterial.SetTexture("_ou", blank_world);
+
+        groundShaderMaterial.SetTexture("_ng", ground);
+        groundShaderMaterial.SetTexture("_nu", blank_world);
         
+        if (!l1)
+        {
+            l1 = true;
+            StartCoroutine("Fade");
+        }
     }
 
     public void buildValleys()
@@ -179,8 +200,58 @@ public class BlockoutManager : MonoBehaviour
     }
     public void buildGrass()
     {
+        //bLerp = groundShaderMaterial.GetFloat("_bLerp");
+        //Debug.Log("bl " + bLerp);
 
+        //groundShaderMaterial.SetTexture("_ng", ground);
+        //groundShaderMaterial.SetTexture("_nu", blank_world);
+
+        groundShaderMaterial.SetTexture("_og", grass);
+        groundShaderMaterial.SetTexture("_ou", ground);
+
+        if (!l2)
+        {
+            l2 = true;
+            StartCoroutine("FadeReverse");
+        }
     }
+
+    public void buildNiceGrass()
+    {
+        //bLerp = groundShaderMaterial.GetFloat("_bLerp");
+        //Debug.Log("bl " + bLerp);
+
+        groundShaderMaterial.SetTexture("_ng", final);
+        groundShaderMaterial.SetTexture("_nu", ground);
+
+        //groundShaderMaterial.SetTexture("_og", grass);
+        //groundShaderMaterial.SetTexture("_ou", ground);
+
+        if (!l3)
+        {
+            l3 = true;
+            StartCoroutine("Fade");
+        }
+    }
+
+    public void buildPrettyGrass()
+    {
+        //bLerp = groundShaderMaterial.GetFloat("_bLerp");
+        //Debug.Log("bl " + bLerp);
+
+        //groundShaderMaterial.SetTexture("_ng", final);
+        //groundShaderMaterial.SetTexture("_nu", ground);
+
+        groundShaderMaterial.SetTexture("_og", conlang);
+        groundShaderMaterial.SetTexture("_ou", ground);
+
+        if (!l4)
+        {
+            l4 = true;
+            StartCoroutine("FadeReverse");
+        }
+    }
+
 
     public void buildCaves()
     {
@@ -199,19 +270,27 @@ public class BlockoutManager : MonoBehaviour
     //StartCoroutine(Fade());
     IEnumerator Fade()
     {
-        //groundShaderMaterial.SetFloat("_bLerp", someValue);
-        float side = groundShaderMaterial.GetFloat("_bLerp");
-
-        //if (bLerp)
-
-        //for (float alpha = 1f; alpha >= 0; alpha -= 0.1f)
-        //{
-        //    c.a = alpha;
-        //    renderer.material.color = c;
+        float time = 0.0f;
+        float duration = 1.0f;
+        while (time <= duration)
+        {
+            groundShaderMaterial.SetFloat("_bLerp", (time / duration));
+            time += Time.deltaTime;
             yield return null;
-        //}
+        }
     }
 
-
+    IEnumerator FadeReverse()
+    {
+        float time = 1.0f;
+        float duration = 1.0f;
+        while (time >= 0.0f)
+        {
+            groundShaderMaterial.SetFloat("_bLerp", (time / duration));
+            time -= Time.deltaTime;
+            yield return null;
+        }
+    }
 
 }
+

@@ -34,7 +34,18 @@ namespace AK
         static const AkUniqueID P2_NOTE5_HARP = 1685854657U;
         static const AkUniqueID P2_NOTE5_VOCALS = 2686402364U;
         static const AkUniqueID SOUNDTRACK_INIT = 4272399436U;
+        static const AkUniqueID TRACK02_TERRA = 4159171735U;
         static const AkUniqueID TRACK03_SKY = 231111259U;
+        static const AkUniqueID TRACK04_CELESTIAL = 3983732245U;
+        static const AkUniqueID TRACK05_CLOUDS = 2745052960U;
+        static const AkUniqueID TRACK06_VALLEYS = 3194130141U;
+        static const AkUniqueID TRACK07_MOUNTAINS = 671639696U;
+        static const AkUniqueID TRACK08_WATER = 3658587150U;
+        static const AkUniqueID TRACK13_CAVES = 2539323273U;
+        static const AkUniqueID TRACK14_OCEAN = 3903099582U;
+        static const AkUniqueID TRACK15_BIRDS = 1007886993U;
+        static const AkUniqueID TRACK16_BEES = 3551609253U;
+        static const AkUniqueID TRACK20_FISH = 453033077U;
     } // namespace EVENTS
 
     namespace BANKS

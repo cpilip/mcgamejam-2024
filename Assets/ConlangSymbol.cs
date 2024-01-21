@@ -29,6 +29,7 @@ public class ConlangSymbol : MonoBehaviour
     [SerializeField] private Sprite waterLandDark;
     [SerializeField] private Sprite waterSolo;
     [SerializeField] private Sprite waterWater;
+    [SerializeField] private Sprite dud;
 
     public bool canFade = false;
     public float fadeInSpead;
@@ -51,6 +52,7 @@ public class ConlangSymbol : MonoBehaviour
                     sprite = waterLandDark; 
                     break;
                 case '3': // LandFire --> dud
+                    sprite = dud;
                     break;
                 case '4': //Stone
                     sprite = stoneLandFlora;
@@ -77,6 +79,7 @@ public class ConlangSymbol : MonoBehaviour
                     sprite = stoneWaterDecay;
                     break;
                 case '5': // waterair --> dud
+                    sprite = dud;
                     break;
                 }
 
@@ -86,6 +89,7 @@ public class ConlangSymbol : MonoBehaviour
 
                 switch(chord.p2Note.noteId) {
                 case '1': // fireLand --> dud
+                    sprite = dud;
                     break;
                 case '2': // fireWater
                     sprite = fireWaterMagic; 
@@ -119,6 +123,7 @@ public class ConlangSymbol : MonoBehaviour
                     sprite = stoneStone;
                     break;
                 case '5': // stoneair --> dud
+                    sprite = dud;
                     break;
                 }
 
@@ -131,11 +136,13 @@ public class ConlangSymbol : MonoBehaviour
                     sprite = airLandFauna;
                     break;
                 case '2': // airWater --> dud
+                    sprite = dud;
                     break;
                 case '3': // airfire
                     sprite = airFireGrow;
                     break;
                 case '4': // airStone -- dud
+                    sprite = dud;
                     break;
                 case '5': // airair
                     sprite = air;
@@ -145,7 +152,7 @@ public class ConlangSymbol : MonoBehaviour
                 break;
         }
 
-        if (sprite==null) return;
+        if (sprite==null) Destroy(gameObject);
 
         icon.sprite = sprite;
 

@@ -53,11 +53,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ng:
-        m_Texture: {fileID: 2800000, guid: 73b1d4057fd936246be86ee97c107129, type: 3}
+        m_Texture: {fileID: 2800000, guid: 92b0c3ab84639904191166548f7e7a52, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _nu:
-        m_Texture: {fileID: 2800000, guid: 92b0c3ab84639904191166548f7e7a52, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1a4f7b905246300468440a2621114e86, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _og:
@@ -100,7 +100,7 @@ Material:
     - _ZTest: 4
     - _ZWrite: 0
     - _ZWriteControl: 0
-    - _bLerp: 1
+    - _bLerp: -11.217852
     - _fade: 0.8
     - _offset: 0
     - _s1: 0
