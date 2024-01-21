@@ -5323,7 +5323,7 @@ MonoBehaviour:
     audio: {fileID: 8300000, guid: b9fd68018bd4ce34cb3248006e2f9bc0, type: 3}
   p2Notes:
   - noteId: 49
-    key: 49
+    key: 106
     audio: {fileID: 8300000, guid: ba95978aab9f8f74dbcabcbb5cc3c7d2, type: 3}
   - noteId: 50
     key: 107
