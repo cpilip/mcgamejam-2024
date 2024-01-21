@@ -22,14 +22,10 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{D453D372-D25F-A6D2-2455-B1E747E1E598}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{B16F8016-501A-9415-73B7-16CFA7EF485D}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
-				<File Id="17709604" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Tracks\Da Capo Full Length.wav</ShortName>
-					<CachePath>SFX/Tracks/Da Capo Full Length_FBC78EF0.wem</CachePath>
-				</File>
 				<File Id="18117958" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>M Vocals 1.wav</ShortName>
 					<CachePath>SFX/M Vocals 1_818F3B66.wem</CachePath>
@@ -54,29 +50,57 @@
 					<ShortName>M Vocals 5.wav</ShortName>
 					<CachePath>SFX/M Vocals 5_818F3B66.wem</CachePath>
 				</File>
+				<File Id="213617341" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tracks\13_Caves_1.wav</ShortName>
+					<CachePath>SFX/Tracks/13_Caves_1_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="255504895" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>S Harp 2.wav</ShortName>
 					<CachePath>SFX/S Harp 2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="279913601" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tracks\03_Sky_1.wav</ShortName>
+					<CachePath>SFX/Tracks/03_Sky_1_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="293088195" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Note J Bounced.wav</ShortName>
 					<CachePath>SFX/Note J Bounced_818F3B66.wem</CachePath>
 				</File>
-				<File Id="351608482" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Tracks\Sky Full Length.wav</ShortName>
-					<CachePath>SFX/Tracks/Sky Full Length_FBC78EF0.wem</CachePath>
+				<File Id="338955763" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tracks\15_Birds.wav</ShortName>
+					<CachePath>SFX/Tracks/15_Birds_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="395144731" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tracks\04_Celestial_1.wav</ShortName>
+					<CachePath>SFX/Tracks/04_Celestial_1_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="419110923" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tracks\Soundtrack_Init.wav</ShortName>
+					<CachePath>SFX/Tracks/Soundtrack_Init_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="423991463" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>S Harp 5.wav</ShortName>
 					<CachePath>SFX/S Harp 5_818F3B66.wem</CachePath>
 				</File>
+				<File Id="428348860" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tracks\07_Mountains_1.wav</ShortName>
+					<CachePath>SFX/Tracks/07_Mountains_1_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="429240394" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Note semicolon Bounced.wav</ShortName>
 					<CachePath>SFX/Note semicolon Bounced_818F3B66.wem</CachePath>
 				</File>
+				<File Id="439475330" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tracks\16_Bees_1.wav</ShortName>
+					<CachePath>SFX/Tracks/16_Bees_1_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="500835279" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>M Harp 1.wav</ShortName>
 					<CachePath>SFX/M Harp 1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="522446709" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tracks\20_Fish.wav</ShortName>
+					<CachePath>SFX/Tracks/20_Fish_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="540167071" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Note Alpha1 Bounced.wav</ShortName>
@@ -94,6 +118,10 @@
 					<ShortName>S Vocals 1.wav</ShortName>
 					<CachePath>SFX/S Vocals 1_818F3B66.wem</CachePath>
 				</File>
+				<File Id="632614817" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tracks\06_Valleys_1.wav</ShortName>
+					<CachePath>SFX/Tracks/06_Valleys_1_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="633420515" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>M Harp 2.wav</ShortName>
 					<CachePath>SFX/M Harp 2_818F3B66.wem</CachePath>
@@ -109,6 +137,14 @@
 				<File Id="666818033" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>S Vocals 3.wav</ShortName>
 					<CachePath>SFX/S Vocals 3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="678021253" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tracks\02_Terra_1.wav</ShortName>
+					<CachePath>SFX/Tracks/02_Terra_1_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="685488279" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tracks\05_Clouds.wav</ShortName>
+					<CachePath>SFX/Tracks/05_Clouds_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="691889834" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>M Vocals 2.wav</ShortName>
@@ -145,6 +181,14 @@
 				<File Id="831772210" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>M Harp 4.wav</ShortName>
 					<CachePath>SFX/M Harp 4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="836679703" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tracks\08_Water_1.wav</ShortName>
+					<CachePath>SFX/Tracks/08_Water_1_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="874584124" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tracks\14_Ocean.wav</ShortName>
+					<CachePath>SFX/Tracks/14_Ocean_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="949827141" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Note apostrophe Bounced.wav</ShortName>
@@ -258,17 +302,83 @@
 				</Event>
 				<Event Id="4272399436" Name="Soundtrack_Init" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="17709604"/>
-						<MediaRef Id="351608482"/>
+						<MediaRef Id="213617341"/>
+						<MediaRef Id="279913601"/>
+						<MediaRef Id="338955763"/>
+						<MediaRef Id="395144731"/>
+						<MediaRef Id="419110923"/>
+						<MediaRef Id="428348860"/>
+						<MediaRef Id="439475330"/>
+						<MediaRef Id="522446709"/>
+						<MediaRef Id="632614817"/>
+						<MediaRef Id="678021253"/>
+						<MediaRef Id="685488279"/>
+						<MediaRef Id="836679703"/>
+						<MediaRef Id="874584124"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4159171735" Name="Track02_Terra" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="678021253"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="231111259" Name="Track03_Sky" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
 					<MediaRefs>
-						<MediaRef Id="351608482"/>
+						<MediaRef Id="279913601"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3983732245" Name="Track04_Celestial" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="395144731"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2745052960" Name="Track05_Clouds" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="685488279"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3194130141" Name="Track06_Valleys" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="632614817"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="671639696" Name="Track07_Mountains" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="428348860"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3658587150" Name="Track08_Water" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="836679703"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2539323273" Name="Track13_Caves" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="213617341"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3903099582" Name="Track14_Ocean" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="874584124"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1007886993" Name="Track15_Birds" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="338955763"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3551609253" Name="Track16_Bees" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="439475330"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="453033077" Name="Track20_Fish" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="522446709"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E37A429B-0F40-1D4D-A2B9-394D5300D0EE}</FileHash>
+	<FileHash>{3E0B4178-B1FA-A94A-6B70-AC5130606EE3}</FileHash>
 </SoundBanksInfo>
