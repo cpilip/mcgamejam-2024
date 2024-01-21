@@ -804,7 +804,31 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Track21_Fine" ID="{1E0E9CCE-5534-481E-99BC-AA1C6925B9D6}"/>
+						<Event Name="Track21_Fine" ID="{1E0E9CCE-5534-481E-99BC-AA1C6925B9D6}">
+							<ChildrenList>
+								<Action Name="" ID="{C5AE4830-5F86-4CCB-86FE-536ED3EFD000}" ShortID="329388712">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="6"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Soundtrack" ID="{2C631C50-B5FF-4B9E-969E-BF7170F866A3}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{6F5D9918-F027-472D-ACC7-09879174B062}" ShortID="592836500">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="6"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Vox Mundi Final Song" ID="{1636A95B-E6A4-45D7-B3E6-314394469AEF}" WorkUnitID="{9BD4154D-4A53-45AF-A449-C8D9EA594441}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

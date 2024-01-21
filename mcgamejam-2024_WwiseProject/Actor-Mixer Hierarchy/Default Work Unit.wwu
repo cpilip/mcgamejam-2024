@@ -814,6 +814,28 @@
 						</Folder>
 					</ChildrenList>
 				</Folder>
+				<Sound Name="Vox Mundi Final Song" ID="{1636A95B-E6A4-45D7-B3E6-314394469AEF}" ShortID="957371667">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Vox Mundi Final Song" ID="{02E9B132-A736-4909-AE0F-1D6E28D89173}">
+							<Language>SFX</Language>
+							<AudioFile>Vox Mundi Final Song.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="975724151"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Vox Mundi Final Song" ID="{02E9B132-A736-4909-AE0F-1D6E28D89173}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

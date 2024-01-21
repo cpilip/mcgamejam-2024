@@ -8,6 +8,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	640283604	P1_Note5_Harp			\Default Work Unit\Notes\Harps\P1_Note5_Harp	
 	671639696	Track07_Mountains			\Default Work Unit\Soundtrack\Track07_Mountains	
 	1007886993	Track15_Birds			\Default Work Unit\Soundtrack\Track15_Birds	
+	1217906904	Track21_Fine			\Default Work Unit\Soundtrack\Track21_Fine	
 	1685854657	P2_Note5_Harp			\Default Work Unit\Notes\Harps\P2_Note5_Harp	
 	1805739855	P1_Note3_Vocals			\Default Work Unit\Notes\Vocals\P1_Note3_Vocals	
 	1816227430	P1_Note3_Harp			\Default Work Unit\Notes\Harps\P1_Note3_Harp	
@@ -76,5 +77,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	836679703	08_Water	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\Tracks\08_Water_1_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Soundtrack\Tracks\08_Water		36046688
 	874584124	14_Ocean	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\Tracks\14_Ocean_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Soundtrack\Tracks\14_Ocean		28059964
 	949827141	Note apostrophe Bounced	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\Note apostrophe Bounced_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Combined\Note apostrophe Bounced		1183860
+	975724151	Vox Mundi Final Song	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\Vox Mundi Final Song_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Vox Mundi Final Song		39061344
 	1067960651	M Harp 5	C:\Users\Ethan\Documents\git\mcgamejam-2024\mcgamejam-2024_WwiseProject\.cache\Windows\SFX\M Harp 5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Harp\Harp Mixer\M Harp\M Harp 5		1183856
 

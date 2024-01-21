@@ -22,7 +22,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{8395B088-5AF1-C7C6-FF12-0CDE7CD11000}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{30722853-EC7B-B8C3-A59E-54D7766515B1}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -193,6 +193,10 @@
 				<File Id="949827141" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Note apostrophe Bounced.wav</ShortName>
 					<CachePath>SFX/Note apostrophe Bounced_818F3B66.wem</CachePath>
+				</File>
+				<File Id="975724151" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vox Mundi Final Song.wav</ShortName>
+					<CachePath>SFX/Vox Mundi Final Song_818F3B66.wem</CachePath>
 				</File>
 				<File Id="1067960651" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>M Harp 5.wav</ShortName>
@@ -377,8 +381,26 @@
 						<MediaRef Id="522446709"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1217906904" Name="Track21_Fine" DurationType="OneShot" DurationMin="203.44366" DurationMax="203.44366">
+					<MediaRefs>
+						<MediaRef Id="213617341"/>
+						<MediaRef Id="279913601"/>
+						<MediaRef Id="338955763"/>
+						<MediaRef Id="395144731"/>
+						<MediaRef Id="419110923"/>
+						<MediaRef Id="428348860"/>
+						<MediaRef Id="439475330"/>
+						<MediaRef Id="522446709"/>
+						<MediaRef Id="632614817"/>
+						<MediaRef Id="678021253"/>
+						<MediaRef Id="685488279"/>
+						<MediaRef Id="836679703"/>
+						<MediaRef Id="874584124"/>
+						<MediaRef Id="975724151"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6DA762BA-D5DE-08A5-2727-E9452FE98492}</FileHash>
+	<FileHash>{05AAE7FE-B38A-36A8-C280-BC849AA45EE9}</FileHash>
 </SoundBanksInfo>

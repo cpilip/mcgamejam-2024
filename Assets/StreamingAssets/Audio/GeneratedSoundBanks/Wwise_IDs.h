@@ -46,6 +46,7 @@ namespace AK
         static const AkUniqueID TRACK15_BIRDS = 1007886993U;
         static const AkUniqueID TRACK16_BEES = 3551609253U;
         static const AkUniqueID TRACK20_FISH = 453033077U;
+        static const AkUniqueID TRACK21_FINE = 1217906904U;
     } // namespace EVENTS
 
     namespace BANKS
