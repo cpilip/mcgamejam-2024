@@ -16,6 +16,13 @@ public class ConlangSymbolManager : MonoBehaviour
     [SerializeField] private GameObject player2Loc;
 
     public void InstantiateSymbolP1(SongController.Chord chord) {
+
+        // remove any old symbols first
+         foreach (Transform t in player1Loc.transform)
+            {
+                UnityEngine.Object.Destroy(t.gameObject);
+            }
+
         var obj = GameObject.Instantiate(conlangSymbolPrefab);
         obj.transform.SetParent(player1Loc.transform);
         obj.transform.position = obj.transform.parent.position;

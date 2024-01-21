@@ -151,59 +151,22 @@ public class ConlangSymbol : MonoBehaviour
 
 
         canFade = false;
-        fadeInSpead = 0.01f;
-        fadeOutSpead = 0.01f;
-        counterDown = 10f;
+        counterDown = 2f;
         fadeInCompleted = false;
 
         icon.GetComponent<CanvasRenderer>().SetAlpha(0f);
 
-        canFade = true;
-    }
-
-    public void Update()
-    {
-        if (canFade)
-        {
-            StartCoroutine(FadeIn());
-        }
-
-        else if (fadeInCompleted)
-        {
-            counterDown -= Time.deltaTime;
-
-            if (counterDown < 0)
-            {
-                StartCoroutine(FadeOut());
-            }
-        }
+        StartCoroutine(FadeIn());
     }
 
     public IEnumerator FadeIn()
     {
-        icon.CrossFadeAlpha(1f,0.2f,false);
-
-        while (icon.color.a < 1)
-        {   
-            yield return null;
-        }
+        icon.CrossFadeAlpha(1f,0.5f,false);
         
         canFade = false;
         fadeInCompleted = true;
-    }
-    
-    public IEnumerator FadeOut()
-    {
-        icon.CrossFadeAlpha(0f,0.8f,false);
-        while (icon.color.a > 0)
-        {
-            yield return null;
-        }
-
-        icon.CrossFadeAlpha(0f,1f,false);
-
-        canFade = false;
-        fadeInCompleted = false;
+ 
+        yield return new WaitForSeconds(2f);
 
         Destroy(gameObject);
     }
