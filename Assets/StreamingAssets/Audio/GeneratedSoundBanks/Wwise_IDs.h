@@ -13,26 +13,26 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID CHORDED_P1_NOTE1 = 2460158212U;
-        static const AkUniqueID CHORDED_P1_NOTE2 = 2460158215U;
-        static const AkUniqueID CHORDED_P1_NOTE3 = 2460158214U;
-        static const AkUniqueID CHORDED_P1_NOTE4 = 2460158209U;
-        static const AkUniqueID CHORDED_P1_NOTE5 = 2460158208U;
-        static const AkUniqueID CHORDED_P2_NOTE1 = 3974207423U;
-        static const AkUniqueID CHORDED_P2_NOTE2 = 3974207420U;
-        static const AkUniqueID CHORDED_P2_NOTE3 = 3974207421U;
-        static const AkUniqueID CHORDED_P2_NOTE4 = 3974207418U;
-        static const AkUniqueID CHORDED_P2_NOTE5 = 3974207419U;
-        static const AkUniqueID PLAY_P1_NOTE1 = 2301021775U;
-        static const AkUniqueID PLAY_P1_NOTE2 = 2301021772U;
-        static const AkUniqueID PLAY_P1_NOTE3 = 2301021773U;
-        static const AkUniqueID PLAY_P1_NOTE4 = 2301021770U;
-        static const AkUniqueID PLAY_P1_NOTE5 = 2301021771U;
-        static const AkUniqueID PLAY_P2_NOTE1 = 505590932U;
-        static const AkUniqueID PLAY_P2_NOTE2 = 505590935U;
-        static const AkUniqueID PLAY_P2_NOTE3 = 505590934U;
-        static const AkUniqueID PLAY_P2_NOTE4 = 505590929U;
-        static const AkUniqueID PLAY_P2_NOTE5 = 505590928U;
+        static const AkUniqueID P1_NOTE1_HARP = 2316034272U;
+        static const AkUniqueID P1_NOTE1_VOCALS = 4051428877U;
+        static const AkUniqueID P1_NOTE2_HARP = 80558213U;
+        static const AkUniqueID P1_NOTE2_VOCALS = 404757848U;
+        static const AkUniqueID P1_NOTE3_HARP = 1816227430U;
+        static const AkUniqueID P1_NOTE3_VOCALS = 1805739855U;
+        static const AkUniqueID P1_NOTE4_HARP = 3285806291U;
+        static const AkUniqueID P1_NOTE4_VOCALS = 536765770U;
+        static const AkUniqueID P1_NOTE5_HARP = 640283604U;
+        static const AkUniqueID P1_NOTE5_VOCALS = 567321401U;
+        static const AkUniqueID P2_NOTE1_HARP = 2020448509U;
+        static const AkUniqueID P2_NOTE1_VOCALS = 2075974304U;
+        static const AkUniqueID P2_NOTE2_HARP = 3759016632U;
+        static const AkUniqueID P2_NOTE2_VOCALS = 3404541205U;
+        static const AkUniqueID P2_NOTE3_HARP = 3922734455U;
+        static const AkUniqueID P2_NOTE3_VOCALS = 1888179110U;
+        static const AkUniqueID P2_NOTE4_HARP = 2767284578U;
+        static const AkUniqueID P2_NOTE4_VOCALS = 2545330227U;
+        static const AkUniqueID P2_NOTE5_HARP = 1685854657U;
+        static const AkUniqueID P2_NOTE5_VOCALS = 2686402364U;
     } // namespace EVENTS
 
     namespace BANKS
