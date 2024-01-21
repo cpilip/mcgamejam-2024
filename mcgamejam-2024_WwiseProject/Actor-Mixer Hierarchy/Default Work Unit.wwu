@@ -5,666 +5,813 @@
 			<ChildrenList>
 				<Folder Name="Notes" ID="{6BEAC594-87D1-4C18-9FB6-92A896AC21BB}" ShortID="329488195">
 					<ChildrenList>
-						<Sound Name="Note Alpha1 Bounced" ID="{F48E399E-F9DA-472E-BECA-525B5C001F10}" ShortID="250707761">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
-								</Reference>
-							</ReferenceList>
+						<Folder Name="Combined" ID="{8DC27972-A507-46B2-A388-360F2F6C7712}" ShortID="235302336">
 							<ChildrenList>
-								<AudioFileSource Name="Note Alpha1 Bounced" ID="{07B0BD8C-3504-4E64-8574-950CFDBBA943}">
-									<Language>SFX</Language>
-									<AudioFile>Note Alpha1 Bounced.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="540167071"/>
-									</MediaIDList>
-								</AudioFileSource>
+								<Sound Name="Note Alpha5 Bounced" ID="{FEC945B6-1A91-41F9-B6C1-24DCD51E3E2A}" ShortID="940973681">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Note Alpha5 Bounced" ID="{78CFE63B-2014-4FE6-8FB8-2BD4E3972040}">
+											<Language>SFX</Language>
+											<AudioFile>Note Alpha5 Bounced.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="756077836"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Note Alpha5 Bounced" ID="{78CFE63B-2014-4FE6-8FB8-2BD4E3972040}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Note Alpha2 Bounced_1" ID="{12E9502C-57AC-4FF0-BCA6-796AC15BB99D}" ShortID="44162841">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Note Alpha2 Bounced_1" ID="{06580CD3-7052-44CB-8D6C-1C8C362179A1}">
+											<Language>SFX</Language>
+											<AudioFile>Note Alpha2 Bounced_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="90398231"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Note Alpha2 Bounced_1" ID="{06580CD3-7052-44CB-8D6C-1C8C362179A1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Note J Bounced" ID="{59796D18-7825-405F-A504-38B03D5C879D}" ShortID="101767551">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Note J Bounced" ID="{290C236F-BFBA-4219-9394-FC98B0274917}">
+											<Language>SFX</Language>
+											<AudioFile>Note J Bounced.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="293088195"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Note J Bounced" ID="{290C236F-BFBA-4219-9394-FC98B0274917}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Note Alpha3 Bounced_1" ID="{A578FC21-116A-44CE-9C3C-F6A450929421}" ShortID="583742260">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Note Alpha3 Bounced_1" ID="{67A0DD43-016D-4D56-96C0-29CBE4FBE793}">
+											<Language>SFX</Language>
+											<AudioFile>Note Alpha3 Bounced_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="760254271"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Note Alpha3 Bounced_1" ID="{67A0DD43-016D-4D56-96C0-29CBE4FBE793}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Note apostrophe Bounced" ID="{830AFFDF-A078-416F-A53C-F37AE228F107}" ShortID="429755305">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Note apostrophe Bounced" ID="{6F2A8C1E-82C0-4E24-99C9-9A393F714C68}">
+											<Language>SFX</Language>
+											<AudioFile>Note apostrophe Bounced.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="949827141"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Note apostrophe Bounced" ID="{6F2A8C1E-82C0-4E24-99C9-9A393F714C68}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Note Alpha1 Bounced" ID="{F48E399E-F9DA-472E-BECA-525B5C001F10}" ShortID="250707761">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Note Alpha1 Bounced" ID="{07B0BD8C-3504-4E64-8574-950CFDBBA943}">
+											<Language>SFX</Language>
+											<AudioFile>Note Alpha1 Bounced.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="540167071"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Note Alpha1 Bounced" ID="{07B0BD8C-3504-4E64-8574-950CFDBBA943}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Note L Bounced" ID="{4B23CCB4-B586-4AB3-9B93-45839B50A820}" ShortID="646579008">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Note L Bounced" ID="{B373169B-8804-4941-ABE7-C01734F1C765}">
+											<Language>SFX</Language>
+											<AudioFile>Note L Bounced.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="752998924"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Note L Bounced" ID="{B373169B-8804-4941-ABE7-C01734F1C765}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Note semicolon Bounced" ID="{1CC5A187-D693-4C35-93B1-95429FFF0EA3}" ShortID="14737532">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Note semicolon Bounced" ID="{1D13DF27-47C1-4925-B2CC-3A7B279533E9}">
+											<Language>SFX</Language>
+											<AudioFile>Note semicolon Bounced.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="429240394"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Note semicolon Bounced" ID="{1D13DF27-47C1-4925-B2CC-3A7B279533E9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Note K Bounced" ID="{18BBCB41-EC03-4426-9E42-80A05D1FB863}" ShortID="905857729">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Note K Bounced" ID="{707D41D1-3607-49E5-ABDE-F99633C86697}">
+											<Language>SFX</Language>
+											<AudioFile>Note K Bounced.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="828264133"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Note K Bounced" ID="{707D41D1-3607-49E5-ABDE-F99633C86697}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Note Alpha4 Bounced" ID="{37B6E909-5FC2-4297-98E3-E49F05A9F168}" ShortID="492494458">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Note Alpha4 Bounced" ID="{DCE2A56A-606B-4B3B-9EDB-19C45296CBCF}">
+											<Language>SFX</Language>
+											<AudioFile>Note Alpha4 Bounced.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="806229957"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Note Alpha4 Bounced" ID="{DCE2A56A-606B-4B3B-9EDB-19C45296CBCF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Note Alpha1 Bounced" ID="{07B0BD8C-3504-4E64-8574-950CFDBBA943}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="S Vocals 4" ID="{10CA0B59-3BD4-455A-9FCB-8298E15858AA}" ShortID="525387959">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
-								</Reference>
-							</ReferenceList>
+						</Folder>
+						<Folder Name="Harp" ID="{6436648E-4959-47B9-A4A4-6BE84391B689}" ShortID="374908364">
 							<ChildrenList>
-								<AudioFileSource Name="S Vocals 4" ID="{1BBA3862-48E6-4E28-8BA9-F9C80C3B0CD7}">
-									<Language>SFX</Language>
-									<AudioFile>S Vocals 4.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="776960295"/>
-									</MediaIDList>
-								</AudioFileSource>
+								<ActorMixer Name="Harp Mixer" ID="{A29AE845-B384-4B03-AE36-B500789492FC}" ShortID="182094765">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<ActorMixer Name="M Harp" ID="{9A0086BB-86BD-4B46-AA6E-46DA1120CB01}" ShortID="156554209">
+											<PropertyList>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="M Harp 1" ID="{33D72E78-E577-47BA-BE9C-764F2231B093}" ShortID="253105863">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="M Harp 1" ID="{674FFEAF-DAB5-4610-95C6-3F3151F0EE65}">
+															<Language>SFX</Language>
+															<AudioFile>M Harp 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="500835279"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="M Harp 1" ID="{674FFEAF-DAB5-4610-95C6-3F3151F0EE65}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="M Harp 2" ID="{6715AC7F-FDBC-430F-99F9-84EF909CFBF2}" ShortID="803420793">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="M Harp 2" ID="{FEB98EFF-327D-43A5-9C57-5172142C46B4}">
+															<Language>SFX</Language>
+															<AudioFile>M Harp 2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="633420515"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="M Harp 2" ID="{FEB98EFF-327D-43A5-9C57-5172142C46B4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="M Harp 3" ID="{1EC903B3-BD1C-4B3C-A8C5-3E3A36D84374}" ShortID="64389170">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="M Harp 3" ID="{CE5E7B13-9513-4D06-B2AB-50A444396022}">
+															<Language>SFX</Language>
+															<AudioFile>M Harp 3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="558175762"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="M Harp 3" ID="{CE5E7B13-9513-4D06-B2AB-50A444396022}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="M Harp 4" ID="{0D94912F-2BE6-4D48-87AC-FB2A18A4817A}" ShortID="747297607">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="M Harp 4" ID="{17FDBA96-4E31-48A7-BE8E-50421DFA087C}">
+															<Language>SFX</Language>
+															<AudioFile>M Harp 4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="831772210"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="M Harp 4" ID="{17FDBA96-4E31-48A7-BE8E-50421DFA087C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="M Harp 5" ID="{6BC4700D-28AA-4FFC-A549-D9CBD30C867B}" ShortID="45526582">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="M Harp 5" ID="{FE573943-00CE-4B2D-9131-73ECD8631F54}">
+															<Language>SFX</Language>
+															<AudioFile>M Harp 5.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1067960651"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="M Harp 5" ID="{FE573943-00CE-4B2D-9131-73ECD8631F54}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{EC3C1524-FF87-4980-9250-342A7879325D}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-75"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+										</ActorMixer>
+										<ActorMixer Name="S Harp" ID="{399DD3EB-E517-4709-9E18-C29508901A5C}" ShortID="348781208">
+											<PropertyList>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="S Harp 1" ID="{61CC2B3E-A85D-43A4-90D2-A0C1F628D185}" ShortID="167317389">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="S Harp 1" ID="{8B5BF51D-C96D-4F37-8416-4CD4E49EC1F2}">
+															<Language>SFX</Language>
+															<AudioFile>S Harp 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="644939823"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="S Harp 1" ID="{8B5BF51D-C96D-4F37-8416-4CD4E49EC1F2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="S Harp 2" ID="{F65028D1-C3D1-4F4C-AE42-173223513B36}" ShortID="451007325">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="S Harp 2" ID="{F540F478-5233-49E8-A8F2-C890C2CBB3D7}">
+															<Language>SFX</Language>
+															<AudioFile>S Harp 2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="255504895"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="S Harp 2" ID="{F540F478-5233-49E8-A8F2-C890C2CBB3D7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="S Harp 3" ID="{812955FE-F726-4103-8BAD-8B7F63A26BCF}" ShortID="790518335">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="S Harp 3" ID="{A0848B71-AA95-407B-88EF-D2732A751AEF}">
+															<Language>SFX</Language>
+															<AudioFile>S Harp 3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="39240185"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="S Harp 3" ID="{A0848B71-AA95-407B-88EF-D2732A751AEF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="S Harp 4" ID="{99F91478-5998-43B6-A3D0-9963197ECE86}" ShortID="184597428">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="S Harp 4" ID="{56C1E907-7780-411C-BE83-E6C4D8C708CE}">
+															<Language>SFX</Language>
+															<AudioFile>S Harp 4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="168375848"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="S Harp 4" ID="{56C1E907-7780-411C-BE83-E6C4D8C708CE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="S Harp 5" ID="{DCB5A592-5593-4CAA-AA64-823D34FBBBE8}" ShortID="297945177">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="S Harp 5" ID="{EF4155A2-FC3B-4B73-9E71-5600FD7E49C2}">
+															<Language>SFX</Language>
+															<AudioFile>S Harp 5.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="423991463"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="S Harp 5" ID="{EF4155A2-FC3B-4B73-9E71-5600FD7E49C2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{78116737-34C7-40EB-9411-E1B5CA46B87D}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="75"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+										</ActorMixer>
+									</ChildrenList>
+								</ActorMixer>
 							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="S Vocals 4" ID="{1BBA3862-48E6-4E28-8BA9-F9C80C3B0CD7}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Note Alpha3 Bounced_1" ID="{A578FC21-116A-44CE-9C3C-F6A450929421}" ShortID="583742260">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
-								</Reference>
-							</ReferenceList>
+						</Folder>
+						<Folder Name="Vocals" ID="{9FBDEB6F-3BEB-4A05-972D-D33AB25E13D8}" ShortID="714519895">
 							<ChildrenList>
-								<AudioFileSource Name="Note Alpha3 Bounced_1" ID="{67A0DD43-016D-4D56-96C0-29CBE4FBE793}">
-									<Language>SFX</Language>
-									<AudioFile>Note Alpha3 Bounced_1.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="760254271"/>
-									</MediaIDList>
-								</AudioFileSource>
+								<ActorMixer Name="Vocals Mixer" ID="{0C960B36-6A06-4288-B5C5-F154534F99C7}" ShortID="646966431">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<ActorMixer Name="M Vocals" ID="{7AF16784-4EEE-4F96-B2E5-CCBD7D5E1E5C}" ShortID="377065250">
+											<PropertyList>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-0.5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="M Vocals 1" ID="{36DB79FD-0243-412F-B143-C1D18624BE3E}" ShortID="556559798">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="M Vocals 1" ID="{193C74EB-E3D7-4F9F-AC6D-D103F457B3DE}">
+															<Language>SFX</Language>
+															<AudioFile>M Vocals 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="18117958"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="M Vocals 1" ID="{193C74EB-E3D7-4F9F-AC6D-D103F457B3DE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="M Vocals 2" ID="{619690F3-93F8-4585-9C8A-D8E2276DE2B4}" ShortID="366363925">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="M Vocals 2" ID="{285EE413-280E-4B87-A243-66DC1A1DB67D}">
+															<Language>SFX</Language>
+															<AudioFile>M Vocals 2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="691889834"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="M Vocals 2" ID="{285EE413-280E-4B87-A243-66DC1A1DB67D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="M Vocals 3" ID="{47925B36-3C6D-4E4D-A9D8-AED8C7A810E6}" ShortID="980762095">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="M Vocals 3" ID="{CBBBED1B-1BB7-4701-99E7-B836CAE7A6EB}">
+															<Language>SFX</Language>
+															<AudioFile>M Vocals 3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="70779560"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="M Vocals 3" ID="{CBBBED1B-1BB7-4701-99E7-B836CAE7A6EB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="M Vocals 4" ID="{A84CDF45-BAD4-46F7-A12F-63DE5707B615}" ShortID="379682882">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="M Vocals 4" ID="{53880590-AFC3-4BC3-AD47-E270C3DEB176}">
+															<Language>SFX</Language>
+															<AudioFile>M Vocals 4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="651919191"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="M Vocals 4" ID="{53880590-AFC3-4BC3-AD47-E270C3DEB176}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="M Vocals 5" ID="{E771D7AD-161C-44D6-B96C-B8D9261745BF}" ShortID="230439068">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="M Vocals 5" ID="{5F9C2FAB-159B-4DA2-BB7D-75074322A9A1}">
+															<Language>SFX</Language>
+															<AudioFile>M Vocals 5.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="189300776"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="M Vocals 5" ID="{5F9C2FAB-159B-4DA2-BB7D-75074322A9A1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{6DDBEDF2-B6F4-4DFB-8F1B-8835D94CD284}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-66"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+										</ActorMixer>
+										<ActorMixer Name="S Vocals" ID="{E1876E4E-7D24-48E2-B93A-276ECBDB0445}" ShortID="979144662">
+											<PropertyList>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="S Vocals 1" ID="{51B7C6B4-FF4F-43B4-A7DC-EB6A9F0E806A}" ShortID="668893151">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="S Vocals 1" ID="{6B1F4A70-BB9F-4B4F-B745-03CB83060515}">
+															<Language>SFX</Language>
+															<AudioFile>S Vocals 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="603255568"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="S Vocals 1" ID="{6B1F4A70-BB9F-4B4F-B745-03CB83060515}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="S Vocals 2" ID="{662CB234-CE32-4609-BB33-632BAA4C3B3F}" ShortID="568679906">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="S Vocals 2" ID="{D097CAC5-EAE0-4F1A-892C-130DA4A9C6FF}">
+															<Language>SFX</Language>
+															<AudioFile>S Vocals 2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="791061611"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="S Vocals 2" ID="{D097CAC5-EAE0-4F1A-892C-130DA4A9C6FF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="S Vocals 3" ID="{1ABB5FDF-798F-4E4A-A670-40FC503EE651}" ShortID="1069993942">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="S Vocals 3" ID="{832B23AF-8AD8-4D0D-A489-6F44019CC5E8}">
+															<Language>SFX</Language>
+															<AudioFile>S Vocals 3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="666818033"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="S Vocals 3" ID="{832B23AF-8AD8-4D0D-A489-6F44019CC5E8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="S Vocals 4" ID="{10CA0B59-3BD4-455A-9FCB-8298E15858AA}" ShortID="525387959">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="S Vocals 4" ID="{1BBA3862-48E6-4E28-8BA9-F9C80C3B0CD7}">
+															<Language>SFX</Language>
+															<AudioFile>S Vocals 4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="776960295"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="S Vocals 4" ID="{1BBA3862-48E6-4E28-8BA9-F9C80C3B0CD7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="S Vocals 5" ID="{E75B75C4-B715-4E08-95C9-93B01BD15C14}" ShortID="757669062">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="S Vocals 5" ID="{E7F4BD85-6420-45F5-AE55-9D8CF468398E}">
+															<Language>SFX</Language>
+															<AudioFile>S Vocals 5.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="547567699"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="S Vocals 5" ID="{E7F4BD85-6420-45F5-AE55-9D8CF468398E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{9AC8784B-54D2-4400-ACB2-BEAF23AC06C2}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="66"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+										</ActorMixer>
+									</ChildrenList>
+								</ActorMixer>
 							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Note Alpha3 Bounced_1" ID="{67A0DD43-016D-4D56-96C0-29CBE4FBE793}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="M Harp 4" ID="{0D94912F-2BE6-4D48-87AC-FB2A18A4817A}" ShortID="747297607">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="M Harp 4" ID="{17FDBA96-4E31-48A7-BE8E-50421DFA087C}">
-									<Language>SFX</Language>
-									<AudioFile>M Harp 4.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="831772210"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="M Harp 4" ID="{17FDBA96-4E31-48A7-BE8E-50421DFA087C}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="M Harp 1" ID="{33D72E78-E577-47BA-BE9C-764F2231B093}" ShortID="253105863">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="M Harp 1" ID="{674FFEAF-DAB5-4610-95C6-3F3151F0EE65}">
-									<Language>SFX</Language>
-									<AudioFile>M Harp 1.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="500835279"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="M Harp 1" ID="{674FFEAF-DAB5-4610-95C6-3F3151F0EE65}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Note L Bounced" ID="{4B23CCB4-B586-4AB3-9B93-45839B50A820}" ShortID="646579008">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Note L Bounced" ID="{B373169B-8804-4941-ABE7-C01734F1C765}">
-									<Language>SFX</Language>
-									<AudioFile>Note L Bounced.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="752998924"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Note L Bounced" ID="{B373169B-8804-4941-ABE7-C01734F1C765}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="M Vocals 4" ID="{A84CDF45-BAD4-46F7-A12F-63DE5707B615}" ShortID="379682882">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="M Vocals 4" ID="{53880590-AFC3-4BC3-AD47-E270C3DEB176}">
-									<Language>SFX</Language>
-									<AudioFile>M Vocals 4.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="651919191"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="M Vocals 4" ID="{53880590-AFC3-4BC3-AD47-E270C3DEB176}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="S Harp 3" ID="{812955FE-F726-4103-8BAD-8B7F63A26BCF}" ShortID="790518335">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="S Harp 3" ID="{A0848B71-AA95-407B-88EF-D2732A751AEF}">
-									<Language>SFX</Language>
-									<AudioFile>S Harp 3.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="39240185"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="S Harp 3" ID="{A0848B71-AA95-407B-88EF-D2732A751AEF}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="M Vocals 5" ID="{E771D7AD-161C-44D6-B96C-B8D9261745BF}" ShortID="230439068">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="M Vocals 5" ID="{5F9C2FAB-159B-4DA2-BB7D-75074322A9A1}">
-									<Language>SFX</Language>
-									<AudioFile>M Vocals 5.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="189300776"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="M Vocals 5" ID="{5F9C2FAB-159B-4DA2-BB7D-75074322A9A1}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Note Alpha5 Bounced" ID="{FEC945B6-1A91-41F9-B6C1-24DCD51E3E2A}" ShortID="940973681">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Note Alpha5 Bounced" ID="{78CFE63B-2014-4FE6-8FB8-2BD4E3972040}">
-									<Language>SFX</Language>
-									<AudioFile>Note Alpha5 Bounced.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="756077836"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Note Alpha5 Bounced" ID="{78CFE63B-2014-4FE6-8FB8-2BD4E3972040}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Note apostrophe Bounced" ID="{830AFFDF-A078-416F-A53C-F37AE228F107}" ShortID="429755305">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Note apostrophe Bounced" ID="{6F2A8C1E-82C0-4E24-99C9-9A393F714C68}">
-									<Language>SFX</Language>
-									<AudioFile>Note apostrophe Bounced.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="949827141"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Note apostrophe Bounced" ID="{6F2A8C1E-82C0-4E24-99C9-9A393F714C68}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="S Harp 2" ID="{F65028D1-C3D1-4F4C-AE42-173223513B36}" ShortID="451007325">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="S Harp 2" ID="{F540F478-5233-49E8-A8F2-C890C2CBB3D7}">
-									<Language>SFX</Language>
-									<AudioFile>S Harp 2.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="255504895"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="S Harp 2" ID="{F540F478-5233-49E8-A8F2-C890C2CBB3D7}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Note semicolon Bounced" ID="{1CC5A187-D693-4C35-93B1-95429FFF0EA3}" ShortID="14737532">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Note semicolon Bounced" ID="{1D13DF27-47C1-4925-B2CC-3A7B279533E9}">
-									<Language>SFX</Language>
-									<AudioFile>Note semicolon Bounced.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="429240394"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Note semicolon Bounced" ID="{1D13DF27-47C1-4925-B2CC-3A7B279533E9}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="S Harp 4" ID="{99F91478-5998-43B6-A3D0-9963197ECE86}" ShortID="184597428">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="S Harp 4" ID="{56C1E907-7780-411C-BE83-E6C4D8C708CE}">
-									<Language>SFX</Language>
-									<AudioFile>S Harp 4.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="168375848"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="S Harp 4" ID="{56C1E907-7780-411C-BE83-E6C4D8C708CE}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="M Harp 5" ID="{6BC4700D-28AA-4FFC-A549-D9CBD30C867B}" ShortID="45526582">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="M Harp 5" ID="{FE573943-00CE-4B2D-9131-73ECD8631F54}">
-									<Language>SFX</Language>
-									<AudioFile>M Harp 5.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="1067960651"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="M Harp 5" ID="{FE573943-00CE-4B2D-9131-73ECD8631F54}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Note Alpha2 Bounced_1" ID="{12E9502C-57AC-4FF0-BCA6-796AC15BB99D}" ShortID="44162841">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Note Alpha2 Bounced_1" ID="{06580CD3-7052-44CB-8D6C-1C8C362179A1}">
-									<Language>SFX</Language>
-									<AudioFile>Note Alpha2 Bounced_1.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="90398231"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Note Alpha2 Bounced_1" ID="{06580CD3-7052-44CB-8D6C-1C8C362179A1}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Note J Bounced" ID="{59796D18-7825-405F-A504-38B03D5C879D}" ShortID="101767551">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Note J Bounced" ID="{290C236F-BFBA-4219-9394-FC98B0274917}">
-									<Language>SFX</Language>
-									<AudioFile>Note J Bounced.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="293088195"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Note J Bounced" ID="{290C236F-BFBA-4219-9394-FC98B0274917}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="M Harp 2" ID="{6715AC7F-FDBC-430F-99F9-84EF909CFBF2}" ShortID="803420793">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="M Harp 2" ID="{FEB98EFF-327D-43A5-9C57-5172142C46B4}">
-									<Language>SFX</Language>
-									<AudioFile>M Harp 2.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="633420515"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="M Harp 2" ID="{FEB98EFF-327D-43A5-9C57-5172142C46B4}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="M Vocals 2" ID="{619690F3-93F8-4585-9C8A-D8E2276DE2B4}" ShortID="366363925">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="M Vocals 2" ID="{285EE413-280E-4B87-A243-66DC1A1DB67D}">
-									<Language>SFX</Language>
-									<AudioFile>M Vocals 2.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="691889834"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="M Vocals 2" ID="{285EE413-280E-4B87-A243-66DC1A1DB67D}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="S Harp 5" ID="{DCB5A592-5593-4CAA-AA64-823D34FBBBE8}" ShortID="297945177">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="S Harp 5" ID="{EF4155A2-FC3B-4B73-9E71-5600FD7E49C2}">
-									<Language>SFX</Language>
-									<AudioFile>S Harp 5.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="423991463"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="S Harp 5" ID="{EF4155A2-FC3B-4B73-9E71-5600FD7E49C2}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="M Vocals 1" ID="{36DB79FD-0243-412F-B143-C1D18624BE3E}" ShortID="556559798">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="M Vocals 1" ID="{193C74EB-E3D7-4F9F-AC6D-D103F457B3DE}">
-									<Language>SFX</Language>
-									<AudioFile>M Vocals 1.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="18117958"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="M Vocals 1" ID="{193C74EB-E3D7-4F9F-AC6D-D103F457B3DE}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="S Vocals 1" ID="{51B7C6B4-FF4F-43B4-A7DC-EB6A9F0E806A}" ShortID="668893151">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="S Vocals 1" ID="{6B1F4A70-BB9F-4B4F-B745-03CB83060515}">
-									<Language>SFX</Language>
-									<AudioFile>S Vocals 1.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="603255568"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="S Vocals 1" ID="{6B1F4A70-BB9F-4B4F-B745-03CB83060515}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Note Alpha4 Bounced" ID="{37B6E909-5FC2-4297-98E3-E49F05A9F168}" ShortID="492494458">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Note Alpha4 Bounced" ID="{DCE2A56A-606B-4B3B-9EDB-19C45296CBCF}">
-									<Language>SFX</Language>
-									<AudioFile>Note Alpha4 Bounced.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="806229957"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Note Alpha4 Bounced" ID="{DCE2A56A-606B-4B3B-9EDB-19C45296CBCF}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="S Harp 1" ID="{61CC2B3E-A85D-43A4-90D2-A0C1F628D185}" ShortID="167317389">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="S Harp 1" ID="{8B5BF51D-C96D-4F37-8416-4CD4E49EC1F2}">
-									<Language>SFX</Language>
-									<AudioFile>S Harp 1.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="644939823"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="S Harp 1" ID="{8B5BF51D-C96D-4F37-8416-4CD4E49EC1F2}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Note K Bounced" ID="{18BBCB41-EC03-4426-9E42-80A05D1FB863}" ShortID="905857729">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Note K Bounced" ID="{707D41D1-3607-49E5-ABDE-F99633C86697}">
-									<Language>SFX</Language>
-									<AudioFile>Note K Bounced.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="828264133"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Note K Bounced" ID="{707D41D1-3607-49E5-ABDE-F99633C86697}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="S Vocals 2" ID="{662CB234-CE32-4609-BB33-632BAA4C3B3F}" ShortID="568679906">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="S Vocals 2" ID="{D097CAC5-EAE0-4F1A-892C-130DA4A9C6FF}">
-									<Language>SFX</Language>
-									<AudioFile>S Vocals 2.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="791061611"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="S Vocals 2" ID="{D097CAC5-EAE0-4F1A-892C-130DA4A9C6FF}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="M Vocals 3" ID="{47925B36-3C6D-4E4D-A9D8-AED8C7A810E6}" ShortID="980762095">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="M Vocals 3" ID="{CBBBED1B-1BB7-4701-99E7-B836CAE7A6EB}">
-									<Language>SFX</Language>
-									<AudioFile>M Vocals 3.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="70779560"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="M Vocals 3" ID="{CBBBED1B-1BB7-4701-99E7-B836CAE7A6EB}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="M Harp 3" ID="{1EC903B3-BD1C-4B3C-A8C5-3E3A36D84374}" ShortID="64389170">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="M Harp 3" ID="{CE5E7B13-9513-4D06-B2AB-50A444396022}">
-									<Language>SFX</Language>
-									<AudioFile>M Harp 3.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="558175762"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="M Harp 3" ID="{CE5E7B13-9513-4D06-B2AB-50A444396022}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="S Vocals 3" ID="{1ABB5FDF-798F-4E4A-A670-40FC503EE651}" ShortID="1069993942">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="S Vocals 3" ID="{832B23AF-8AD8-4D0D-A489-6F44019CC5E8}">
-									<Language>SFX</Language>
-									<AudioFile>S Vocals 3.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="666818033"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="S Vocals 3" ID="{832B23AF-8AD8-4D0D-A489-6F44019CC5E8}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="S Vocals 5" ID="{E75B75C4-B715-4E08-95C9-93B01BD15C14}" ShortID="757669062">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="S Vocals 5" ID="{E7F4BD85-6420-45F5-AE55-9D8CF468398E}">
-									<Language>SFX</Language>
-									<AudioFile>S Vocals 5.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="547567699"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="S Vocals 5" ID="{E7F4BD85-6420-45F5-AE55-9D8CF468398E}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
