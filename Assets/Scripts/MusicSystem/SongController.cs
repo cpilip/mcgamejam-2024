@@ -65,8 +65,11 @@ public class SongController : MonoBehaviour
     {
         public string internalName;
         public string songString;
+        public GameObject sceneObject;
         public UnityEvent onComplete;
         public List<GameObject> prerequisites;
+
+        public string AudioTrack => $"Track{internalName}";
 
         public List<Chord> Chords =>
             _chords ??= songString.Split(' ')
@@ -123,6 +126,17 @@ public class SongController : MonoBehaviour
             return;
         }
         Instance = this;
+    }
+
+    private void Start()
+    {
+        foreach (var song in songs)
+        {
+            if (song.sceneObject != null)
+            {
+                song.sceneObject.SetActive(false);
+            }
+        }
     }
 
     void Update()
@@ -300,9 +314,17 @@ public class SongController : MonoBehaviour
             //TODO
 
             contraptionScript.turnOnYellowLight();
+            return;
         }
         contraptionScript.turnOnGreenLight();
         Debug.Log($"Song completed: {song.internalName} ({ToString(song.Chords)})");
+        if (song.sceneObject != null)
+        {
+            song.sceneObject.SetActive(true);
+        }
+
         song.onComplete?.Invoke();
+
+        AudioController.Instance.PostEvent(song.AudioTrack);
     }
 }

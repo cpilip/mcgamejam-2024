@@ -33,6 +33,8 @@ namespace AK
         static const AkUniqueID P2_NOTE4_VOCALS = 2545330227U;
         static const AkUniqueID P2_NOTE5_HARP = 1685854657U;
         static const AkUniqueID P2_NOTE5_VOCALS = 2686402364U;
+        static const AkUniqueID SOUNDTRACK_INIT = 4272399436U;
+        static const AkUniqueID TRACK03_SKY = 231111259U;
     } // namespace EVENTS
 
     namespace BANKS

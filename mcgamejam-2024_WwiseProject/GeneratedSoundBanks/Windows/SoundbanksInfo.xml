@@ -22,10 +22,14 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{DEDE3E6E-AA14-A941-6230-DEA54BF0AC7E}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{D453D372-D25F-A6D2-2455-B1E747E1E598}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="17709604" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tracks\Da Capo Full Length.wav</ShortName>
+					<CachePath>SFX/Tracks/Da Capo Full Length_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="18117958" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>M Vocals 1.wav</ShortName>
 					<CachePath>SFX/M Vocals 1_818F3B66.wem</CachePath>
@@ -37,6 +41,10 @@
 				<File Id="70779560" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>M Vocals 3.wav</ShortName>
 					<CachePath>SFX/M Vocals 3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="90398231" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Note Alpha2 Bounced_1.wav</ShortName>
+					<CachePath>SFX/Note Alpha2 Bounced_1_818F3B66.wem</CachePath>
 				</File>
 				<File Id="168375848" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>S Harp 4.wav</ShortName>
@@ -50,13 +58,29 @@
 					<ShortName>S Harp 2.wav</ShortName>
 					<CachePath>SFX/S Harp 2_818F3B66.wem</CachePath>
 				</File>
+				<File Id="293088195" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Note J Bounced.wav</ShortName>
+					<CachePath>SFX/Note J Bounced_818F3B66.wem</CachePath>
+				</File>
+				<File Id="351608482" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tracks\Sky Full Length.wav</ShortName>
+					<CachePath>SFX/Tracks/Sky Full Length_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="423991463" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>S Harp 5.wav</ShortName>
 					<CachePath>SFX/S Harp 5_818F3B66.wem</CachePath>
 				</File>
+				<File Id="429240394" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Note semicolon Bounced.wav</ShortName>
+					<CachePath>SFX/Note semicolon Bounced_818F3B66.wem</CachePath>
+				</File>
 				<File Id="500835279" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>M Harp 1.wav</ShortName>
 					<CachePath>SFX/M Harp 1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="540167071" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Note Alpha1 Bounced.wav</ShortName>
+					<CachePath>SFX/Note Alpha1 Bounced_818F3B66.wem</CachePath>
 				</File>
 				<File Id="547567699" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>S Vocals 5.wav</ShortName>
@@ -90,6 +114,18 @@
 					<ShortName>M Vocals 2.wav</ShortName>
 					<CachePath>SFX/M Vocals 2_818F3B66.wem</CachePath>
 				</File>
+				<File Id="752998924" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Note L Bounced.wav</ShortName>
+					<CachePath>SFX/Note L Bounced_818F3B66.wem</CachePath>
+				</File>
+				<File Id="756077836" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Note Alpha5 Bounced.wav</ShortName>
+					<CachePath>SFX/Note Alpha5 Bounced_818F3B66.wem</CachePath>
+				</File>
+				<File Id="760254271" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Note Alpha3 Bounced_1.wav</ShortName>
+					<CachePath>SFX/Note Alpha3 Bounced_1_818F3B66.wem</CachePath>
+				</File>
 				<File Id="776960295" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>S Vocals 4.wav</ShortName>
 					<CachePath>SFX/S Vocals 4_818F3B66.wem</CachePath>
@@ -98,9 +134,21 @@
 					<ShortName>S Vocals 2.wav</ShortName>
 					<CachePath>SFX/S Vocals 2_818F3B66.wem</CachePath>
 				</File>
+				<File Id="806229957" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Note Alpha4 Bounced.wav</ShortName>
+					<CachePath>SFX/Note Alpha4 Bounced_818F3B66.wem</CachePath>
+				</File>
+				<File Id="828264133" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Note K Bounced.wav</ShortName>
+					<CachePath>SFX/Note K Bounced_818F3B66.wem</CachePath>
+				</File>
 				<File Id="831772210" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>M Harp 4.wav</ShortName>
 					<CachePath>SFX/M Harp 4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="949827141" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Note apostrophe Bounced.wav</ShortName>
+					<CachePath>SFX/Note apostrophe Bounced_818F3B66.wem</CachePath>
 				</File>
 				<File Id="1067960651" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>M Harp 5.wav</ShortName>
@@ -208,8 +256,19 @@
 						<MediaRef Id="547567699"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="4272399436" Name="Soundtrack_Init" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="17709604"/>
+						<MediaRef Id="351608482"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="231111259" Name="Track03_Sky" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="351608482"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0923313C-7230-FC9B-44AB-4920A82E15A3}</FileHash>
+	<FileHash>{CBE4C502-1213-A9A0-3514-E956C23BC42D}</FileHash>
 </SoundBanksInfo>

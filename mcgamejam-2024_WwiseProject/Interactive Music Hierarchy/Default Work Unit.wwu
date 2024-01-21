@@ -1,6 +1,202 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}" SchemaVersion="119">
 	<InteractiveMusic>
-		<WorkUnit Name="Default Work Unit" ID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicPlaylistContainer Name="Soundtrack" ID="{2C631C50-B5FF-4B9E-969E-BF7170F866A3}" ShortID="526585527">
+					<PropertyList>
+						<Property Name="Tempo" Type="Real64" Value="82"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
+						</Reference>
+						<Reference Name="PlaylistRoot">
+							<Custom>
+								<MusicPlaylistItem Name="" ID="{D6E99C17-0891-4713-96B5-144360EFF5B4}" ShortID="14959266">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{E4FDB329-5B3A-4128-9BC6-DF1FAC4D5D42}" ShortID="323102000">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Segment">
+													<ObjectRef Name="Tracks" ID="{E324A5B2-4810-43D8-9086-08ABAC27CC23}" WorkUnitID="{C4203A3C-B496-4759-9133-E77C1BFBCBA2}"/>
+												</Reference>
+											</ReferenceList>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Custom>
+						</Reference>
+						<Reference Name="TransitionRoot">
+							<Custom>
+								<MusicTransition Name="Root" ID="{8F219584-D6A0-40B0-A028-1D4BA9535075}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{5579A942-39E8-4C8F-BE28-81A99BA4FBF0}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</Custom>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Tracks" ID="{E324A5B2-4810-43D8-9086-08ABAC27CC23}" ShortID="553093900">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="202752"/>
+								<Property Name="Tempo" Type="Real64" Value="82"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{165F0D6D-D6F7-4C18-A7A0-BE37F842B1FA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Da Capo Full Length" ID="{067BE7EC-74EE-4532-A9D9-E15B4182B9A0}" ShortID="595428178">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{D1FC671C-9788-4E6B-B854-1C2AAE9B7853}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Da Capo Full Length" ID="{E3449BA0-2C83-4A3B-949A-761BED57C09B}">
+											<Language>SFX</Language>
+											<AudioFile>Tracks\Da Capo Full Length.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="17709604"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{B9EF2E16-0B98-4AC8-8334-AC30BFE1653A}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Da Capo Full Length" ID="{6CBCFBB6-5364-4BB0-B1ED-E8B5EF81328D}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="202752"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Da Capo Full Length" ID="{E3449BA0-2C83-4A3B-949A-761BED57C09B}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Sky Full Length" ID="{A80D9D03-F61F-434E-819F-2E0FF38D734E}" ShortID="624105058">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FFB2181-FEA9-4138-8022-E9777EFD2F41}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{4FEB378F-4615-4C80-8AF6-1B9C5C2D698D}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sky Full Length" ID="{E3238A69-2ACE-41DA-B66F-D6D83B714A7E}">
+											<Language>SFX</Language>
+											<AudioFile>Tracks\Sky Full Length.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="351608482"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{51E1DBA7-B1B2-4A8B-AE38-1D3276D08B0F}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Sky Full Length" ID="{753B6E6B-2073-4EE5-92F3-74DE42D66D58}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="190464"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Sky Full Length" ID="{E3238A69-2ACE-41DA-B66F-D6D83B714A7E}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{DBBD7AAB-AB32-460B-B7FF-176CE011C909}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{9144860A-CF7A-4289-A482-13727C760050}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="187317.073170732"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+				</MusicPlaylistContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</InteractiveMusic>
 </WwiseDocument>
