@@ -6,7 +6,11 @@ public class AudioController : MonoBehaviour
 
     public AudioSource player1AudioSource;
     public AudioSource player2AudioSource;
-    
+
+    [Header("Player Particle Systems")]    
+    [SerializeField] PlayerParticleSystem player1ParticleSystem;
+    [SerializeField] PlayerParticleSystem player2ParticleSystem;
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -20,10 +24,16 @@ public class AudioController : MonoBehaviour
     public void StartNotes(SongController.Note p1Note, SongController.Note p2Note)
     {
         StopNotes();
-        if (p1Note != null)
+        if (p1Note != null) {
             player1AudioSource.PlayOneShot(p1Note.audio);
-        if (p2Note != null)
+            
+            player1ParticleSystem.DoParticleEffectForNote(p1Note);
+        }
+        if (p2Note != null) {
             player2AudioSource.PlayOneShot(p2Note.audio);
+
+            player2ParticleSystem.DoParticleEffectForNote(p2Note);
+        }
     }
 
     public void StopNotes()
