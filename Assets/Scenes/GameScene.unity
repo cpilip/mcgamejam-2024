@@ -5391,6 +5391,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 1
           m_CallState: 2
+        - m_Target: {fileID: 277486736}
+          m_TargetAssemblyTypeName: BlockoutManager, Assembly-CSharp
+          m_MethodName: buildTerra
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
     prerequisites: []
   - internalName: 03_Sky
     songString: 55
@@ -5434,7 +5446,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 277486736}
           m_TargetAssemblyTypeName: BlockoutManager, Assembly-CSharp
-          m_MethodName: 
+          m_MethodName: buildValleys
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -5507,7 +5519,19 @@ MonoBehaviour:
     sceneObject: {fileID: 0}
     onComplete:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 277486736}
+          m_TargetAssemblyTypeName: BlockoutManager, Assembly-CSharp
+          m_MethodName: buildNiceGrass
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     prerequisites: []
   - internalName: 12_Sheep
     songString: 15 35
@@ -5576,7 +5600,19 @@ MonoBehaviour:
     sceneObject: {fileID: 0}
     onComplete:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 277486736}
+          m_TargetAssemblyTypeName: BlockoutManager, Assembly-CSharp
+          m_MethodName: buildPrettyGrass
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     prerequisites: []
   holdTime: 1
   fudgeTime: 0.5
