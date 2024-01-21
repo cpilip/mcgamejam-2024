@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731892, g: 0.13414863, b: 0.12107825, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731941, g: 0.13414888, b: 0.12107832, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -361,8 +361,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 408b492484864c32b6f4e6701cbbe9f6, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   player1AudioSource: {fileID: 1829472622}
   player2AudioSource: {fileID: 1217900518}
 --- !u!114 &277486734
@@ -375,8 +375,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cab7833404459c24ea01e9d58d1f2562, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   p1Notes:
   - noteId: 49
     key: 49
@@ -395,19 +395,19 @@ MonoBehaviour:
     audio: {fileID: 8300000, guid: b9fd68018bd4ce34cb3248006e2f9bc0, type: 3}
   p2Notes:
   - noteId: 49
-    key: 56
+    key: 49
     audio: {fileID: 8300000, guid: ba95978aab9f8f74dbcabcbb5cc3c7d2, type: 3}
   - noteId: 50
-    key: 57
+    key: 107
     audio: {fileID: 8300000, guid: a92eebc1acc8c9d48969a93b64becc09, type: 3}
   - noteId: 51
-    key: 48
+    key: 108
     audio: {fileID: 8300000, guid: d48edc7ef8254234798e7ee1f2bd515d, type: 3}
   - noteId: 52
-    key: 45
+    key: 59
     audio: {fileID: 8300000, guid: 33d008ea62f9ba74dba68195386bf4a1, type: 3}
   - noteId: 53
-    key: 61
+    key: 39
     audio: {fileID: 8300000, guid: 4ed723b701bfae142a7312b9e88a3815, type: 3}
   songs:
   - internalName: Mountains
@@ -762,8 +762,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4443f74abf2a32a4fba1c01768cfcf19, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   mainCamera: {fileID: 550509277}
   player1: {fileID: 1829472621}
   player2: {fileID: 1217900517}
@@ -778,8 +778,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_RenderShadows: 1
   m_RequiresDepthTextureOption: 2
   m_RequiresOpaqueTextureOption: 2
@@ -823,7 +823,6 @@ GameObject:
   - component: {fileID: 593432150}
   - component: {fileID: 593432149}
   - component: {fileID: 593432151}
-  - component: {fileID: 593432152}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -918,8 +917,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Version: 3
   m_UsePipelineSettings: 1
   m_AdditionalLightsShadowResolutionTier: 2
@@ -4837,8 +4836,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
@@ -4857,8 +4856,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10

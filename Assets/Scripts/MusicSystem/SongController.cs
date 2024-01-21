@@ -24,10 +24,10 @@ public class SongController : MonoBehaviour
         public override string ToString()
         {
             if (SongController.Instance.p1Notes.Contains(this))
-                return $"P1:{noteId} ({key})";
+                return $"P1:{noteId}";
             else if (SongController.Instance.p2Notes.Contains(this))
-                return $"P2:{noteId} ({key})";
-            return $"???:{noteId} ({key})";
+                return $"P2:{noteId}";
+            return $"???:{noteId}";
         }
     }
 
